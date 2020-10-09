@@ -8,7 +8,7 @@
 - Alessandro Sanvito (matriculation number: 968165)
 - Luca Vecchio (matriculation number: )
 
-## Implemented features
+## Completed documents
 
 | Document | Completed |
 | ------- | ----------- |
