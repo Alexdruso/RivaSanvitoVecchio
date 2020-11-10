@@ -1,0 +1,100 @@
+\documentclass[../../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Product}
+
+CLup is a system that allows to handle access to supermarkets when the flux of
+people is restricted. Handling properly such a situation is very important due
+to the currently active Coronavirus pandemic: grocery shopping can't be avoided
+since it is one of the most essential needs, thus access to supermarket cannot
+be prevented, but it must be regulated to prevent overcrowding.
+
+In particular, CLup allows customers who need to go grocery shopping to line-up
+remotely (i.e., without being physically in a line outside the supermarket) and
+suggests them the right time to go to the supermarket without having to wait
+outside.
+
+CLup allows customers either to request access to the supermarket as soon as
+possible, or to book in advance an access to the supermarket at a given slot of
+date and time. In both cases, the system aims at preventing overcrowding in each
+area of the building. Access to the supermarket is granted only when using the
+system so that CLup can actively monitor the number of people inside the
+building.
+
+If many people are in a queue for the same access slot, CLup gives the customers
+possible alternatives about slots or supermarket that are less crowded.
+Moreover, upon customer request, it can proactively inform them if there are
+available slots in a given day / time range.
+
+The main interactions between CLup and the customers are mediated by an IT
+device with an Internet connection. However, since not all people may have
+access to such technologies, the system can be used, with limited
+functionalities, just through a standard telephone line or in presence.
+
+The system is completed by an administrational dashboard that allows store
+managers to monitor the accesses to the supermarkets in real-time and to manage
+the queuing parameters, such as the maximum number of people allowed in the
+building at the same time.
+
+\section{World and Shared phenomena}
+
+\subsection{World phenomena}
+
+\begin{enumerate}
+  \item The customer needs to go grocery shopping
+  \item The customer arrives at the supermarket
+  \item The customer leaves the supermarket
+  \item The local authority asks the store manager to report how many people are
+  inside the building
+  \item The local authority asks the store manager to modify the masimum number
+  of people allowed inside the building
+\end{enumerate}
+
+\subsection{Shared phenomena - controlled by the World}
+
+\begin{enumerate}
+  \item The customer asks the system to line up and enter the supermarket as
+  soon as possible through an IT device
+  \item The customer asks the system to book an entrance at the supermarket at a
+  given date and time through an IT device
+  \item The customer asks the system to line up and enter the supermarket as
+  soon as possible through a standard telephone line
+  \item The customer asks the system to book an entrance at the supermarket at a
+  given date and time through a standard telephone line
+  \item The customer asks the system to line up and enter the supermarket as
+  soon as possible with an on-site device
+  \item The customer asks the system to print the receipt of a request made by
+  telephone with an on-site device
+  \item The customer informs the system on the estimated duration of the visit
+  to the supermarket
+  \item The customer informs the system on the categories of products they
+  intend to buy
+  \item The customer scans the QR code receipt at the entrance of the
+  supermarket
+  \item The customer scans the QR code receipt at the exit of the supermarket
+  \item The store manager queries the system for the number of people inside the
+  building
+  \item The store manager informs the system on the maximum number of people
+  allowed inside the building
+\end{enumerate}
+
+\subsection{Shared phenomena - controlled by the Machine}
+
+\begin{enumerate}
+  \item The system shows the user a QR code as a receipt of a request performed
+  through an IT device
+  \item The system prints through an on-site device a QR code as a receipt of a
+  request performed through a standard telephone line
+  \item The system prints through an on-site device a QR code as a receipt of a
+  request performed through the on-site device itself
+  \item The system informs the customer that it's time to go to the supermarket
+  to take advantage of the requested slot
+  \item The system allows a customer to enter the supermarket
+  \item The system gives the customer suggestions on less crowded slots or
+  supermarkets
+  \item The system informs the customer that a specific time slot in a range
+  they chose in advance is available
+\end{enumerate}
+
+\end{document}
