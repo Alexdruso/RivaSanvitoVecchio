@@ -12,8 +12,8 @@ be prevented, but it must be regulated to prevent overcrowding.
 
 In particular, CLup allows customers who need to go grocery shopping to line-up
 remotely (i.e., without being physically in a line outside the supermarket) and
-suggests them the right time to go to the supermarket without having to form a queue
-outside.
+suggests them the right time to go to the supermarket without having to form a
+queue outside.
 
 CLup allows customers either to request access to the supermarket as soon as
 possible, or to book in advance an access to the supermarket at a given slot of
@@ -27,10 +27,10 @@ possible alternatives about slots or supermarket that are less crowded.
 Moreover, upon customer request, it can proactively inform them if there are
 available slots in a given day or time range.
 
-The main interface between CLup and the user is assumed to be an IT
-device with an Internet connection. However, since not all people may have
-access to such technologies, the system can be used, with limited
-functionalities, just through a standard telephone line or in presence.
+The main interface between CLup and the user is assumed to be an IT device with
+an Internet connection. However, since not all people may have access to such
+technologies, the system can be used, with limited functionalities, just through
+a standard telephone line or in presence.
 
 The system is completed by an administrational dashboard that allows store
 managers to monitor the accesses to the supermarkets in real-time and to manage
@@ -39,62 +39,95 @@ building at the same time.
 
 \subsection{World and Shared phenomena}
 
+\newcounter{wpcounter}
+
 \subsubsection{World phenomena}
 
-\begin{enumerate}
-  \item The customer needs to go grocery shopping
-  \item The customer arrives at the supermarket
-  \item The customer leaves the supermarket
-  \item The local authority asks the store manager to report how many people are
-  inside the building
-  \item The local authority asks the store manager to increase or decrease the maximum number
-  of people allowed inside the building
-\end{enumerate}
+\begin{center}
+  \begin{tabular}{|c| |p{12cm}|} 
+    \hline
+    ID & Phenomenon\\ [0.5ex] \hline\hline
+    \stepcounter{wpcounter} WP\thewpcounter & The customer needs to go grocery
+    shopping\\
+    \stepcounter{wpcounter} WP\thewpcounter & The customer arrives at the
+    supermarket\\
+    \stepcounter{wpcounter} WP\thewpcounter & The customer leaves the
+    supermarket\\
+    \stepcounter{wpcounter} WP\thewpcounter & The local authority asks the store
+    manager to report how many people are inside the building\\
+    \stepcounter{wpcounter} WP\thewpcounter & The local authority asks the store
+    manager to increase or decrease the maximum number of people allowed inside
+    the building\\
+    \hline
+  \end{tabular}
+\end{center}
+
+\newcounter{spcounter}
 
 \subsubsection{Shared phenomena - controlled by the World}
 
-\begin{enumerate}
-  \item The customer asks the system to line up and enter the supermarket as
-  soon as possible through an IT device
-  \item The customer asks the system to book an entrance at the supermarket at a
-  given date and time through an IT device
-  \item The customer asks the system to line up and enter the supermarket as
-  soon as possible through a standard telephone line
-  \item The customer asks the system to book an entrance at the supermarket at a
-  given date and time through a standard telephone line
-  \item The customer asks the system to line up and enter the supermarket as
-  soon as possible with an on-site device
-  \item The customer asks the system to print the receipt of a request made by
-  telephone with an on-site device
-  \item The customer informs the system on the estimated duration of the visit
-  to the supermarket
-  \item The customer informs the system on the categories of products they
-  intend to buy
-  \item The customer scans the QR code receipt at the entrance of the
-  supermarket
-  \item The customer scans the QR code receipt at the exit of the supermarket
-  \item The store manager queries the system for the number of people inside the
-  building
-  \item The store manager informs the system on the maximum number of people
-  allowed inside the building
-\end{enumerate}
+\begin{center}
+  \begin{tabular}{|c| |p{12cm}|} 
+    \hline
+    ID & Phenomenon\\ [0.5ex] \hline\hline
+    \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
+    line up and enter the supermarket as soon as possible through an IT device\\
+    \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
+    book an entrance at the supermarket at a given date and time through an IT
+    device\\
+    \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
+    line up and enter the supermarket as soon as possible through a standard
+    telephone line\\
+    \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
+    book an entrance at the supermarket at a given date and time through a
+    standard telephone line\\
+    \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
+    line up and enter the supermarket as soon as possible with an on-site
+    device\\
+    \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
+    print the receipt of a request made by telephone with an on-site device\\
+    \stepcounter{spcounter} SP\thespcounter & The customer informs the system on
+    the estimated duration of the visit to the supermarket\\
+    \stepcounter{spcounter} SP\thespcounter & The customer informs the system on
+    the categories of products they intend to buy\\
+    \stepcounter{spcounter} SP\thespcounter & The customer scans the QR code
+    receipt at the entrance of the supermarket\\
+    \stepcounter{spcounter} SP\thespcounter & The customer scans the QR code
+    receipt at the exit of the supermarket\\
+    \stepcounter{spcounter} SP\thespcounter & The store manager queries the
+    system for the number of people inside the building\\
+    \stepcounter{spcounter} SP\thespcounter & The store manager informs the
+    system on the maximum number of people allowed inside the building\\
+    \hline
+  \end{tabular}
+\end{center}
+
 
 \subsubsection{Shared phenomena - controlled by the Machine}
 
-\begin{enumerate}
-  \item The system shows the user a QR code as a receipt of a request performed
-  through an IT device
-  \item The system prints through an on-site device a QR code as a receipt of a
-  request performed through a standard telephone line
-  \item The system prints through an on-site device a QR code as a receipt of a
-  request performed through the on-site device itself
-  \item The system informs the customer that it's time to go to the supermarket
-  to take advantage of the requested slot
-  \item The system allows a customer to enter the supermarket
-  \item The system gives the customer suggestions on less crowded slots or
-  supermarkets
-  \item The system informs the customer that a specific time slot in a range
-  they chose in advance is available
-\end{enumerate}
+\begin{center}
+  \begin{tabular}{|c| |p{12cm}|} 
+    \hline
+    ID & Phenomenon\\ [0.5ex] \hline\hline
+    \stepcounter{spcounter} SP\thespcounter & The system shows the user a QR
+    code as a receipt of a request performed through an IT device\\
+    \stepcounter{spcounter} SP\thespcounter & The system prints through an
+    on-site device a QR code as a receipt of a request performed through a
+    standard telephone line\\
+    \stepcounter{spcounter} SP\thespcounter & The system prints through an
+    on-site device a QR code as a receipt of a request performed through the
+    on-site device itself\\
+    \stepcounter{spcounter} SP\thespcounter & The system informs the customer
+    that it's time to go to the supermarket to take advantage of the requested
+    slot\\
+    \stepcounter{spcounter} SP\thespcounter & The system allows a customer to
+    enter the supermarket\\
+    \stepcounter{spcounter} SP\thespcounter & The system gives the customer
+    suggestions on less crowded slots or supermarkets\\
+    \stepcounter{spcounter} SP\thespcounter & The system informs the customer
+    that a specific time slot in a range they chose in advance is available\\
+    \hline
+  \end{tabular}
+\end{center}
 
 \end{document}
