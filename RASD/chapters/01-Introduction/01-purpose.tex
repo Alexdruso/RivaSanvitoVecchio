@@ -2,6 +2,16 @@
 
 \begin{document}
 
+During the ongoing COVID-19 pandemic, social distancing has proven to be a valuable tool to reduce the diffusion of the virus among the population. To enforce this kind of behaviour,
+governments around the world adopted strict lockdown policies, allowing people out of their homes only to carry out essential tasks.
+Grocery shopping has proven to be a challenging situation to regulate, due to the need for both restricting access to the shops and 
+avoiding the formation of crowded queues outside of them. CLup, the software-to-be, aims at solving both problems by acting as the digital counterpart to physical ticket queues. 
+
+To maximize the accesses to the store while preserving a safe environment and to ease visit planning, the application will provide a way to express preferences for a time slot 
+and to indicate the approximate duration of the visit.
+Moreover, the system aims at balancing accesses across different stores and day or time ranges by proactively suggesting possible alternatives.
+Overall, the application should be easy to use to include all demographics.
+
 The goal of the following document is to provide a comprehensive description of requirements and specification for the software-to-be under analysis. 
 Relevant use cases and models will be addressed through the use of natural language, UML, and Alloy. 
 Choices made regarding the interpretation, the problem under analysis and the related software-to-be will be clearly stated by the creators of this document, along with their rationale.
@@ -14,28 +24,35 @@ Choices made regarding the interpretation, the problem under analysis and the re
 \begin{table}[h!]
     % Centers the table
     \centering
-    \begin{tabular}{| c | c |}
+    \begin{tabular}{| c | p{12cm} |}
     \hline
     % textbf used to achieve bold font
-    \textbf{Label}                 & \textbf{Goal} \\ \hline
+    \textbf{ID}                    & \textbf{Goal} \\ \hline\hline
     \stepcounter{GoalCounter}
-    G\arabic{GoalCounter}          &           \\ \hline
+    G\arabic{GoalCounter}          & The number of people in the store should be compliant with the country's regulation.\\ \hline
     \stepcounter{GoalCounter}
-    G\arabic{GoalCounter}          &           \\ \hline
+    G\arabic{GoalCounter}          & The distance between people in the store should be compliant with the country's regulation.\\ \hline
     \stepcounter{GoalCounter}
-    G\arabic{GoalCounter}          &           \\ \hline
+    G\arabic{GoalCounter}          & Store managers should be able to regulate the influx of customers to the store.\\ \hline
     \stepcounter{GoalCounter}
-    G\arabic{GoalCounter}          &           \\ \hline
+    G\arabic{GoalCounter}          & Every customer should be able to access a store.\\ \hline
     \stepcounter{GoalCounter}
-    G\arabic{GoalCounter}          &           \\ \hline
+    G\arabic{GoalCounter}          & Every customer should be able to access a store in a first come, first served order.\\ \hline
     \stepcounter{GoalCounter}
-    G\arabic{GoalCounter}          &           \\ \hline
+    G\arabic{GoalCounter}          & The distance between people in proximity to the store should be compliant with the country's regulation.\\ \hline
     \stepcounter{GoalCounter}
-    G\arabic{GoalCounter}          &           \\ \hline
+    G\arabic{GoalCounter}          & Customers should be evenly distributed across the available store.\\ \hline
     \stepcounter{GoalCounter}
-    G\arabic{GoalCounter}          &           \\ \hline
+    G\arabic{GoalCounter}          & Customers should be evenly distributed across the available time slots.\\ \hline
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Customers should access a store in an acceptable time slot.\\ \hline
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Customers should access a store at an acceptable location.\\ \hline
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & If available,Customers should access the store in the preferred time slot.\\ \hline
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Customers should access the store at the preferred location.\\ \hline
     \end{tabular}
-    \caption{Goals of the software to be}
     \label{goals}
 \end{table}
 }
