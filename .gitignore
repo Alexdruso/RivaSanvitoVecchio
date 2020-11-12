@@ -276,3 +276,5 @@ TSWLatexianTemp*
 *.lpz
 
 .vscode
+
+*/chapters/**/*.pdf
