@@ -2,10 +2,60 @@
 
 \begin{document}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet porttitor nisi, in eleifend ex. Aenean tristique sem neque, at aliquam orci porta ut. Pellentesque suscipit libero vitae lectus molestie, at rhoncus quam commodo. Vivamus nec mollis mi, vel commodo nisl. Sed vestibulum nisl quis diam euismod, eu pretium justo varius. Nam quis imperdiet erat. Nam id dui eros. Ut elit magna, finibus nec laoreet vel, tempor id eros.
-Proin lobortis pharetra diam cursus blandit. Nam ultricies diam quis libero tristique gravida. Donec tempus neque a mattis porttitor. Nullam pellentesque ligula ex. Suspendisse arcu est, feugiat sit amet pretium et, mollis eu massa. Maecenas molestie dapibus elit vitae egestas. Cras laoreet imperdiet velit, sit amet maximus elit mollis nec. Curabitur nec sapien ac nulla volutpat lobortis. Cras non dolor nec urna egestas fermentum. Aliquam erat volutpat. Pellentesque vulputate nisl dui, id mollis lectus vehicula et. Curabitur ac facilisis lorem, ut vestibulum diam. In purus velit, fringilla at ante id, finibus iaculis magna. Duis sed nisi non massa pretium condimentum ac nec enim. Suspendisse potenti. Duis tempor enim vitae lorem sodales consectetur.
-Morbi finibus tellus ac fermentum iaculis. In placerat nibh tempor, cursus odio ac, ullamcorper turpis. Morbi at lacinia nisi. Fusce leo elit, dignissim sit amet laoreet ac, cursus sed neque. Nulla facilisi. Pellentesque in est eros. In sit amet sagittis elit. Phasellus quis dui in dolor finibus suscipit eget ac ipsum. Sed congue, massa at imperdiet facilisis, lorem ipsum vestibulum eros, et posuere enim sem at ipsum. Duis quis nulla ultrices elit sodales vestibulum. Proin faucibus ac enim a congue. Pellentesque bibendum porttitor leo et pretium. Etiam odio orci, dapibus faucibus arcu id, scelerisque tincidunt mauris.
-Nulla ornare posuere enim, ut convallis libero aliquam id. Sed risus lectus, fermentum ac elit vel, tincidunt congue quam. Cras et ullamcorper est. Fusce commodo ligula sit amet ex laoreet, quis ultricies felis dapibus. Nullam ullamcorper sollicitudin velit vel euismod. Nam porttitor nulla ac ligula fermentum pretium. Duis pharetra turpis nec mi sagittis, a pellentesque ex porttitor. Donec congue est arcu, at ullamcorper tellus tristique eget. Sed ultrices metus id nulla dignissim, sit amet dignissim libero mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam vitae erat eu elit maximus sodales ac aliquet leo. Nam quis quam sapien.
-Duis finibus tellus nec leo pulvinar, vitae congue ligula efficitur. Donec rhoncus nunc eget rutrum maximus. Nam facilisis justo nec velit ultrices euismod. Ut in rhoncus urna. Maecenas laoreet risus eu velit bibendum egestas. Sed in lacus viverra, sollicitudin neque eu, ultricies risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet dui tempor, consequat magna sit amet, aliquam lacus. 
+During the ongoing COVID-19 pandemic, social distancing has proven to be a valuable tool to reduce the diffusion of the virus among the population. To enforce this kind of behaviour,
+governments around the world adopted strict lockdown policies, allowing people out of their homes only to carry out essential tasks.
+Grocery shopping has proven to be a challenging situation to regulate, due to the need for both restricting access to the shops and 
+avoiding the formation of crowded queues outside of them. CLup, the software-to-be, aims at solving both problems by acting as the digital counterpart to physical ticket queues. 
+
+To maximize the accesses to the store while preserving a safe environment and to ease visit planning, the application will provide a way to express preferences for a time slot 
+and to indicate the approximate duration of the visit.
+Moreover, the system aims at balancing accesses across different stores and day or time ranges by proactively suggesting possible alternatives.
+Overall, the application should be easy to use to include all demographics.
+
+The goal of the following document is to provide a comprehensive description of requirements and specification for the software-to-be under analysis. 
+Relevant use cases and models will be addressed through the use of natural language, UML, and Alloy. 
+Choices made regarding the interpretation, the problem under analysis and the related software-to-be will be clearly stated by the creators of this document, along with their rationale.
+
+\subsection{Goals}
+
+\newcounter{GoalCounter}
+
+{\rowcolors{2}{white}{lightgray}
+\begin{table}[h!]
+    % Centers the table
+    \centering
+    \begin{tabular}{| c | p{12cm} |}
+    \hline
+    % textbf used to achieve bold font
+    \textbf{ID}                    & \textbf{Goal} \\ \hline\hline
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & The number of people in the store should be compliant with the country's regulation.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & The distance between people in the store should be compliant with the country's regulation.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Store managers should be able to regulate the influx of customers to the store.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Every customer should be able to access a store.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Every customer should be able to access a store in a first come, first served order.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & The distance between people in proximity to the store should be compliant with the country's regulation.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Customers should be evenly distributed across the stores adopting the system.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Customers should be evenly distributed across the available time slots.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Customers should access a store in an acceptable time slot.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Customers should access a store at an acceptable location.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & If available, customers should access the store in the preferred time slot.\\ 
+    \stepcounter{GoalCounter}
+    G\arabic{GoalCounter}          & Customers should access the store at the preferred location.\\ 
+    \hline
+    \end{tabular}
+    \label{goals}
+\end{table}
+}
 
 \end{document}
