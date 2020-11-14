@@ -278,3 +278,4 @@ TSWLatexianTemp*
 .vscode
 
 */chapters/**/*.pdf
+*.bak
