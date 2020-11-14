@@ -5,15 +5,10 @@
 \subsection{Product}
 
 CLup is a system that allows to handle access to supermarkets when the flux of
-people is restricted. Handling properly such a situation is very important due
-to the currently active Coronavirus pandemic: grocery shopping can't be avoided
-since it is one of the most essential needs, thus access to supermarket cannot
-be prevented, but it must be regulated to prevent overcrowding.
-
-In particular, CLup allows customers who need to go grocery shopping to line-up
-remotely (i.e., without being physically in a line outside the supermarket) and
-suggests them the right time to go to the supermarket without having to form a
-queue outside.
+people is restricted. In particular, it allows customers to line-up remotely
+(i.e., without being physically in a line outside the supermarket) and suggests
+them the right time to go to the supermarket without having to form a queue
+outside.
 
 CLup allows customers either to request access to the supermarket as soon as
 possible, or to book in advance an access to the supermarket at a given slot of
@@ -51,6 +46,7 @@ building at the same time.
     shopping.\\
     \stepcounter{wpcounter} WP\thewpcounter & The customer arrives at the
     supermarket.\\
+    \stepcounter{wpcounter} WP\thewpcounter & The customer asks to line up to a store assistant (fallback method).\\
     \stepcounter{wpcounter} WP\thewpcounter & The customer leaves the
     supermarket.\\
     \stepcounter{wpcounter} WP\thewpcounter & The local authority asks the store
@@ -71,7 +67,8 @@ building at the same time.
     \hline
     ID & Phenomenon\\ [0.5ex] \hline\hline
     \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
-    line up and enter the supermarket as soon as possible through an IT device.\\
+    line up and enter the supermarket as soon as possible through an IT
+    device.\\
     \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
     book an entrance at the supermarket at a given date and time through an IT
     device.\\
@@ -81,9 +78,7 @@ building at the same time.
     \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
     book an entrance at the supermarket at a given date and time through a
     standard telephone line.\\
-    \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
-    line up and enter the supermarket as soon as possible with an on-site
-    device.\\
+    \stepcounter{spcounter} SP\thespcounter & The store assistant asks the system to line up a customer, to let them enter the supermarket as soon as possible.\\
     \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
     print the receipt of a request made by telephone with an on-site device.\\
     \stepcounter{spcounter} SP\thespcounter & The customer informs the system on
