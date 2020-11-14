@@ -38,10 +38,14 @@ building at the same time.
 
 \subsubsection{World phenomena}
 
-\begin{center}
-  \begin{tabular}{|c| |p{12cm}|} 
+{\rowcolors{2}{white}{lightgray}
+\begin{table}[h!]
+    % Centers the table
+    \centering
+    \begin{tabular}{| c | p{12cm} |}
     \hline
-    ID & Phenomenon\\ [0.5ex] \hline\hline
+    % textbf used to achieve bold font
+    \textbf{ID}                    & \textbf{Phenomenon} \\ \hline\hline
     \stepcounter{wpcounter} WP\thewpcounter & The customer needs to go grocery
     shopping.\\
     \stepcounter{wpcounter} WP\thewpcounter & The customer arrives at the
@@ -56,16 +60,24 @@ building at the same time.
     the building.\\
     \hline
   \end{tabular}
-\end{center}
+  \label{wp}
+\end{table}
+}
+
+\pagebreak
 
 \newcounter{spcounter}
 
 \subsubsection{Shared phenomena - controlled by the World}
 
-\begin{center}
-  \begin{tabular}{|c| |p{12cm}|} 
+{\rowcolors{2}{white}{lightgray}
+\begin{table}[h!]
+    % Centers the table
+    \centering
+    \begin{tabular}{| c | p{12cm} |}
     \hline
-    ID & Phenomenon\\ [0.5ex] \hline\hline
+    % textbf used to achieve bold font
+    \textbf{ID} & \textbf{Phenomenon} \\ \hline\hline
     \stepcounter{spcounter} SP\thespcounter & The customer asks the system to
     line up and enter the supermarket as soon as possible through an IT
     device.\\
@@ -95,15 +107,20 @@ building at the same time.
     system on the maximum number of people allowed inside the building.\\
     \hline
   \end{tabular}
-\end{center}
-
+  \label{spw}
+\end{table}
+}
 
 \subsubsection{Shared phenomena - controlled by the Machine}
 
-\begin{center}
-  \begin{tabular}{|c| |p{12cm}|} 
+{\rowcolors{2}{white}{lightgray}
+\begin{table}[h!]
+    % Centers the table
+    \centering
+    \begin{tabular}{| c | p{12cm} |}
     \hline
-    ID & Phenomenon\\ [0.5ex] \hline\hline
+    % textbf used to achieve bold font
+    \textbf{ID}                    & \textbf{Phenomenon} \\ \hline\hline
     \stepcounter{spcounter} SP\thespcounter & The system shows the user a QR
     code as a receipt of a request performed through an IT device.\\
     \stepcounter{spcounter} SP\thespcounter & The system prints through an
@@ -123,6 +140,8 @@ building at the same time.
     that a specific time slot in a range they chose in advance is available\\
     \hline
   \end{tabular}
-\end{center}
+  \label{spm}
+\end{table}
+}
 
 \end{document}
