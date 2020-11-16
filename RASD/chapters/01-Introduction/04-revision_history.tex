@@ -1,0 +1,23 @@
+\documentclass[../../main.tex]{subfiles}
+
+\begin{document}
+
+\newcounter{VersionCounter}
+
+{\rowcolors{2}{white}{lightgray}
+\begin{table}[h!]
+    % Centers the table
+    \centering
+    \begin{tabular}{| c | c | p{12cm} |}
+    \hline
+    % textbf used to achieve bold font
+    \textbf{Version} & \textbf{Date} & \textbf{Notes} \\ \hline\hline
+    \stepcounter{VersionCounter}
+    V\arabic{VersionCounter}.0 & TBD & First release.\\ 
+    \hline
+    \end{tabular}
+    \label{goals}
+\end{table}
+}
+
+\end{document}
