@@ -1,0 +1,32 @@
+\documentclass[../../main.tex]{subfiles}
+
+\begin{document}
+
+\subsection{Assumptions, dependencies and constraints}
+
+\newcounter{dacounter}
+
+\subsubsection{Domain assumptions}
+
+{\rowcolors{2}{white}{lightgray}
+\begin{table}[h!]
+    % Centers the table
+    \centering
+    \begin{tabular}{| c | p{12cm} |}
+    \hline
+    % textbf used to achieve bold font
+    \textbf{ID}                    & \textbf{Domain assumption} \\ \hline\hline
+
+    \stepcounter{dacounter} DA\thedacounter          & Customers can access supermarkets only by using CLup system. \\ % not only by using smartphones but also fallback method
+
+    \stepcounter{dacounter} DA\thedacounter          & The number of people who can access the store is either decided by the authorities, or by the manager, respecting the law. \\ % let's say the supermarket acts legally (comment this please)
+
+    \stepcounter{dacounter} DA\thedacounter          & Supermarkets are equipped with a fallback method for queueing. \\
+    
+    \hline
+    \end{tabular}
+    \label{domain assumptions}
+\end{table}
+}
+
+\end{document}
