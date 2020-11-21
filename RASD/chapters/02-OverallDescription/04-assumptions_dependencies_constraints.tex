@@ -1,0 +1,40 @@
+\documentclass[../../main.tex]{subfiles}
+
+\begin{document}
+
+\newcounter{dacounter}
+
+\subsection{Domain assumptions}
+
+{\rowcolors{2}{white}{lightgray}
+\begin{table}[h!]
+    % Centers the table
+    \centering
+    \begin{tabular}{| c | p{12cm} |}
+    \hline
+    % textbf used to achieve bold font
+    \textbf{ID}                    & \textbf{Domain assumption} \\ \hline\hline
+
+    % \stepcounter{dacounter} DA\thedacounter          & Customers can access supermarkets only by using CLup system. \\ % not only by using smartphones but also fallback method
+
+    \stepcounter{dacounter} DA\thedacounter          & The number of people who can access the store is either decided by the authorities, or by the manager, respecting the law. \\ % let's say the supermarket acts legally
+
+    \stepcounter{dacounter} DA\thedacounter          & Customers won't try to bypass the store access control measures. \\
+
+    \stepcounter{dacounter} DA\thedacounter          & The population is evenly distributed on the territory among store locations. \\ % check phrasing
+
+    \stepcounter{dacounter} DA\thedacounter          & All customers who enter the supermarket check out with a human or automatic cashier. \\
+
+    \stepcounter{dacounter} DA\thedacounter          & All customers only visit the areas of the supermarket containing the item categories they declared when reserving their entrance through the system. \\
+
+    \stepcounter{dacounter} DA\thedacounter          & Customers will not form crowds outside of the store, if the queue is moderately long. \\
+    \stepcounter{dacounter} DA\thedacounter          & Few people do not have an IT device with support for Internet connectivity or a standard telephone line. \\
+
+
+    \hline
+    \end{tabular}
+    \label{domain assumptions}
+\end{table}
+}
+
+\end{document}
