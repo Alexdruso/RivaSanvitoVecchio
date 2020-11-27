@@ -1,0 +1,36 @@
+\documentclass[../../main.tex]{subfiles}
+
+\begin{document}
+
+	\subsection{Reliability}
+
+	CLup's queueing system is critical in order to keep track of the accesses, thus its infrastructure 
+	should be characterized by the highest MTTF and lowest MTTR possible.
+
+	A larger MTTR is acceptable for the other services, however it's mandatory to ensure the lack of 
+	data losses during downtime.
+
+	\subsection{Availability}
+
+	All services must be up and running 24/7, both supermarkets and users need to be notified in case of 
+	any communication issues with CLup servers.
+
+	Stores should be able to communicate with CLup's servers during all their opening time span.
+
+	As shown in the following histogram, it is expected an high utilisation of all services during the day, 
+	and a low usage during night hours.
+
+	\begin{figure}[h!]
+	    \centering
+	    \includegraphics[width=0.25\textwidth]{affluence-chart.png}
+	    \caption{Average daily visits }
+  	\end{figure}
+
+	\subsection{Security}
+
+	\subsection{Maintainability}
+
+	\subsection{Portability}
+
+	
+\end{document}
