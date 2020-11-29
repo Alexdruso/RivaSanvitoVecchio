@@ -32,8 +32,8 @@
                                     \item The store confirms
                                   \end{itemize}\\ \hline
         \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
-        \textbf{Exception} & \\ \hline
-        \textbf{Note} & \\ \hline
+        \textbf{Exception} & If the customer still wants to queue for their store of choice, the system queues the user for the first available time slot. \\ \hline
+        \textbf{Note} &\\ \hline
         \end{tabular}
     \end{table}
 
@@ -65,8 +65,38 @@
                                     \item The store confirms
                                   \end{itemize}\\ \hline
         \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
-        \textbf{Exception} & \\ \hline
-        \textbf{Note} & If the desired time slot and store are not compatible with the current scheduled queue, the system will suggest an alternative.\\ \hline
+        \textbf{Exception} & If the desired time slot and store are not compatible with the current scheduled queue, the system will suggest an alternative. \\ \hline
+        \textbf{Note} &\\ \hline
+        \end{tabular}
+    \end{table}
+
+    \subsection*{Cancellation}
+
+    Maurizio reserved a slot in the queue to access the nearby store through CLup, but, due to an unforeseen commitment, 
+    he has to cancel the appointment. Maurizio opens CLup, selects the reservation and cancels it. 
+    The system removes Maurizio from the queue and sends a confirmation to the customer. 
+    Meanwhile, Patrizia wanted to access the store as soon as possible, but all the nearest time slots were busy, 
+    and the system delayed her reservation. CLup, aware of the recently freed time slot, sends a notification to Patrizia offering her to take it over. 
+    Patrizia opens CLup, accepts the offering and CLup queues her in the time slot.
+
+    \begin{table}[H]
+      \centering
+        \begin{tabular}{c m{.75\textwidth}}
+        \hline
+        \textbf{Use Case} & Cancellation\\ \hline
+        \textbf{Actor} & Store's customer\\ \hline
+        \textbf{Entry condition} & A customer cancels their reservation\\  \hline
+        \textbf{Flow of events} & \begin{itemize}
+                                    \item CLup removes the customer from the queue
+                                    \item CLup sends a confimation to the customer
+                                    \item CLup checks if there is some user wanting to access the store as soon as possible and scheduled for a later visit
+                                    \item CLup sends a notification to the customer, offering to move up the visit
+                                    \item The customer accepts the offer
+                                    \item CLup queues the customer in the time slot
+                                  \end{itemize}\\ \hline
+        \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
+        \textbf{Exception} & If no user accepts, the slot is kept free. \\ \hline
+        \textbf{Note} &\\ \hline
         \end{tabular}
     \end{table}
 
