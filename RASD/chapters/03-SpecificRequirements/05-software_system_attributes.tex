@@ -42,7 +42,7 @@
 	\subsection{Maintainability}
 
 	The back-end system must be designed in order for sustaining maintainance operations without having to 
-	shut down services, guaranteeing no down-time during these operations.
+	shut down services, guaranteeing no down-time during these operations. For this reason, a dedicated staging environment must be put in place and used to test every new release of the software. The staging environment must be as similar as possible to the production environment, the only difference being the data that it works on: properly anonymized production data.
 
 	All devices inside the supermarkets, like ticket scanners and printers, must support OTA firmware update. These devices can only be updated if necessary, and only when the store is closed.
 
