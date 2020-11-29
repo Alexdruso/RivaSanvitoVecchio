@@ -20,14 +20,15 @@
         \textbf{Actor} & Store's customer\\ \hline
         \textbf{Entry condition} & The customer wants to access a store as soon as possible\\  \hline
         \textbf{Flow of events} & \begin{itemize}
-                                    \item The user selects the store they want to access
-                                    \item The user inserts the expected duration of the visit
-                                    \item The user inserts the categories of products they want to buy
-                                    \item The system checks if the store has a free slot for the user
+                                    \item The customer selects the store they want to access
+                                    \item The customer inserts the expected duration of the visit
+                                    \item The customer inserts the categories of products they want to buy
+                                    \item The customer confirms their intention
+                                    \item The system checks if the store has a free slot for the customer
                                     \item The store does not have a free slot
-                                    \item The system suggests to the user another store nearby
-                                    \item The user accepts the suggestion
-                                    \item The system asks the store to queue the user
+                                    \item The system suggests to the customer another store nearby
+                                    \item The customer accepts the suggestion
+                                    \item The system asks the store to queue the customer
                                     \item The store confirms
                                   \end{itemize}\\ \hline
         \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
@@ -54,19 +55,18 @@
         \textbf{Actor} & Store's customer\\ \hline
         \textbf{Entry condition} & The customer wants to reserve a visit to the store\\  \hline
         \textbf{Flow of events} & \begin{itemize}
-                                    \item The user selects the store they want to access
-                                    \item The user inserts the expected duration of the visit
-                                    \item The user inserts the categories of products they want to buy
-                                    \item The system checks if the store has a free slot for the user
-                                    \item The store does not have a free slot
-                                    \item The system suggests to the user another store nearby
-                                    \item The user accepts the suggestion
+                                    \item The customer selects the store they want to access
+                                    \item The customer selects the time and date of the visit
+                                    \item The customer confirms their intention
+                                    \item The system estimates the expected duration of the visit and the visited departments
+                                    \item The system checks if the store has a free slot for the customer
+                                    \item The store has a free slot
                                     \item The system asks the store to queue the user
                                     \item The store confirms
                                   \end{itemize}\\ \hline
         \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
         \textbf{Exception} & \\ \hline
-        \textbf{Note} & \\ \hline
+        \textbf{Note} If the desired time slot and store are not compatible with the current scheduled queue, the system will suggest an alternative.& \\ \hline
         \end{tabular}
     \end{table}
 
