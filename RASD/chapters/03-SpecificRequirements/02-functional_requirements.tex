@@ -34,6 +34,43 @@
         \textbf{Exception} & \\ \hline
         \textbf{Note} & \\ \hline
         \end{tabular}
-        \end{table}
+    \end{table}
 
+    \subsection*{Visit time estimation}
+
+    Anna, a long time customer of the local store, wants to reserve a time slot to go grocery shopping the next week. 
+    Anna opens CLup and selects the desired store and the desired date and time slot. 
+    Not knowing yet which articles she might need, she does not fill the product categories section, 
+    and she does not provide any visit duration estimation. Once Anna confirms her intentions to CLup, 
+    the system predicts automatically the duration and the departments she is most likely to be in, 
+    based on the collected history of previous visits. CLup then checks if Anna's visit is compatible with the 
+    current schedule of the store, and, as the answer is positive, it shows a confirmation of the reservation to Anna.
+
+    \begin{table}[H]
+      \centering
+        \begin{tabular}{c m{.75\textwidth}}
+        \hline
+        \textbf{Use Case} & Visit time estimation\\ \hline
+        \textbf{Actor} & Store's customer\\ \hline
+        \textbf{Entry condition} & The customer wants to reserve a visit to the store\\  \hline
+        \textbf{Flow of events} & \begin{itemize}
+                                    \item The user selects the store they want to access
+                                    \item The user inserts the expected duration of the visit
+                                    \item The user inserts the categories of products they want to buy
+                                    \item The system checks if the store has a free slot for the user
+                                    \item The store does not have a free slot
+                                    \item The system suggests to the user another store nearby
+                                    \item The user accepts the suggestion
+                                    \item The system asks the store to queue the user
+                                    \item The store confirms
+                                  \end{itemize}\\ \hline
+        \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
+        \textbf{Exception} & \\ \hline
+        \textbf{Note} & \\ \hline
+        \end{tabular}
+    \end{table}
+
+
+
+        
 \end{document}
