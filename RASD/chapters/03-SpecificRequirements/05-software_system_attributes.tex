@@ -30,7 +30,8 @@
 
 	All data inbound to CLup services must be treated as stated by security regulations. 
 
-	To maximise security in the authentication phases, the system should use OAuth 2.0 authorisation framework.
+	To maximise security in the authentication phases for store managers, the system should use 
+	OAuth 2.0 authorisation framework.
 
 	Additionally, in order to guarantee the protection of the customer's data in between servers and the 
 	user's device, all Internet traffic must be encrypted with SSL, and sent via HTTPS protocol.
@@ -40,7 +41,21 @@
 
 	\subsection{Maintainability}
 
+	The back-end system must be designed in order for sustaining maintainance operations without having to 
+	shut down services, guaranteeing no down-time during these operations.
+
+	All devices inside the supermarkets, like ticket scanners and printers, must support OTA firmware update. These devices can only be updated if necessary, and only when the store is closed.
+
+	Customer's software on smartphones can be updated at any time, through the appropriate app stores.
+
 	\subsection{Portability}
+
+	CLup smartphone application must be available for Android and iOS operating systems. As per compatibility, the Android app must be supported by at least Android KitKat 4.4, while the iOS app must be compatible with at least iOS 12.4.
+
+	All functions available for customers must also be present on Web platform, in order to be able to access 
+	CLup's services by Internet browsers, both from PC and smartphones.
+
+	The software for store managers and employees must be hosted on Web platform, with support for both PC and smartphone layouts.
 
 	
 \end{document}
