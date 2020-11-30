@@ -32,8 +32,8 @@
                                     \item The store confirms
                                   \end{itemize}\\ \hline
         \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
-        \textbf{Exception} & If the customer still wants to queue for their store of choice, the system queues the user for the first available time slot. \\ \hline
-        \textbf{Note} &\\ \hline
+        \textbf{Exceptions} & If the customer still wants to queue for their store of choice, the system queues the user for the first available time slot. \\ \hline
+        \textbf{Special requirements} &\\ \hline
         \end{tabular}
     \end{table}
 
@@ -65,8 +65,8 @@
                                     \item The store confirms
                                   \end{itemize}\\ \hline
         \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
-        \textbf{Exception} & If the desired time slot and store are not compatible with the current scheduled queue, the system will suggest an alternative. \\ \hline
-        \textbf{Note} &\\ \hline
+        \textbf{Exceptions} & If the desired time slot and store are not compatible with the current scheduled queue, the system will suggest an alternative. \\ \hline
+        \textbf{Special requirements} &\\ \hline
         \end{tabular}
     \end{table}
 
@@ -88,19 +88,48 @@
         \textbf{Entry condition} & A customer cancels their reservation\\  \hline
         \textbf{Flow of events} & \begin{itemize}
                                     \item CLup removes the customer from the queue
-                                    \item CLup sends a confimation to the customer
+                                    \item CLup sends a confirmation to the customer
                                     \item CLup checks if there is some user wanting to access the store as soon as possible and scheduled for a later visit
                                     \item CLup sends a notification to the customer, offering to move up the visit
                                     \item The customer accepts the offer
                                     \item CLup queues the customer in the time slot
                                   \end{itemize}\\ \hline
         \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
-        \textbf{Exception} & If no user accepts, the slot is kept free. \\ \hline
-        \textbf{Note} &\\ \hline
+        \textbf{Exceptions} & If no user accepts, the slot is kept free. \\ \hline
+        \textbf{Special requirements} &\\ \hline
         \end{tabular}
     \end{table}
 
+    \subsection*{Access to the store}
 
+    Alina is in line through CLup to access a store and her visit start time is near. 
+    CLup sends a notification to Alina to remind her of the visit. 
+    Alina departs from her home and approaches the store, showing the receipt on her IT device to the receipt scanner. 
+    CLup checks if the customer arrived either too early or too late with respect to the assigned time slot. 
+    Alina is perfectly in time and is allowed to enter the store. Finally, when the visit is coming to an end, 
+    Alina's receipt is shown once again at the store cashier, who scans it. 
+    CLup registers the end of the visit and sends a confirmation message to the cashier.
+
+    \begin{table}[H]
+      \centering
+        \begin{tabular}{c m{.75\textwidth}}
+        \hline
+        \textbf{Use Case} & Access to the store\\ \hline
+        \textbf{Actor} & Store's customer, store's cashier\\ \hline
+        \textbf{Entry condition} & A customer's visit start time is near\\  \hline
+        \textbf{Flow of events} & \begin{itemize}
+                                    \item CLup sends the customer a notification to remind of the visit
+                                    \item CLup sends a confirmation to the customer
+                                    \item CLup checks if there is some user wanting to access the store as soon as possible and scheduled for a later visit
+                                    \item CLup sends a notification to the customer, offering to move up the visit
+                                    \item The customer accepts the offer
+                                    \item CLup queues the customer in the time slot
+                                  \end{itemize}\\ \hline
+        \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
+        \textbf{Exceptions} & If no user accepts, the slot is kept free. \\ \hline
+        \textbf{Special requirements} &\\ \hline
+        \end{tabular}
+    \end{table}
 
         
 \end{document}
