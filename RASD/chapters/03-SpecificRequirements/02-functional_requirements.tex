@@ -135,5 +135,31 @@
         \end{tabular}
     \end{table}
 
-        
+    \subsection*{In presence queueing}
+
+    Alessandro, a nurse, would like to stop at the store on the way home from work to do some urgent grocery shopping. 
+    Unfortunately, Alessandro's smartphone is out of charge, and he cannot use CLup's application. 
+    Alessandro stops at the store anyway, approaches the store assistant at the entrance, and asks for a receipt. 
+    The store assistant accesses CLup and requests to queue a visitor. The system adds the customer to the queue and sends the line up receipt as a confirmation. 
+    The store assistant prints the line up receipt and gives it to Alessandro, who waits his turn.
+
+    \begin{table}[H]
+      \centering
+        \begin{tabular}{c m{.75\textwidth}}
+        \hline
+        \textbf{Use Case} & In presence queueing\\ \hline
+        \textbf{Actor} & Store's customer, store assistant\\ \hline
+        \textbf{Entry condition} & A customer asks a store assistant for a line up receipt\\  \hline
+        \textbf{Flow of events} & \begin{itemize}
+                                    \item The store assistant accesses CLup
+                                    \item The store assistant requests CLup to queue the customer
+                                    \item CLup adds the customer to the queue
+                                    \item CLup sends the line up receipt to the store assistant as a confirmation
+                                  \end{itemize}\\ \hline
+        \textbf{Exit condition} & The store assistant prints the line up receipt \\ \hline
+        \textbf{Exceptions} & \\ \hline
+        \textbf{Special requirements} &\\ \hline
+        \end{tabular}
+    \end{table}
+
 \end{document}
