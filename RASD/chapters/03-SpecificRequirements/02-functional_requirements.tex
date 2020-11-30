@@ -1,16 +1,16 @@
 \documentclass[../../main.tex]{subfiles}
 
 \begin{document}
-    \subsection*{Alternative suggestion}
+    \subsection{Alternative suggestion}
 
-    Carlo lives in a country where lockdown policies are applied. The last time he shopped for groceries online, 
+    Luca lives in a country where lockdown policies are applied. The last time he shopped for groceries online, 
     he forgot to add to the cart olive oil, and now he needs it. Waiting until the next delivery would take too much time, 
-    so Carlo decides to line up for the nearest store. 
-    Carlo opens CLup, looks for the nearest store and selects it. 
+    so Luca decides to line up for the nearest store. 
+    Luca opens CLup, looks for the nearest store and selects it. 
     He then inserts the expected duration of his visit and the category of the item he wants to buy. 
     Unfortunately, CLup estimates that the olive oil department will be busy for the next hours. 
     CLup suggests an alternative store in proximity, where there is a free slot sooner. 
-    Carlo accepts the suggestion and CLup queues Carlo to access the store. Carlo receives confirmation.
+    Luca accepts the suggestion and CLup queues Luca to access the store. Luca receives confirmation.
 
     \begin{table}[H]
       \centering
@@ -37,7 +37,7 @@
         \end{tabular}
     \end{table}
 
-    \subsection*{Visit time and place estimation}
+    \subsection{Visit time and place estimation}
 
     Anna, a long time customer of the local store, wants to reserve a time slot to go grocery shopping the next week. 
     Anna opens CLup and selects the desired store and the desired date and time slot. 
@@ -70,7 +70,7 @@
         \end{tabular}
     \end{table}
 
-    \subsection*{Cancellation}
+    \subsection{Cancellation}
 
     Maurizio reserved a slot in the queue to access the nearby store through CLup, but, due to an unforeseen commitment, 
     he has to cancel the appointment. Maurizio opens CLup, selects the reservation and cancels it. 
@@ -100,7 +100,7 @@
         \end{tabular}
     \end{table}
 
-    \subsection*{Access to the store}
+    \subsection{Access to the store}
 
     Alina is in line through CLup to access a store and her visit start time is near. 
     CLup sends a notification to Alina to remind her of the visit. 
@@ -135,7 +135,7 @@
         \end{tabular}
     \end{table}
 
-    \subsection*{In presence queueing}
+    \subsection{In presence queueing}
 
     Alessandro, a nurse, would like to stop at the store on the way home from work to do some urgent grocery shopping. 
     Unfortunately, Alessandro's smartphone is out of charge, and he cannot use CLup's application. 
@@ -162,4 +162,86 @@
         \end{tabular}
     \end{table}
 
+    \subsection{Queueing via telephone}
+
+    Andrea does not own either a smartphone or a personal computer. 
+    Andrea would want to queue up immediately to go grocery shopping in a store adopting the CLup system, 
+    but, as he is missing any IT device, he can not access the system through the Internet. 
+    Andrea calls CLup's number, and the system guides him through the process: first of all, 
+    the synthesized voice asks Andrea if he would like to access the store as soon as possible or to reserve a time slot, 
+    and then the store he would like to visit. Once Andrea has answered the questions and confirmed his intentions, 
+    the system adds Andrea to the queue of the store. The system then dictates the numeric number to be used at the entrance of the store. 
+    Once Andrea confirms that he has understood the code, the interaction is closed.
+
+    \begin{table}[H]
+      \centering
+        \begin{tabular}{c m{.75\textwidth}}
+        \hline
+        \textbf{Use Case} & Queueing via telephone\\ \hline
+        \textbf{Actor} & Store's customer\\ \hline
+        \textbf{Entry condition} & A customer calls CLup's telephone number\\  \hline
+        \textbf{Flow of events} & \begin{itemize}
+                                    \item CLup asks the customer if they would like to access the store as soon as possible or to reserve a time slot
+                                    \item The customer says they want to access the store as soon as possible
+                                    \item CLup asks which store the customer wants to access
+                                    \item The customer states the store they would like to access
+                                    \item CLup repeats the chosen options and asks for confirmation
+                                    \item The customer confirms their intentions
+                                    \item The system adds the customer to the queue to enter the store
+                                    \item CLup dictates the numeric number to use at the entrance to the customer
+                                    \item CLup asks for confirmation that the numeric number has been understood
+                                  \end{itemize}\\ \hline
+        \textbf{Exit condition} & The customer confirms \\ \hline
+        \textbf{Exceptions} & If the chosen store does not have any available slot, the system suggests an alternative.
+        
+                              If the customer does not confirm their intentions, the system states again the available options.
+                              
+                              If the customer does not confirm the reception of the numeric code, the system repeats the numeric code.\\ \hline
+        \textbf{Special requirements} &\\ \hline
+        \end{tabular}
+    \end{table}
+
+    \subsection{Reservation via telephone}
+
+    This time, Andrea would want to reserve a time slot to go grocery shopping next week. 
+    Andrea calls CLup's number and states, once asked, that he would like to use the reservation functionalities. 
+    CLup asks Andrea, in sequence, which store he would like to access, at what date, and at which time. 
+    The system repeats Andrea's choices and asks for confirmation. Once Andrea confirms, 
+    the system estimates the visit duration and checks if it is compatible with the current schedule. 
+    The system then dictates the numeric number to be used at the entrance of the store. 
+    Once Andrea confirms that he has understood the code, the interaction is closed.
+
+    \begin{table}[H]
+      \centering
+        \begin{tabular}{c m{.75\textwidth}}
+        \hline
+        \textbf{Use Case} & Reservation via telephone\\ \hline
+        \textbf{Actor} & Store's customer\\ \hline
+        \textbf{Entry condition} & A customer calls CLup's telephone number\\  \hline
+        \textbf{Flow of events} & \begin{itemize}
+                                    \item CLup asks the customer if they would like to access the store as soon as possible or to reserve a time slot
+                                    \item The customer says they want to reserve a time slot
+                                    \item CLup asks which store the customer wants to access
+                                    \item The customer states the store they would like to access
+                                    \item CLup asks in which date the customer would like to access the store
+                                    \item The customer states the desired date
+                                    \item CLup asks at which time the customer would like to access the store
+                                    \item The customer states the desired time
+                                    \item CLup repeats the chosen options and asks for confirmation
+                                    \item The customer confirms their intentions
+                                    \item CLup estimates the visit duration
+                                    \item CLup checks if the visit is compatible with the current schedule
+                                    \item The system adds the customer to the queue to enter the store
+                                    \item CLup dictates the numeric number to use at the entrance to the customer
+                                    \item CLup asks for confirmation that the numeric number has been understood
+                                  \end{itemize}\\ \hline
+        \textbf{Exit condition} & The customer confirms \\ \hline
+        \textbf{Exceptions} & If the reservation is not compatible with the current schedule, the system suggests an alternative.
+        
+                              If the customer does not confirm their intentions, the system states again the available options.
+                              
+                              If the customer does not confirm the reception of the numeric code, the system repeats the numeric code.\\ \hline
+        \textbf{Special requirements} &\\ \hline
+        \end{tabular}
+    \end{table}
 \end{document}
