@@ -24,15 +24,16 @@
                                     \item The customer inserts the expected duration of the visit
                                     \item The customer inserts the categories of products they want to buy
                                     \item The customer confirms their intention
+                                    \item The system estimates the expected duration of the visit and the visited departments
                                     \item The system checks if the store has a free slot for the customer
-                                    \item The store does not have a free slot
-                                    \item The system suggests to the customer another store nearby
-                                    \item The customer accepts the suggestion
-                                    \item The system asks the store to queue the customer
+                                    \item The store has a free slot
+                                    \item The system asks the store to queue the user
                                     \item The store confirms
                                   \end{itemize}\\ \hline
         \textbf{Exit condition} & The system shows a confirmation message to the user \\ \hline
-        \textbf{Exceptions} & If the customer still wants to queue for their store of choice, the system queues the user for the first available time slot. \\ \hline
+        \textbf{Exceptions} &  If the store does not currently have a free time slot, the system will suggest an alternative store.
+                                
+                               If the customer still wants to queue for their store of choice, the system queues the user for the first available time slot. \\ \hline
         \textbf{Special requirements} &\\ \hline
         \end{tabular}
     \end{table}
