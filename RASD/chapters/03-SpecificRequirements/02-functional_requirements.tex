@@ -235,7 +235,9 @@
           \textbf{Flow of events} & \begin{itemize}
                                       \item The store assistant accesses CLup
                                       \item The store assistant requests CLup to queue the customer
-                                      \item CLup adds the customer to the queue
+                                      \item The system estimates the expected duration of the visit and the visited departments
+                                      \item The system finds the first available time slot in the assistant's store
+                                      \item CLup adds the customer to the queue in the first available time slot
                                       \item CLup sends the line up receipt to the store assistant as a confirmation
                                     \end{itemize}\\ \hline
           \textbf{Exit condition} & The store assistant prints the line up receipt \\ \hline
