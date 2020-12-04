@@ -14,3 +14,13 @@
 | ------- | ----------- |
 | RASD | :x: |
 | DD | :x: |
+
+## Tools
+
+The following tools have been used to create and manage the documents:
+
+* [Alloy analyzer](https://alloytools.org/)
+* [Tex Live](https://www.tug.org/texlive/)
+* [MagicDraw](https://www.nomagic.com/products/magicdraw)
+* [Moqups](https://moqups.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
