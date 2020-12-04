@@ -182,6 +182,24 @@
           \end{tabular}
       \end{table}
 
+      \subsubsection{Notification with IT device}
+
+      \begin{table}[H]
+        \centering
+          \begin{tabular}{c m{.75\textwidth}}
+          \hline
+          \textbf{Use Case} & Notification with IT device \\ \hline
+          \textbf{Actor} & Store's customer\\ \hline
+          \textbf{Entry condition} & A customer's visit start time is near\\  \hline
+          \textbf{Flow of events} & \begin{itemize}
+                                      \item CLup sends the customer a notification to remind them of the visit
+                                    \end{itemize}\\ \hline
+          \textbf{Exit condition} & The customer approaches the store \\ \hline
+          \textbf{Exceptions} & \\ \hline
+          \textbf{Special requirements} &\\ \hline
+          \end{tabular}
+      \end{table}
+
       \subsubsection{Access to the store}
 
       \begin{table}[H]
@@ -190,10 +208,8 @@
           \hline
           \textbf{Use Case} & Access to the store \\ \hline
           \textbf{Actor} & Store's customer\\ \hline
-          \textbf{Entry condition} & A customer's visit start time is near\\  \hline
+          \textbf{Entry condition} & A customer approaches the store\\  \hline
           \textbf{Flow of events} & \begin{itemize}
-                                      \item CLup sends the customer a notification to remind them of the visit
-                                      \item The customer approaches the store
                                       \item The customer scans their receipt at the store entrance
                                       \item CLup checks if the current time is part of the receipt's time slot
                                     \end{itemize}\\ \hline
