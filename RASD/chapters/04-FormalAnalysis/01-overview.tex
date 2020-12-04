@@ -4,12 +4,12 @@
 
 \subsection{Overview}
 
-This section contains a formal model describing the core parts of the system. The model was defined using \href{https://alloytools.org/}{Alloy}, an open source language and analyzer for software modeling. In particular, customers' line up, store access and store exit events are described.
+This section contains a formal model describing the core parts of the system. The model was defined using \href{https://alloytools.org/}{Alloy}, an open source language and analyzer for software modelling. In particular, customers' line up, store access and store exit events are described.
 
 The following additional assumptions have been added to the model for the sake of simplification, without significant loss of generality:
 \begin{itemize}
   \item Time is quantized in time slots; the duration of the time slots is unspecified, thus it would be possible to shrink indefinitely the length of time slots to achieve a very fine level of precision;
-  \item Customers leave the store within the time slot limits they requested during the line up request; this is a strogn assumption that, however, can be mitigated by the system using the statistical data of the past visits of a customer. In particular, during a line up request, the system could lookup the mean amount of time the customer spent in the store more than they were allowed in the past visits, and add it to the following line up requests.
+  \item Customers leave the store within the time slot limits they requested during the line up request; this is a strong assumption that, however, can be mitigated by the system using the statistical data of the past visits of a customer to provide accurate estimations of the leaving time. In particular, during a line up request, the system could lookup the mean amount of time the customer spent in the store more than they were allowed in the past visits, and add it to the following line up requests.
 \end{itemize}
 
 The formal model shows that the system described in the present document:
