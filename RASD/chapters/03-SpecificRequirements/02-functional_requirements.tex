@@ -396,4 +396,25 @@
         \caption{Reservation with telephone sequence diagram}
       \end{figure}
 
+      \subsubsection{Access to the store with a telephone reservation}
+
+      \begin{table}[H]
+        \centering
+          \begin{tabular}{c m{.75\textwidth}}
+          \hline
+          \textbf{Use Case} & Accessing the store with a telephone reservation\\ \hline
+          \textbf{Actor} & Store's customer\\ \hline
+          \textbf{Entry condition} & The visit start time of a customer who has reserved a place in the queue via telephone call is near\\  \hline
+          \textbf{Flow of events} & \begin{itemize}
+                                      \item CLup system calls the user, to remind them of the visit
+                                      \item The customer approaches the store
+                                      \item The customer goes to a store assistant, and shows them the numeric number
+                                      \item The store assistant accesses CLup system
+                                      \item The store assistant checks the numeric number
+                                    \end{itemize}\\ \hline
+          \textbf{Exit condition} & The store assistant prints the line up receipt \\ \hline
+          \textbf{Exceptions} & If numeric number is invalid or expired, the store assistant should queue the customer following the in presence queueing procedure.\\ \hline
+          \textbf{Special requirements} &\\ \hline
+          \end{tabular}
+      \end{table}
 \end{document}
