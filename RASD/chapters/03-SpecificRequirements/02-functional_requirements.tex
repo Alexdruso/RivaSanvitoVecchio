@@ -442,7 +442,7 @@
 
       %% TODO: ADD SEQUENCE DIAGRAM
 
-      \subsubsection{Definition of safety standard parameters} %TODO
+      \subsubsection{Definition of safety standard parameters}
 
       \begin{table}[H]
         \centering
@@ -460,10 +460,7 @@
                                       \item CLup updates the queue availability for the store according to the newly defined safety parameters
                                     \end{itemize}\\ \hline
           \textbf{Exit condition} & CLup confirms the succeeding of the operation \\ \hline
-          \textbf{Exceptions} & If the store manager does not confirm, nothing happens on CLup system, and the store manager is redirected to the previous screen.
-
-                                If CLup fails to update the queue availability, the error message is shown to the store manager, and the new parameters have no valence, thus rolling back to the previous parameters.
-                                \\ \hline
+          \textbf{Exceptions} & If the store manager does not confirm, nothing happens on CLup system, and the old safety parameters are kept.\\ \hline
           \textbf{Special requirements} &\\ \hline
           \end{tabular}
       \end{table}
