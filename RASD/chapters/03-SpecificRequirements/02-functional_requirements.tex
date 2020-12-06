@@ -72,7 +72,7 @@
         Andrea calls CLup's number, and the system guides him through the process: first of all, 
         the synthesized voice asks Andrea if he would like to access the store as soon as possible or to reserve a time slot, 
         and then the store he would like to visit. Once Andrea has answered the questions and confirmed his intentions, 
-        the system adds Andrea to the queue of the store. The system then dictates the numeric number to be used at the entrance of the store. 
+        the system adds Andrea to the queue of the store. The system then dictates the numeric code to be used at the entrance of the store. 
         Once Andrea confirms that he has understood the code, the interaction is closed.
 
 
@@ -85,8 +85,18 @@
         CLup asks Andrea, in sequence, which store he would like to access, at what date, and at which time. 
         The system repeats Andrea's choices and asks for confirmation. Once Andrea confirms, 
         the system estimates the visit duration and checks if it is compatible with the current schedule. 
-        The system then dictates the numeric number to be used at the entrance of the store. 
+        The system then dictates the numeric code to be used at the entrance of the store. 
         Once Andrea confirms that he has understood the code, the interaction is closed.
+
+        The following week Andrea gets a call from CLup, as a notification for the incoming visit. 
+        As Andrea approaches the store, he goes to the store assistant, and shows her the numeric code 
+        for the visit.
+        The store assistant accesses CLup, and provides the system the numeric code. 
+        The system gives a successful response to the store assistant, who then prints the ticket valid 
+        for the visit and hands it to Andrea. 
+        Now Andrea can access the store and do the shopping.
+
+
 
       \stepcounter{ScenarioCounter}
       \subsubsection{Scenario \arabic{ScenarioCounter}}
@@ -101,6 +111,17 @@
         The system asks Michael for the confirmation and he confirms. 
         The system now saves the new parameters, and puts them into effect, modifying the store queue 
         availability.
+
+
+
+      \stepcounter{ScenarioCounter}
+      \subsubsection{Scenario \arabic{ScenarioCounter}}
+
+        The same day Michael set the new safety parameters, the authorities come into his supermarket, 
+        asking for the supermarket's statistics about customers flux inside the supermarket. 
+        Michael accesses CLup system, and then requests to see the required statistics. 
+        The system provides the requested statistics, and Michael hands them to the authorities. 
+
 
 
     \subsection{Use cases and sequence diagrams}
@@ -429,7 +450,7 @@
           \textbf{Flow of events} & \begin{itemize}
                                       \item CLup system calls the user, to remind them of the visit
                                       \item The customer approaches the store
-                                      \item The customer goes to a store assistant, and shows them the numeric number
+                                      \item The customer goes to a store assistant, and shows them the numeric code
                                       \item The store assistant accesses CLup system
                                       \item The store assistant checks the numeric code
                                     \end{itemize}\\ \hline
