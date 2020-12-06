@@ -66,7 +66,11 @@
 \usepackage{subfiles}
 
 % Allows the use of multicoloured rows in tables
-\usepackage[table]{xcolor}
+\usepackage[table, dvipsnames]{xcolor}
+
+% Allows Alloy code highlighting
+\usepackage{listings}
+\usepackage{alloy-style}
 
 %%%%% define a common path for images
 \graphicspath{ {images/} {../images/} }
@@ -175,6 +179,12 @@
 \section{Software system attributes}
 
 \subfile{chapters/03-SpecificRequirements/05-software_system_attributes}
+
+\chapter{Formal analysis}
+
+\section{Overview}
+
+\subfile{chapters/04-FormalAnalysis/01-overview.tex}
 
 \chapter{Effort spent}
 
