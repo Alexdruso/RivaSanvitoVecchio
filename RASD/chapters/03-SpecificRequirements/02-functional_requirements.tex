@@ -132,13 +132,13 @@
         \caption{Use case diagram}
       \end{figure}
 
-      \subsubsection{Immediate queuing with IT device}
+      \subsubsection{Immediate queueing with IT device}
 
       \begin{table}[H]
         \centering
           \begin{tabular}{c m{.75\textwidth}}
           \hline
-          \textbf{Use Case} & Immediate queuing with IT device\\ \hline
+          \textbf{Use Case} & Immediate queueing with IT device\\ \hline
           \textbf{Actor} & Store's customer\\ \hline
           \textbf{Entry condition} & The customer wants to access a store as soon as possible\\  \hline
           \textbf{Flow of events} & \begin{itemize}
@@ -510,6 +510,31 @@
       %% TODO: ADD SEQUENCE DIAGRAM
 
     \subsection{Mapping}
+
+    {\rowcolors{2}{white}{lightgray}
+    \begin{table}[H]
+      \centering
+      \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Use case} & \textbf{Requirement IDs}\\ \hline\hline
+        Immediate queueing with IT device & R1, R6, R4, R8, R9, R13, R14, R15 \\
+        Reservation with IT device & R1, R6, R7, R8, R9, R13, R14, R15 \\
+        Cancellation & R16 \\
+        Visit anticipation offer & R14, R15, R16 \\
+        Notification with IT device & R10, R11 \\
+        Access to the store & R10, R12 \\
+        Exit from the store & R3, R12 \\
+        In presence queueing & R1, R4, R5, R6, R8, R9 \\
+        Immediate queueing with telephone & R1, R4, R8, R9, R13, R14, R15 \\
+        Reservation with telephone & R1, R7, R8, R9, R13, R14, R15\\
+        Access to the store with a telephone reservation &  R6, R10, R11\\
+        Consulting statistics & R3\\
+        Definition of safety standard parameters & R2\\
+        \hline
+      \end{tabular}
+      \caption{Use case to requirements mapping}
+      \end{table}
+    }
     
     {\rowcolors{2}{white}{lightgray}
     \begin{table}[H]
@@ -525,9 +550,10 @@
         G6 & R13, R14, R15, R16\\
         G7 & R13, R14, R15, R16\\
         G8 & R7, R13, R15, R16\\
-        G9 & R4, , R13, R14, R16\\
+        G9 & R4, R13, R14, R16\\
         \hline
       \end{tabular}
+      \caption{Goals to requirements mapping}
       \end{table}
     }
 \end{document}
