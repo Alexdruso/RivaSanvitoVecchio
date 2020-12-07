@@ -12,7 +12,7 @@
 
 | Document | Completed |
 | ------- | ----------- |
-| RASD | :x: |
+| RASD | :heavy_check_mark: |
 | DD | :x: |
 
 ## Tools
