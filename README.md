@@ -8,7 +8,7 @@
 - Alessandro Sanvito (immatriculation number: 968165)
 - Luca Vecchio (immatriculation number: 969048)
 
-## Completed documents
+## Documents
 
 | Document | Completed | Version|
 | ------- | ----------- |------------|
