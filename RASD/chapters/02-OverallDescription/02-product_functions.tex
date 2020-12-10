@@ -49,6 +49,8 @@ The following functionalities must be provided by the system in order to satisfy
     \stepcounter{RequirementCounter}
     R\arabic{RequirementCounter}   & If a time slot becomes free due to a cancellation, the system must offer users already in the 
                                      queue the possibility to take over the time slot, and, if no users accepts, the system must mark the slot as available.\\ 
+    \stepcounter{RequirementCounter}
+    R\arabic{RequirementCounter}   & The system must allow the user to cancel their reservations.\\ 
     \hline
     \end{tabular}
     \label{requirements}
@@ -67,11 +69,11 @@ The following functionalities must be provided by the system in order to satisfy
     G2 & R1, R8, R9, R13 \\
     G3 & R1, R2, R3, R8, R9, R12\\
     G4 & R4, R5, R6, R7, R10, R14, R15\\
-    G5 & R7, R8, R10, R11, R16\\
-    G6 & R13, R14, R15, R16\\
-    G7 & R13, R14, R15, R16\\
-    G8 & R7, R13, R15, R16\\
-    G9 & R4, R13, R14, R16\\
+    G5 & R7, R8, R10, R11, R16, R17\\
+    G6 & R13, R14, R15, R16, R17\\
+    G7 & R13, R14, R15, R16, R17\\
+    G8 & R7, R13, R15, R16, R17\\
+    G9 & R4, R13, R14, R16, R17\\
     \hline
   \end{tabular}
   \end{table}
