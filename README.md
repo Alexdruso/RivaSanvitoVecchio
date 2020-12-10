@@ -10,10 +10,10 @@
 
 ## Completed documents
 
-| Document | Completed |
-| ------- | ----------- |
-| RASD | :heavy_check_mark: |
-| DD | :x: |
+| Document | Completed | Version|
+| ------- | ----------- |------------|
+| RASD | :heavy_check_mark: | 1.0 |
+| DD | :x: | NA |
 
 ## Tools
 
