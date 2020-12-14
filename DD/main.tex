@@ -65,6 +65,9 @@
 % Allows a multi-files project
 \usepackage{subfiles}
 
+% Allows the use of multicoloured rows in tables
+\usepackage[table, dvipsnames]{xcolor}
+
 %%%%% define a common path for images
 \graphicspath{ {images/} {../images/} }
 
@@ -120,11 +123,89 @@
 %%%%% Text body starts here!
 \mainmatter
 
-%major indexed folder
 \chapter{Introduction}\label{chapt:sum}
 
-%first specify a section
 \section{Purpose}
+
+\subfile{chapters/01-Introduction/01-purpose}
+
+\section{Scope}
+
+\subfile{chapters/01-Introduction/02-scope}
+
+\section{Definitions, acronyms, abbreviations}
+
+\subfile{chapters/01-Introduction/03-definitions}
+
+\section{Revision history}
+
+\subfile{chapters/01-Introduction/04-revision_history}
+
+\section{Reference documents}
+
+\subfile{chapters/01-Introduction/05-reference_documents}
+
+\section{Document structure}
+
+\subfile{chapters/01-Introduction/06-document_structure}
+
+\chapter{Architectural design}
+
+\section{Overview}
+
+\subfile{chapters/02-ArchitecturalDesign/01-overview}
+
+\section{Component view}
+
+\subfile{chapters/02-ArchitecturalDesign/02-component_view}
+
+\section{Deployment view}
+
+\subfile{chapters/02-ArchitecturalDesign/03-deployment_view}
+
+\section{Runtime view}
+
+\subfile{chapters/02-ArchitecturalDesign/04-runtime_view}
+
+\section{Component interfaces}
+
+\subfile{chapters/02-ArchitecturalDesign/05-component_interfaces}
+
+\section{Selected architectural styles and patterns}
+
+\subfile{chapters/02-ArchitecturalDesign/06-architectural_styles_patterns}
+
+\chapter{User interface design}
+
+\section{Overview}
+
+\subfile{chapters/03-UserInterfaceDesign/01-overview}
+
+\chapter{Requirements traceability}
+
+\section{Overview}
+
+\subfile{chapters/04-RequirementsTraceability/01-overview}
+
+\chapter{Impkementation, integration and test plan}
+
+\section{Overview}
+
+\subfile{chapters/05-ImplementationIntegrationTestPlan/01-overview}
+
+\chapter{Effort spent}
+
+\section{Andrea Riva}
+
+\subfile{chapters/06-EffortSpent/01-AndreaRiva}
+
+\section{Alessandro Sanvito}
+
+\subfile{chapters/06-EffortSpent/02-AlessandroSanvito}
+
+\section{Luca Vecchio}
+
+\subfile{chapters/06-EffortSpent/03-LucaVecchio}
 
 \pagebreak
 
