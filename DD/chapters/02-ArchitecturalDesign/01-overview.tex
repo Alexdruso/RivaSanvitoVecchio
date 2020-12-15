@@ -10,7 +10,7 @@ In order to be flexible enough in handling the growth of the user base, a cloud 
 In particular, CLup's backend, in a client-server fashion, is centred around a three-tier structure, where the use of a load balancer 
 and queues between the tiers ensures a high decoupling. 
 Thus, each tier can evolve independently and can be resized according to the actual load, 
-exploiting the elasticity offered in a cloud environment.
+exploiting the elasticity offered by a cloud environment.
 
 \begin{figure}[H]
     \centering
@@ -21,7 +21,7 @@ exploiting the elasticity offered in a cloud environment.
     }
 \end{figure}
 
-An additional tier is then added between the user and the application to act as a CDN, to relief some load from the system and improve the performance of serving static contents. Overall,
+An additional tier is then added between the user and the application to act as a CDN, to relief some load from the system and improve performances in serving static contents. Overall,
  the resulting application will have five tiers.
 The presentation tier will be distributed between the user's device, the CDN and the first server tier of the backend, which will act as a web server. The application tier will map on the second server tier of the backend, while the data tier will map on the third.
 
