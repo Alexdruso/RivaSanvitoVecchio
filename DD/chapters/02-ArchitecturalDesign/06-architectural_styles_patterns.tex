@@ -2,6 +2,15 @@
 
 \begin{document}
 
+\subsection{Selected architectural styles and patterns}
+    As already stated in the overview, the general architecture draws inspiration from the classical client-server architectural style, adapted in a multi-tiered cloud configuration.  This pattern is field-proven and offers enough space for future adjustments due to the separation of concerns fostered by the differentiation of tiers in a model, view, controller fashion.
+
+    The architecture implements a publish/subscribe pattern to handle notifications to the clients, exploiting existing notification services. 
+    The publish/subscribe pattern also collapses into a queue-based communication protocol to ensure the highest decoupling between the web server and the application server.
+
+    Finally, the architecture implements private CDNs to distribute static content with the highest efficiency and performance.
+
+\subsection{Other design decisions}
 
 
 \end{document}
