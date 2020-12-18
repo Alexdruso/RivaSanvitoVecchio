@@ -3,22 +3,26 @@
 \begin{document}
 
 \subsection{Selected architectural styles and patterns}
+
     As already stated in the overview, the general architecture draws inspiration from the classical client-server architectural style, adapted in a multi-tiered cloud configuration.  
     This pattern is field-proven and offers enough space for future adjustments due to the separation of concerns fostered by the differentiation of tiers in a model, view, controller fashion.
+    The presence of only web applications, thus implementing only the presentation layer, is typical of a thin client. Advantages of thin clients include simplified management and 
+    increased security and data privacy.
 
     The architecture implements a publish/subscribe pattern to handle notifications to the clients, exploiting existing notification services. 
     The publish/subscribe pattern also collapses into a queue-based communication protocol to ensure the highest decoupling between the web server and the application server.
 
     Finally, the architecture implements private CDNs to distribute static content with the highest efficiency and performance.
 
+
 \subsection{Other design decisions}
 
-Other design decisions involve the use of HTTPS for communication between IT devices and the web server, as appropriate for a web application. Moreover, 
-the user of HTTPS also fosters security as requested by the RASD.
+    Other design decisions involve the use of HTTPS for communication between IT devices and the web server, as appropriate for a web application. Moreover, 
+    the user of HTTPS also fosters security as requested by the RASD.
 
-No other specific technology is mandatory, even though it is advisable to implement the data tier as a distributed relational database, to sustain the predicted user base with ease.
+    No other specific technology is mandatory, even though it is advisable to implement the data tier as a distributed relational database, to sustain the predicted user base with ease.
 
-Finally, to identify normal users, each device should have a unique identifier stored securely in the database. 
-Passwords of managers and store assistants should be hashed, to ensure the security of data at rest.
+    Finally, to identify normal users, each device should have a unique identifier stored securely in the database. 
+    Passwords of managers and store assistants should be hashed, to ensure the security of data at rest.
 
 \end{document}
