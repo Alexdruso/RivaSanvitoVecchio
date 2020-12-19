@@ -34,11 +34,11 @@ The following functionalities must be provided by the system in order to satisfy
     \stepcounter{RequirementCounter}
     R\arabic{RequirementCounter}   & The system must estimate the departments visited by a user who reserved a place, even if the user does not provide any indication on the product category.\\ 
     \stepcounter{RequirementCounter}
-    R\arabic{RequirementCounter}   & In case of reservation, the system must grant access to the user before the ticket expires.\\ 
+    R\arabic{RequirementCounter}   & In case of reservation, the system must grant access to the user before the receipt expires.\\ 
     \stepcounter{RequirementCounter}
-    R\arabic{RequirementCounter}   & If a user owns an IT device, the system must notify the user, based on their location, when it's time to leave to go to the store in time for the assigned entrance time.\\ 
+    R\arabic{RequirementCounter}   & If a user owns an IT device or a telephone, the system must notify the user, based on their location, when it's time to leave to go to the store in time for the assigned entrance time.\\ 
     \stepcounter{RequirementCounter}
-    R\arabic{RequirementCounter}   & The system must not grant access to the user if their ticket is voided.\\ 
+    R\arabic{RequirementCounter}   & The system must not grant access to the user if their receipt is voided.\\ 
     \stepcounter{RequirementCounter}
     R\arabic{RequirementCounter}   & If the number of people accessing the store in a given time and date is estimated to exceed to the desired security standard, 
                                      the system must suggest alternative time slots and dates or an alternative stores to the user.\\ 
@@ -58,25 +58,32 @@ The following functionalities must be provided by the system in order to satisfy
 }
 
 \subsection{Mappings with goals}
-    
-{\rowcolors{2}{white}{lightgray}
-\begin{table}[H]
-  \centering
-  \begin{tabular}{|l|l|}
-    \hline
-    \textbf{Goal ID} & \textbf{Requirement IDs}\\ \hline\hline
-    G1 & R1, R2, R12, R13 \\
-    G2 & R1, R8, R9, R13 \\
-    G3 & R1, R2, R3, R8, R9, R12\\
-    G4 & R4, R5, R6, R7, R10, R14, R15\\
-    G5 & R7, R8, R10, R11, R16, R17\\
-    G6 & R13, R14, R15, R16, R17\\
-    G7 & R13, R14, R15, R16, R17\\
-    G8 & R7, R13, R15, R16, R17\\
-    G9 & R4, R13, R14, R16, R17\\
-    \hline
+
+\begin{center}
+  \begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c |} 
+      \hline
+      Goal & \multicolumn{17}{c |}{Requirement IDs}\\
+         & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 \\ [0.5ex] 
+      \hline\hline
+      G1 & x & x &   &   &   &   &   &   &   &    &    & x  & x  &    &    &    &    \\
+      \hline
+      G2 & x &   &   &   &   &   &   & x & x &    &    &    & x  &    &    &    &    \\
+      \hline
+      G3 & x & x & x &   &   &   &   & x & x &    &    & x  &    &    &    &    &    \\
+      \hline
+      G4 &   &   &   & x & x & x & x &   &   & x  &    &    &    & x  & x  &    &    \\
+      \hline
+      G5 &   &   &   &   &   &   & x & x &   & x  & x  &    &    &    &    & x  & x  \\
+      \hline
+      G6 &   &   &   &   &   &   &   &   &   &    &    &    & x  & x  & x  & x  & x  \\
+      \hline
+      G7 &   &   &   &   &   &   &   &   &   &    &    &    & x  & x  & x  & x  & x  \\
+      \hline
+      G8 &   &   &   &   &   &   & x &   &   &    &    &    & x  &    & x  & x  & x  \\
+      \hline
+      G9 &   &   &   & x &   &   &   &   &   &    &    &    & x  & x  &    & x  & x  \\
+      \hline
   \end{tabular}
-  \end{table}
-}
+\end{center}
 
 \end{document}
