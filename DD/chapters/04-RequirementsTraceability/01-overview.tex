@@ -2,6 +2,35 @@
 
 \begin{document}
 
+The following table shows the mappings between the Requirements presented in the Requirements And Specification Document and the components described in this document that implement their functionalities.
 
+\begin{center}
+  \begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c |} 
+      \hline
+      Component & \multicolumn{17}{c |}{Requirement IDs}\\
+                                   & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 \\ [0.5ex] 
+      \hline\hline
+      AccessManager                & x &   &   &   &   &   &   &   &   & x  &    & x  &    &    &    &    &    \\
+      \hline
+      AuthenticationManager        &   & x & x &   & x &   &   &   &   &    &    &    &    &    &    &    &    \\
+      \hline
+      LineUpCancellationManager    &   &   &   &   &   &   &   &   &   &    &    &    &    &    &    & x  & x  \\
+      \hline
+      LineUpRequestManager         & x &   &   & x & x & x & x & x & x &    &    &    & x  & x  & x  & x  &    \\
+      \hline
+      LineUpSuggestionsManager     &   &   &   &   &   &   &   &   &   &    &    &    & x  & x  & x  &    &    \\
+      \hline
+      NotificationManager          &   &   &   &   &   &   &   &   &   &    & x  &    &    &    &    & x  &    \\
+      \hline
+      ReceiptManager               &   &   &   &   &   & x &   &   &   &    &    &    &    &    &    &    &    \\
+      \hline
+      StatisticsComputationManager &   &   &   &   &   &   &   & x & x &    &    &    &    &    &    &    &    \\
+      \hline
+      StatisticsRetrievalManager   &   &   & x &   &   &   &   & x & x &    &    &    &    &    &    &    &    \\
+      \hline
+      StoreManager                 &   & x & x & x &   &   & x &   &   &    &    &    & x  & x  &    &    &    \\
+      \hline
+  \end{tabular}
+\end{center}
 
 \end{document}
