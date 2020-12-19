@@ -4,6 +4,7 @@
 
 \newcounter{VersionCounter}
 
+\stepcounter{VersionCounter}
 {\rowcolors{2}{white}{lightgray}
 \begin{table}[h!]
     % Centers the table
@@ -12,9 +13,9 @@
     \hline
     % textbf used to achieve bold font
     \textbf{Version} & \textbf{Date} & \textbf{Notes} \\ \hline\hline
-    \stepcounter{VersionCounter}
     % V\arabic{VersionCounter}.0 & \today & Initial release.\\ 
     V\arabic{VersionCounter}.0 & December 10, 2020 & Initial release.\\ 
+    V\arabic{VersionCounter}.1 & December 19, 2020 & Minor fixes to requirements elicitation.\\ 
     \hline
     \end{tabular}
     \label{goals}
