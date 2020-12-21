@@ -30,13 +30,14 @@ The main components in the application server, providing all the business logic 
     identity of the user to an external provider.
 
     \item[LineUpCancellationManager] The LineUpCancellation manager is in charge of the cancellation process for 
-    a reserved time slot. The change is then performed in the persistent storage of the database and the receipt is marked as 
+    a reserved time slot. The change is performed in the persistent storage of the database and the receipt is marked as 
     invalid through the interface provided by the ReceiptManager.
     
     \item[LineUpRequestManager] The LineUpRequestManager implements the business logic behind the lining up to the store. 
     The LineUpRequestManager is in charge of both immediate queueing and reservations, 
-    checking the availability of the time slot in the given store from the database and then interfacing with the 
-    ReceiptManager to generate the receipt to enter the store.
+    checking the availability of the time slot in the given store from StoreManager and then interfacing with the 
+    ReceiptManager to generate the receipt to enter the store. During the process, the component also retrieves 
+    statistics from the StatisticsComputationManager.
 
     \item[LineUpSuggestionsManager] The LineUpSuggestionsManager is in charge of finding alternatives to the time slot and 
     store requested by the customer if they are not available. To do so, it interacts with the database retrieving data 
@@ -56,6 +57,7 @@ The main components in the application server, providing all the business logic 
     \item[StoreManager] The StoreManager implements the interface to set all parameters regarding the store. 
     In particular, the StoreManager allows store managers to set the maximum number of people allowed inside. 
     The StoreManager then mirrors the change in the database.
+    
 \end{description}
 
 \end{document}
