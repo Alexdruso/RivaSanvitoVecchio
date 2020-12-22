@@ -2,6 +2,140 @@
 
 \begin{document}
 
+The mockups of the graphical user interfaces to interact with CLup using an IT
+device were presented in section 3.1.1 of the Requirements And Specification
+Document. The graphical user interfaces will be translated into English and
+Italian; the device settings will be used to determine the users' preferred
+language. If the user preferred language is not available, English will be
+chosen.
 
+While store managers and store assistants only interact with the system through
+IT devices, customers may interact with the system also using a standard
+telephone line or in presence (through store assistants). The interactions with
+the store assistants are human-to-human, so they are not described in this
+document. The interactions through a telephone line, instead, are described in
+the next paragraph, as a reference for the programmatic implementation that is
+required.
+
+\subsection{Customers interactions through a standard telephone line}
+
+Interactions with the customers will be either initiated by the customers
+themselves (e.g., to reserve their place in a queue) by calling CLup's telephone
+number, or initiated by the system (e.g., to notify that it is time to leave to
+reach the store in time for the expected entrance time) by calling the telephone
+number the customers originally used to interact with the system. The customers
+will be allowed to interact with the system using the language of their choice
+between English and Italian. Different telephone numbers will be provided to the
+users to let them choose their preferred language.
+
+Voice recognition or DTMF tone recognition will be used to receive inputs from
+the customers, while the system will use voice synthesis to reply.
+
+Each store will be assigned a numeric identifier that can be used by the
+customers to reference it.
+
+As a receipt for their line up requests, customers will receive from the system
+a numeric code that they will communicate before entering the store to the store
+assistant, who will insert it in the store assistant application to print the QR
+code that the customer will use to access the store.
+
+\paragraph{Line up immediately}
+
+\begin{verbatim}
+System: Welcome to CLup. If you want to line up, press 1 or say line up.
+        If you want to cancel a previous reservation, press 2 or say cancel.
+Customer: Line up.
+S: If you know the numeric identifier of the shop for which you want to line up,
+   press 1 or say yes. If not, press 2 or say no.
+C: No.
+S: In what city is the shop for which you want to line up?
+C: <City>.
+S: What is the name of the shop for which you want to line up?
+C: <Name of the shop>.
+S: If you want to line up immediately, press 1 or say immediately.
+   If you want to line up in the future, press 2 or say in the future.
+C: Immediately.
+S: Say or enter the estimated duration of your visit in minutes.
+C: 30.
+S: You asked to queue for <Name of the shop> in <City> for 30 minutes.
+   Press 1 or say confirm to confirm, press 2 or say change to change something.
+C: Confirm.
+S: The first availability is at 3.15 PM.
+   Say yes or press 1 to accept. Say no or press 2 to find an alternative.
+C: Yes.
+S: You have lined up to access <Name of the shop> in <City> at 3.15 PM for 30 minutes.
+   This is the numeric code you will need to provide to a store assistant at the entrance
+   of the shop to enter: 123456789. You can now hang up the call. If you want the code
+   to be repeated, press 1 or say repeat.
+C: *hangs up*
+\end{verbatim}
+
+\paragraph{Line up in the future}
+
+\begin{verbatim}
+System: Welcome to CLup. If you want to line up, press 1 or say line up.
+        If you want to cancel a previous reservation, press 2 or say cancel.
+Customer: *presses 1*
+S: If you know the numeric identifier of the shop for which you want to line up,
+    press 1 or say yes. If not, press 2 or say no.
+C: *presses 1*
+S: Enter the numeric identifier of the shop for which you want to line up, or say it
+   one digit at a time.
+C: *enters numeric identifier of the shop*
+S: You have chosen <Name of the shop> in <City>. If you want to line up
+   immediately, press 1 or say immediately. If you want to line up in the
+   future, press 2 or say in the future.
+C: *presses 2*
+S: Say or enter the number of the month for the reservation of your visit.
+C: *presses 1* *presses 1*
+S: Say or enter the number of the day for the reservation of your visit.
+C: *presses 2* *presses 2*
+S: Say or enter the hour (in 24 hours format) for the reservation of your visit.
+C: *presses 1* *presses 5*
+S: Say or enter the estimated duration of your visit in minutes.
+C: *presses 4* *presses 5*
+S: You asked to queue for <Name of the shop> in <City> for 45 minutes
+   on 22/11 starting from 3 PM.
+   Press 1 or say confirm to confirm, press 2 or say change to change something.
+C: *presses 1*
+S: The first availability is at 3.15 PM.
+    Say yes or press 1 to accept. Say no or press 2 to find an alternative.
+C: *presses 2*
+S: The following availability is at 3.45 PM.
+    Say yes or press 1 to accept. Say no or press 2 to find an alternative.
+C: *presses 1*
+S: You have lined up to access <Name of the shop> in <City> at 3.45 PM for 45 minutes.
+    This is the numeric code you will need to provide to a store assistant at the entrance
+    of the shop to enter: 123456789. You can now hang up the call. If you want the code
+   to be repeated, press 1 or say repeat.
+C: *hangs up*
+\end{verbatim}
+
+\paragraph{Cancel a reservation}
+
+\begin{verbatim}
+System: Welcome to CLup. If you want to line up, press 1 or say line up.
+        If you want to cancel a previous reservation, press 2 or say cancel.
+Customer: Cancel.
+S: Enter the numeric code of the reservation you want to cancel, or say it
+one digit at a time.
+C: 1 2 3 4 5 6 7 8 9
+S: If you are sure you want to cancel your reservation at <Name of the shop> in <City>
+   at <Time>, press 1 or say yes. Otherwise, press 2 or say no.
+C: Yes.
+S: You have cancelled your reservation at <Name of the shop> in <City> at <Time>.
+   You can now hang up the call.
+C: *hangs up*
+\end{verbatim}
+
+\paragraph{Noification from CLup}
+
+\begin{verbatim}
+System: This is a reminder for CLup that your visit at <Name of the shop> in <City>
+        is planned at <Time>. Remember to be at the shop entrance on time.
+        If you realize you will not be able to get to the shop, press 1 or say cancel.
+        Otherwise, you can hang up the call.
+Customer: *hangs up*
+\end{verbatim}
 
 \end{document}
