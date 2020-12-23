@@ -25,11 +25,11 @@ The main components in the application server, providing all the business logic 
     This component interacts with the ReceiptManager both to validate the entrance and to record the departure from the store. 
     The access manager also unlocks the entrance if the receipt is valid. 
 
-    \item[AuthenticationManager] The authentication manager handles authentication for the functionalities of the 
+    \item[AuthenticationManager] The AuthenticationManager handles authentication for the functionalities of the 
     system reserved to store managers and store assistants. The authentication manager delegates the verification of the 
     identity of the user to an external provider.
 
-    \item[LineUpCancellationManager] The LineUpCancellation manager is in charge of the cancellation process for 
+    \item[LineUpCancellationManager] The LineUpCancellationManager is in charge of the cancellation process for 
     a reserved time slot. The change is performed in the persistent storage of the database and the receipt is marked as 
     invalid through the interface provided by the ReceiptManager.
     
