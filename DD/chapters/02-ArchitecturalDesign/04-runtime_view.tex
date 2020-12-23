@@ -2,6 +2,165 @@
 
 \begin{document}
 
+This view describes the behavior and interaction of the system’s building blocks as runtime elements.
 
+\newcounter{RuntimeScenarioCounter}
+
+\stepcounter{RuntimeScenarioCounter}
+\subsection{Runtime Scenario \arabic{RuntimeScenarioCounter} - Store employees login}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__Store_employees_login__Store_employees_login.png}
+    \caption{
+        Store employees login sequence diagram.
+    }
+\end{figure}
+
+\stepcounter{RuntimeScenarioCounter}
+\subsection{Runtime Scenario \arabic{RuntimeScenarioCounter} - Definition of safety standard parameters}
+% store manager already logged in
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__Definition_of_safety_standard_parameters__Definition_of_safety_standard_parameters.png}
+    \caption{
+        Definition of safety standard parameters sequence diagram.
+    }
+\end{figure}
+
+
+\stepcounter{RuntimeScenarioCounter}
+\subsection{Runtime Scenario \arabic{RuntimeScenarioCounter} - Consulting statistics}
+% store manager already logged in
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__Consulting_statistics__Consulting_statistics.png}
+    \caption{
+        Consulting statistics sequence diagram.
+    }
+\end{figure}
+
+
+\stepcounter{RuntimeScenarioCounter}
+\subsection{Runtime Scenario \arabic{RuntimeScenarioCounter} - In presence ticket generation}
+% another for numeric code
+% store employee already logged in
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__In_presence_queuing_-_without_numeric_code__In_presence_queuing_-_without_numeric_code.png}
+    \caption{
+        In presence ticket generation - without numeric code sequence diagram.
+    }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__In_presence_ticket_generation_-_with_numeric_code__In_presence_ticket_generation_-_with_numeric_code.png}
+    \caption{
+        In presence ticket generation - with numeric code sequence diagram.
+    }
+\end{figure}
+
+\stepcounter{RuntimeScenarioCounter}
+\subsection{Runtime Scenario \arabic{RuntimeScenarioCounter} - Queueing with telephone}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__Queueing_with_telephone__Queueing_with_telephone.png}
+    \caption{
+        Queueing with telephone sequence diagram.
+    }
+\end{figure}
+
+\stepcounter{RuntimeScenarioCounter}
+\subsection{Runtime Scenario \arabic{RuntimeScenarioCounter} - Queueing with IT device}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__Queuing_with_IT_device__Queuing_with_IT_device.png}
+    \caption{
+        Queueing with IT device sequence diagram.
+    }
+\end{figure}
+
+\stepcounter{RuntimeScenarioCounter}
+\subsection{Runtime Scenario \arabic{RuntimeScenarioCounter} - Cancellation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__Cancellation_with_IT_device__Cancellation_with_IT_device.png}
+    \caption{
+        Cancellation with IT device sequence diagram.
+    }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__Cancellation_with_telephone__Cancellation_with_telephone.png}
+    \caption{
+        Cancellation with telephone sequence diagram.
+    }
+\end{figure}
+
+\stepcounter{RuntimeScenarioCounter}
+\subsection{Runtime Scenario \arabic{RuntimeScenarioCounter} - CLup notification}
+% do both IT and telephone
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__CLup_notification_-_IT_device__CLup_notification_-_IT_device.png}
+    \caption{
+        CLup notification - IT device sequence diagram.
+    }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__CLup_notification_-_telephone__CLup_notification_-_telephone.png}
+    \caption{
+        CLup notification - telephone sequence diagram.
+    }
+\end{figure}
+
+\stepcounter{RuntimeScenarioCounter}
+\subsection{Runtime Scenario \arabic{RuntimeScenarioCounter} - Store access}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__Store_access__Store_access.png}
+    \caption{
+        Store access sequence diagram.
+    }
+\end{figure}
+
+\stepcounter{RuntimeScenarioCounter}
+\subsection{Runtime Scenario \arabic{RuntimeScenarioCounter} - Store exit}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{sd__Store_exit__Store_exit.png}
+    \caption{
+        Store exit sequence diagram.
+    }
+\end{figure}
 
 \end{document}
+
+
+%--
+% - StoresManager (per lo store manager per regolare i paramteri + per i clients per listare gli stores)
+% - AuthenticationManager
+% - LineUpManager (collection/package) - do not show
+%   - LineUpSuggestionsManager
+%   - LineUpCancellationManager
+%   - LineUpRequestManager
+% - NotificationManager (communicates via Notification service)
+% - AccessManager
+% - ReceiptManager
+% - StatisticsManager (collection/package) - do not show
+%   - StatisticsComputationManager
+%   - StatisticsRetrievalManager
+% - DBMS
+% - Notification Service
+% - Phone Calls service (communicates via web server)
+%--

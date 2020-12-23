@@ -279,3 +279,6 @@ TSWLatexianTemp*
 
 */chapters/**/*.pdf
 *.bak
+
+.DS_Store
+
