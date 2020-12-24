@@ -12,7 +12,7 @@
     The architecture implements a publish/subscribe pattern to handle notifications to the clients, exploiting existing notification services. 
     The publish/subscribe pattern also collapses into a queue-based communication protocol to ensure the highest decoupling between the web server and the application server.
 
-    Finally, the architecture implements makes use of an external CDN to distribute static content with the highest efficiency and performance.
+    Finally, the architecture makes use of an external CDN to distribute static content with the highest efficiency and performance. The CDN caches the static contents that implement the client of the web app, while it acts as a reverse proxy for the API requests to the backend.
 
 \subsection{Other design decisions}
 
@@ -24,9 +24,19 @@
     as CLup will be dealing with structured data. Moreover, relational databases are a mature technology, and commercial solutions offer distributed configurations, 
     which are well suited to the large predicted user base.
 
-    Communication via telephone relies external services, which are assumed to communicate with the backend through a RESTful interface.
+    Communication via telephone relies external services that can both receive and place outgoing telephone calls. Such services, which are assumed to communicate with the backend through a RESTful interface, should provide the following functionalities:
+    \begin{itemize}
+        \item place telephone calls;
+        \item report to the application server when a new call is received
+        \item receive from the application server arbitrary text and perform voice synthesis in an active call;
+        \item report to the application server the input that the user provided in an active call, both using DTMF tone recognition and voice recognition
+    \end{itemize}
+
+    The notification service is assumed to offer the possibility to report to the application server, through a REST call, the outcome of the notification request according to the response provided by the end device.
+
+    The trip time estimation service is assumed to offer a REST API that can be used by the IT devices to determine when it's time to show the reminder for the user to head to the store. Customers who placed their reservation using a telephone cannot be localized with enough precision, so they will be notified with a phone call that will be placed a fixed amount of time before the entrance time.
 
     Finally, to identify customers, each device should be assigned a random and unique identifier stored securely in the database. Store managers and store assistants are identified through
-    an identity provider with either SAML or OAUTH. 
+    an identity provider with either SAML or OAuth. 
 
 \end{document}
