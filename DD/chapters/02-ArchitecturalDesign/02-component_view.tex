@@ -21,9 +21,9 @@ The main components in the application server, providing all the business logic 
 
 \begin{description}
     
-    \item[AccessManager] The access manager encapsulates the business logic necessary to manage both entries in and exits from the store. 
+    \item[AccessManager] The AccessManager encapsulates the business logic necessary to manage both entries in and exits from the store. 
     This component interacts with the ReceiptManager both to validate the entrance and to record the departure from the store. 
-    The access manager also unlocks the entrance if the receipt is valid. 
+    The AccessManager also unlocks the entrance if the receipt is valid. 
 
     \item[AuthenticationManager] The AuthenticationManager handles authentication for the functionalities of the 
     system reserved to store managers and store assistants. The authentication manager delegates the verification of the 
@@ -32,31 +32,37 @@ The main components in the application server, providing all the business logic 
     \item[LineUpCancellationManager] The LineUpCancellationManager is in charge of the cancellation process for 
     a reserved time slot. The change is performed in the persistent storage of the database and the receipt is marked as 
     invalid through the interface provided by the ReceiptManager.
+    The LineUpCancellationManager also interacts with the LineUpSuggestionsManager to find if other customers would like to take 
+    the freed time slot.
     
     \item[LineUpRequestManager] The LineUpRequestManager implements the business logic behind the lining up to the store. 
     The LineUpRequestManager is in charge of both immediate queueing and reservations, 
     checking the availability of the time slot in the given store from StoreManager and then interfacing with the 
     ReceiptManager to generate the receipt to enter the store. During the process, the component also retrieves 
     statistics from the StatisticsComputationManager.
+    If the time slot is not available, the LineUpRequestManager interfaces with the LineUpSuggestionsManager to find alternatives.
 
     \item[LineUpSuggestionsManager] The LineUpSuggestionsManager is in charge of finding alternatives to the time slot and 
     store requested by the customer if they are not available. To do so, it interacts with the database retrieving data 
-    regarding the queues to other stores.
+    regarding the queues to other stores. The LineUpSuggestionsManager is also in charge of finding customers interested in a 
+    time slot.
 
-    \item[NotificationManager] The NotificationManager is in charge of sending notifications to customers when their visit's time is near, 
-    according to their geographical distance from the store. This component is the only one not implementing a typical 
-    client-server interaction in the application server. The push behaviour in the notification management is 
-    achieved by using the interfaces provided by notification services.
+    \item[NotificationManager] The NotificationManager is in charge of sending notifications to customers when their visit's time is near. 
+    This component is the only one not implementing a typical client-server interaction in the application server. 
+    The push behaviour in the notification management is achieved by using the interfaces provided by notification services.
+    The NotificationManager interacts with the database periodically to check the customers to be notified and provides an interface
+    to the Web Server to receive confirmation that the notification has been shown to the customer.
 
     \item[ReceiptManager] The ReceiptManager is in charge of the operations performed on the receipt by updating its 
-    state in the database. CRUD operations on the receipt are performed through this component.
+    state in the database. CRUD operations on the receipt are performed through this component. This component subsequently handles
+    the status of the visit in the database.
     
     \item[StatisticsComputationManager]  The StatisticsComputationManager is responsible for 
     generating the statistics for a given store at request by consulting the database and providing an interface to retrieve them.	  
      
-    \item[StoreManager] The StoreManager implements the interface to set all parameters regarding the store. 
+    \item[StoreManager] The StoreManager implements the interface to set and retrieve all parameters regarding the store. 
     In particular, the StoreManager allows store managers to set the maximum number of people allowed inside. 
-    The StoreManager then mirrors the change in the database.
+    The StoreManager then mirrors the change in the database. 
     
 \end{description}
 
