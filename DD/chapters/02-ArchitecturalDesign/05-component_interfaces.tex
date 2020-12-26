@@ -1,7 +1,118 @@
 \documentclass[../../main.tex]{subfiles}
 
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
 \begin{document}
 
+\begin{lstlisting}
+// Components
 
+public interface AccessManagement {
+  void registerExit(LineUpReceipt receipt);
+  boolean requestAccess(LineUpReceipt receipt);
+}
+
+public interface AuthenticationManagement {
+  boolean loginRequest(String token);
+}
+
+public interface CancellationManagement {
+  void cancelReceipt(LineUpReceipt receipt);
+  void cancelReceipt(String numericCode);
+}
+
+public interface LineUpRequestManagement {
+  LineUpReceipt lineUpRequest(Store store, LocalDateTime startingTime, LocalDateTime endTime, Collection<StoreDepartment> departments);
+  LineUpReceipt lineUpRequest(Customer customer, Store store, LocalDateTime startingTime, LocalDateTime endTime, Collection<StoreDepartment> departments);
+}
+
+public interface NotificationManagement {
+  void acknowledgeNotification(LineUpReceipt receipt);
+  void postponeNotification(LineUpReceipt receipt);
+}
+
+public interface ReceiptManagement {
+  boolean checkValidReceipt(LineUpReceipt receipt);
+  void deleteReceipt(LineUpReceipt receipt);
+  LineUpReceipt generateReceipt(Customer customer, Store store, LocalDateTime startingTime, LocalDateTime endTime, Collection<StoreDepartment> departments)
+  String generateReceiptWithNumericCode(Customer customer, Store store, LocalDateTime startingTime, LocalDateTime endTime, Collection<StoreDepartment> departments)
+  LineUpReceipt getReceiptFromNumericCode(String numericCode);
+  }
+
+public interface StatisticsComputationManagement {
+  Collection<Visit> requestStatistics(Store store);
+  Collection<Visit> getStatisticsForCustomer(Customer customer);
+}
+
+public interface StoreManagement {
+  Map<StoreDepartment, int> getSafetyParameters(Store store);
+  void updateSafetyParameters(Store store, Map<StoreDepartment, int> parameters);
+}
+
+public interface SuggestionManagement {
+  Collection<Map<Store, LocalDateTime>> getSuggestions(Customer customer, Store store, LocalDateTime startingTime, LocalDateTime endTime, Collection<StoreDepartment> departments);
+}
+
+// DBMS
+
+public interface DBMSAPI {
+  void deleteReceipt(int receiptId);
+  void deleteReservationInQueue(int receiptId);
+  void insertInQueue(int customerId, int storeId, String startingTime);
+  void insertReceipt(Object receipt);
+  void insertVisit(int receiptId);
+  Collection<Object> selectLineUpReceipts(int storeId, String startingTime, String endTime);
+  Map<Object, id> selectSafetyParameters(int storeId);
+  Collection<Object> selectVisits(int customerId);
+  Collection<Object> selectVisits(int storeId);
+  Object selectReceipt(int receiptId);
+  void updateSafetyParameters(int storeId, Map<int, int> parameters);
+  void updateVisit(int receiptId, String actualEndTime);
+}
+
+// External services
+
+public interface AuthenticationAPI {
+  String authenticate(Object credentials);
+}
+
+public interface EstimationAPI {
+  Duration estimateTripTime(Location devicePosition, Location storePosition);
+}
+
+public interface NotificationServiceAPI {
+  void sendNotification(LineUpReceipt receipt);
+}
+
+public interface PhoneCallServiceAPI {
+  void notifyCustomer(String telephoneNumber, LineUpReceipt receipt);
+}
+
+public interface VerificationAPI {
+  boolean checkToken(String token);
+}
+\end{lstlisting}
 
 \end{document}
