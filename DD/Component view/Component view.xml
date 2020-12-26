@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-<xmi:XMI xmlns:uml='http://www.omg.org/spec/UML/20131001' xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:Model='http://www.magicdraw.com/schemas/Model.xmi' xmlns:DSL_Customization='http://www.magicdraw.com/schemas/DSL_Customization.xmi' xmlns:MagicDraw_Profile='http://www.omg.org/spec/UML/20131001/MagicDrawProfile' xmlns:Validation_Profile='http://www.magicdraw.com/schemas/Validation_Profile.xmi' xmlns:StandardProfile='http://www.omg.org/spec/UML/20131001/StandardProfile'>
+<xmi:XMI xmlns:uml='http://www.omg.org/spec/UML/20131001' xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:MagicDraw_Profile='http://www.omg.org/spec/UML/20131001/MagicDrawProfile' xmlns:Validation_Profile='http://www.magicdraw.com/schemas/Validation_Profile.xmi' xmlns:StandardProfile='http://www.omg.org/spec/UML/20131001/StandardProfile' xmlns:DSL_Customization='http://www.magicdraw.com/schemas/DSL_Customization.xmi' xmlns:Model='http://www.magicdraw.com/schemas/Model.xmi'>
 	<xmi:Documentation>
 		<xmi:exporter>MagicDraw UML</xmi:exporter>
 		<xmi:exporterVersion>19.0 v9</xmi:exporterVersion>
@@ -15,119 +15,120 @@
 					<xmi:Extension extender='MagicDraw UML 19.0'>
 						<diagramRepresentation>
 							<diagram:DiagramRepresentationObject ID='_19_0_4_6220219_1608467823968_408234_4817' diagramStyleID='_19_0_4_6220219_1608467823908_513549_4797' initialFrameSizeSet='true' requiredFeature=';UML_Standard_Profile.mdzip^UML_FEATURE~~' type='Component Diagram' umlType='Component Diagram' xmi:id='_EE9SQELAEeuZeKpjsXPqpQ' xmi:version='2.0' xmlns:binary='http://www.nomagic.com/ns/cameo/client/binary/1.0' xmlns:diagram='http://www.nomagic.com/ns/magicdraw/core/diagram/1.0' xmlns:xmi='http://www.omg.org/XMI' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
-								<diagramContents contentHash='68a77bae-2e2d-4bf7-892b-739ecd37d10e' exporterName='MagicDraw UML' exporterVersion='19.0 v9' xmi:id='_EE9SQULAEeuZeKpjsXPqpQ'>
-									<binaryObject streamContentID='BINARY-b765c5f5-336c-4d53-ab30-aa2267180ec7' xmi:id='_EE9SQkLAEeuZeKpjsXPqpQ' xsi:type='binary:StreamIdentityBinaryObject'/>
-									<usedObjects href='#_19_0_4_6220219_1608845257450_162571_4958'/>
-									<usedObjects href='#_19_0_4_6220219_1608468312384_988060_4940'/>
-									<usedObjects href='#_19_0_4_6220219_1608746472736_435079_4875'/>
-									<usedObjects href='#_19_0_4_6220219_1608566548703_707157_6426'/>
-									<usedObjects href='#_19_0_4_6220219_1608746731314_194217_4952'/>
-									<usedObjects href='#_19_0_4_6220219_1608566703345_999284_6468'/>
-									<usedObjects href='#_19_0_4_6220219_1608468487789_561088_5064'/>
-									<usedObjects href='#_19_0_4_6220219_1608468485407_896295_5033'/>
-									<usedObjects href='#_19_0_4_6220219_1608746738072_176170_4975'/>
-									<usedObjects href='#_19_0_4_6220219_1608561837708_417683_6047'/>
-									<usedObjects href='#_19_0_4_6220219_1608563594221_164273_6319'/>
-									<usedObjects href='#_19_0_4_6220219_1608501189598_676273_5472'/>
-									<usedObjects href='#_19_0_4_6220219_1608746502788_97817_4884'/>
-									<usedObjects href='#_19_0_4_6220219_1608566574082_440254_6432'/>
-									<usedObjects href='#_19_0_4_6220219_1608844775281_412982_4847'/>
-									<usedObjects href='#_19_0_4_6220219_1608844768869_341485_4844'/>
-									<usedObjects href='#_19_0_4_6220219_1608492069606_821574_4846'/>
-									<usedObjects href='#_19_0_4_6220219_1608561849176_390983_6059'/>
-									<usedObjects href='#_19_0_4_6220219_1608747121971_355414_4999'/>
-									<usedObjects href='#_19_0_4_6220219_1608501065452_653105_5442'/>
-									<usedObjects href='#_19_0_4_6220219_1608468505671_639494_5250'/>
-									<usedObjects href='#_19_0_4_6220219_1608746476988_387162_4881'/>
-									<usedObjects href='#_19_0_4_6220219_1608501816212_417607_5801'/>
-									<usedObjects href='#_19_0_4_6220219_1608562330884_325722_6210'/>
-									<usedObjects href='#_19_0_4_6220219_1608468357156_816562_4971'/>
-									<usedObjects href='#_19_0_4_6220219_1608746742745_959517_4981'/>
-									<usedObjects href='#_19_0_4_6220219_1608587813805_892615_4827'/>
-									<usedObjects href='#_19_0_4_6220219_1608844973164_443220_4859'/>
-									<usedObjects href='#_19_0_4_6220219_1608844623432_308574_4815'/>
-									<usedObjects href='#_19_0_4_6220219_1608587527489_174170_4815'/>
-									<usedObjects href='#_19_0_4_6220219_1608561822353_42664_6029'/>
-									<usedObjects href='#_19_0_4_6220219_1608844779733_195751_4853'/>
-									<usedObjects href='#_19_0_4_6220219_1608845180007_399004_4929'/>
-									<usedObjects href='#_19_0_4_6220219_1608566721731_578746_6488'/>
-									<usedObjects href='#_19_0_4_6220219_1608845038499_30180_4897'/>
-									<usedObjects href='#_19_0_4_6220219_1608562293678_315724_6204'/>
-									<usedObjects href='#_19_0_4_6220219_1608844750938_510918_4821'/>
-									<usedObjects href='#_19_0_4_6220219_1608845604697_226031_5055'/>
-									<usedObjects href='#_19_0_4_6220219_1608566655915_840891_6459'/>
-									<usedObjects href='#_19_0_4_6220219_1608562345300_307313_6216'/>
-									<usedObjects href='#_19_0_4_6220219_1608845486416_331036_5000'/>
-									<usedObjects href='#_19_0_4_6220219_1608566713129_152896_6482'/>
-									<usedObjects href='#_19_0_4_6220219_1608563566888_781134_6316'/>
-									<usedObjects href='#_19_0_4_6220219_1608501179041_570194_5469'/>
-									<usedObjects href='#_19_0_4_6220219_1608500082185_405048_5391'/>
-									<usedObjects href='#_19_0_4_6220219_1608500110514_478109_5400'/>
-									<usedObjects href='#_19_0_4_6220219_1608566630119_290762_6435'/>
-									<usedObjects href='#_19_0_4_6220219_1608845607604_907565_5058'/>
-									<usedObjects href='#_19_0_4_6220219_1608562977421_605783_6283'/>
-									<usedObjects href='#_19_0_4_6220219_1608746276733_755768_4821'/>
-									<usedObjects href='#_19_0_4_6220219_1608501726677_614015_5767'/>
-									<usedObjects href='#_19_0_4_6220219_1608562938823_695136_6248'/>
-									<usedObjects href='#_19_0_4_6220219_1608563641117_252847_6331'/>
-									<usedObjects href='#_19_0_4_6220219_1608561472933_863929_5881'/>
-									<usedObjects href='#_19_0_4_6220219_1608563484577_978932_6292'/>
-									<usedObjects href='#_19_0_4_6220219_1608563668273_95909_6361'/>
-									<usedObjects href='#_19_0_4_6220219_1608500110519_598610_5401'/>
-									<usedObjects href='#_19_0_4_6220219_1608468490296_615257_5095'/>
-									<usedObjects href='#_19_0_4_6220219_1608845346612_921401_4967'/>
-									<usedObjects href='#_19_0_4_6220219_1608565185683_89924_6395'/>
-									<usedObjects href='#_19_0_4_6220219_1608566512450_909729_6401'/>
-									<usedObjects href='#_19_0_4_6220219_1608561455573_90998_5877'/>
-									<usedObjects href='#_19_0_4_6220219_1608561432667_509269_5863'/>
-									<usedObjects href='#_19_0_4_6220219_1608501748815_415441_5793'/>
-									<usedObjects href='#_19_0_4_6220219_1608746748916_62696_4987'/>
-									<usedObjects href='#_19_0_4_6220219_1608500460301_214771_5411'/>
-									<usedObjects href='#_19_0_4_6220219_1608501856066_595533_5831'/>
-									<usedObjects href='#_19_0_4_6220219_1608563659019_862049_6355'/>
+								<diagramContents contentHash='72bc16e5-f614-4281-b855-e76680d3a653' exporterName='MagicDraw UML' exporterVersion='19.0 v9' xmi:id='_EE9SQULAEeuZeKpjsXPqpQ'>
+									<binaryObject streamContentID='BINARY-c478494c-2c9b-45bd-bfaa-de376295902d' xmi:id='_EE9SQkLAEeuZeKpjsXPqpQ' xsi:type='binary:StreamIdentityBinaryObject'/>
 									<usedObjects href='#_19_0_4_6220219_1608845378176_911920_4991'/>
-									<usedObjects href='#_19_0_4_6220219_1608468497706_469391_5188'/>
-									<usedObjects href='#_19_0_4_6220219_1608562389175_541932_6245'/>
-									<usedObjects href='#_19_0_4_6220219_1608468502984_622737_5219'/>
-									<usedObjects href='#_19_0_4_6220219_1608468494677_181923_5157'/>
-									<usedObjects href='#_19_0_4_6220219_1608468043341_570908_4830'/>
-									<usedObjects href='#_19_0_4_6220219_1608845262839_844626_4961'/>
+									<usedObjects href='#_19_0_4_6220219_1608587813805_892615_4827'/>
+									<usedObjects href='#_19_0_4_6220219_1608562293678_315724_6204'/>
 									<usedObjects href='#_19_0_4_6220219_1608562972549_821463_6277'/>
-									<usedObjects href='#_19_0_4_6220219_1608561455582_957033_5878'/>
-									<usedObjects href='#_19_0_4_6220219_1608845174264_117735_4926'/>
-									<usedObjects href='#_19_0_4_6220219_1608746447439_37504_4852'/>
-									<usedObjects href='#_19_0_4_6220219_1608848050280_94359_4817'/>
-									<usedObjects href='#_19_0_4_6220219_1608501851723_992010_5825'/>
-									<usedObjects href='#_19_0_4_6220219_1608491903653_422160_4815'/>
+									<usedObjects href='#_19_0_4_6220219_1608746472736_435079_4875'/>
+									<usedObjects href='#_19_0_4_6220219_1608468494677_181923_5157'/>
+									<usedObjects href='#_19_0_4_6220219_1608468505671_639494_5250'/>
+									<usedObjects href='#_19_0_4_6220219_1608500110514_478109_5400'/>
+									<usedObjects href='#_19_0_4_6220219_1608500110519_598610_5401'/>
 									<usedObjects href='#_19_0_4_6220219_1608588411680_831098_4836'/>
-									<usedObjects href='#_19_0_4_6220219_1608746745859_216425_4984'/>
-									<usedObjects href='#_19_0_4_6220219_1608500132905_915197_5404'/>
-									<usedObjects href='#_19_0_4_6220219_1608845161848_697880_4903'/>
-									<usedObjects href='#_19_0_4_6220219_1608845248079_408896_4935'/>
-									<usedObjects href='#_19_0_4_6220219_1608501088044_386574_5462'/>
-									<usedObjects href='#_19_0_4_6220219_1608845389966_80705_4994'/>
-									<usedObjects href='#_19_0_4_6220219_1608845589364_479727_5032'/>
-									<usedObjects href='#_19_0_4_6220219_1608501200954_562617_5478'/>
+									<usedObjects href='#_19_0_4_6220219_1608845604697_226031_5055'/>
+									<usedObjects href='#_19_0_4_6220219_1608561849176_390983_6059'/>
+									<usedObjects href='#_19_0_4_6220219_1608563668273_95909_6361'/>
+									<usedObjects href='#_19_0_4_6220219_1608845262839_844626_4961'/>
+									<usedObjects href='#_19_0_4_6220219_1608561837708_417683_6047'/>
+									<usedObjects href='#_19_0_4_6220219_1608844779733_195751_4853'/>
+									<usedObjects href='#_19_0_4_6220219_1608566713129_152896_6482'/>
+									<usedObjects href='#_19_0_4_6220219_1608566703345_999284_6468'/>
+									<usedObjects href='#_19_0_4_6220219_1608468312384_988060_4940'/>
+									<usedObjects href='#_19_0_4_6220219_1608565185683_89924_6395'/>
+									<usedObjects href='#_19_0_4_6220219_1608468043341_570908_4830'/>
 									<usedObjects href='#_19_0_4_6220219_1608566738462_107899_6517'/>
-									<usedObjects href='#_19_0_4_6220219_1608501078480_558964_5456'/>
-									<usedObjects href='#_19_0_4_6220219_1608500061999_159045_5368'/>
+									<usedObjects href='#_19_0_4_6220219_1608845174264_117735_4926'/>
+									<usedObjects href='#_19_0_4_6220219_1608563484577_978932_6292'/>
+									<usedObjects href='#_19_0_4_6220219_1608566655915_840891_6459'/>
+									<usedObjects href='#_19_0_4_6220219_1608501200954_562617_5478'/>
+									<usedObjects href='#_19_0_4_6220219_1608563659019_862049_6355'/>
+									<usedObjects href='#_19_0_4_6220219_1608563566888_781134_6316'/>
+									<usedObjects href='#_19_0_4_6220219_1608845607604_907565_5058'/>
+									<usedObjects href='#_19_0_4_6220219_1608844623432_308574_4815'/>
+									<usedObjects href='#_19_0_4_6220219_1608746745859_216425_4984'/>
+									<usedObjects href='#_19_0_4_6220219_1608746447439_37504_4852'/>
+									<usedObjects href='#_19_0_4_6220219_1608746742745_959517_4981'/>
+									<usedObjects href='#_19_0_4_6220219_1608566630119_290762_6435'/>
+									<usedObjects href='#_19_0_4_6220219_1608845161848_697880_4903'/>
 									<usedObjects href='#_19_0_4_6220219_1608563258344_544014_6286'/>
-									<usedObjects href='#_19_0_4_6220219_1608746726988_268642_4929'/>
-									<usedObjects href='#_19_0_4_6220219_1608468245418_184454_4882'/>
-									<usedObjects href='#_19_0_4_6220219_1608563637070_390786_6325'/>
-									<usedObjects href='#_19_0_4_6220219_1608501179036_719357_5468'/>
-									<usedObjects href='#_19_0_4_6220219_1608468492509_131026_5126'/>
-									<usedObjects href='#_19_0_4_6220219_1608566678741_94098_6465'/>
-									<usedObjects href='#_19_0_4_6220219_1608501606278_26561_5669'/>
+									<usedObjects href='#_19_0_4_6220219_1608845589364_479727_5032'/>
+									<usedObjects href='#_19_0_4_6220219_1608561472933_863929_5881'/>
+									<usedObjects href='#_19_0_4_6220219_1608468485407_896295_5033'/>
 									<usedObjects href='#_19_0_4_6220219_1608468404359_938115_5002'/>
+									<usedObjects href='#_19_0_4_6220219_1608746748916_62696_4987'/>
+									<usedObjects href='#_19_0_4_6220219_1608563594221_164273_6319'/>
+									<usedObjects href='#_19_0_4_6220219_1608468492509_131026_5126'/>
+									<usedObjects href='#_19_0_4_6220219_1608501179041_570194_5469'/>
+									<usedObjects href='#_19_0_4_6220219_1608746731314_194217_4952'/>
+									<usedObjects href='#_19_0_4_6220219_1608561432667_509269_5863'/>
+									<usedObjects href='#_19_0_4_6220219_1608501606278_26561_5669'/>
+									<usedObjects href='#_19_0_4_6220219_1608566548703_707157_6426'/>
+									<usedObjects href='#_19_0_4_6220219_1608845346612_921401_4967'/>
+									<usedObjects href='#_19_0_4_6220219_1608501726677_614015_5767'/>
+									<usedObjects href='#_19_0_4_6220219_1608501189598_676273_5472'/>
+									<usedObjects href='#_19_0_4_6220219_1608746476988_387162_4881'/>
+									<usedObjects href='#_19_0_4_6220219_1608845257450_162571_4958'/>
+									<usedObjects href='#_19_0_4_6220219_1608562330884_325722_6210'/>
+									<usedObjects href='#_19_0_4_6220219_1608747121971_355414_4999'/>
+									<usedObjects href='#_19_0_4_6220219_1608500061999_159045_5368'/>
+									<usedObjects href='#_19_0_4_6220219_1608845180007_399004_4929'/>
+									<usedObjects href='#_19_0_4_6220219_1608845389966_80705_4994'/>
+									<usedObjects href='#_19_0_4_6220219_1608563637070_390786_6325'/>
+									<usedObjects href='#_19_0_4_6220219_1608468487789_561088_5064'/>
+									<usedObjects href='#_19_0_4_6220219_1608468502984_622737_5219'/>
+									<usedObjects href='#_19_0_4_6220219_1608501851723_992010_5825'/>
+									<usedObjects href='#_19_0_4_6220219_1608566678741_94098_6465'/>
+									<usedObjects href='#_19_0_4_6220219_1608501856066_595533_5831'/>
+									<usedObjects href='#_19_0_4_6220219_1608845486416_331036_5000'/>
+									<usedObjects href='#_19_0_4_6220219_1608501816212_417607_5801'/>
+									<usedObjects href='#_19_0_4_6220219_1608500132905_915197_5404'/>
+									<usedObjects href='#_19_0_4_6220219_1608746726988_268642_4929'/>
+									<usedObjects href='#_19_0_4_6220219_1608566512450_909729_6401'/>
+									<usedObjects href='#_19_0_4_6220219_1608845038499_30180_4897'/>
+									<usedObjects href='#_19_0_4_6220219_1608501179036_719357_5468'/>
+									<usedObjects href='#_19_0_4_6220219_1608501748815_415441_5793'/>
+									<usedObjects href='#_19_0_4_6220219_1608746738072_176170_4975'/>
+									<usedObjects href='#_19_0_4_6220219_1608561822353_42664_6029'/>
+									<usedObjects href='#_19_0_4_6220219_1608587527489_174170_4815'/>
+									<usedObjects href='#_19_0_4_6220219_1608501088044_386574_5462'/>
+									<usedObjects href='#_19_0_4_6220219_1608844768869_341485_4844'/>
+									<usedObjects href='#_19_0_4_6220219_1608848050280_94359_4817'/>
+									<usedObjects href='#_19_0_4_6220219_1608844973164_443220_4859'/>
+									<usedObjects href='#_19_0_4_6220219_1608566721731_578746_6488'/>
+									<usedObjects href='#_19_0_4_6220219_1608746502788_97817_4884'/>
+									<usedObjects href='#_19_0_4_6220219_1608844775281_412982_4847'/>
+									<usedObjects href='#_19_0_4_6220219_1608561455573_90998_5877'/>
+									<usedObjects href='#_19_0_4_6220219_1608844750938_510918_4821'/>
+									<usedObjects href='#_19_0_4_6220219_1608500460301_214771_5411'/>
+									<usedObjects href='#_19_0_4_6220219_1608746276733_755768_4821'/>
+									<usedObjects href='#_19_0_4_6220219_1608563641117_252847_6331'/>
+									<usedObjects href='#_19_0_4_6220219_1608491903653_422160_4815'/>
+									<usedObjects href='#_19_0_4_6220219_1608468490296_615257_5095'/>
+									<usedObjects href='#_19_0_4_6220219_1609012554201_151712_4815'/>
+									<usedObjects href='#_19_0_4_6220219_1608845248079_408896_4935'/>
+									<usedObjects href='#_19_0_4_6220219_1608566574082_440254_6432'/>
+									<usedObjects href='#_19_0_4_6220219_1608500082185_405048_5391'/>
+									<usedObjects href='#_19_0_4_6220219_1608501078480_558964_5456'/>
+									<usedObjects href='#_19_0_4_6220219_1608562389175_541932_6245'/>
+									<usedObjects href='#_19_0_4_6220219_1608468497706_469391_5188'/>
+									<usedObjects href='#_19_0_4_6220219_1608501065452_653105_5442'/>
+									<usedObjects href='#_19_0_4_6220219_1608562345300_307313_6216'/>
+									<usedObjects href='#_19_0_4_6220219_1608492069606_821574_4846'/>
+									<usedObjects href='#_19_0_4_6220219_1608468245418_184454_4882'/>
+									<usedObjects href='#_19_0_4_6220219_1608562977421_605783_6283'/>
+									<usedObjects href='#_19_0_4_6220219_1608562938823_695136_6248'/>
+									<usedObjects href='#_19_0_4_6220219_1608468357156_816562_4971'/>
+									<usedObjects href='#_19_0_4_6220219_1608561455582_957033_5878'/>
 									<usedElements>_19_0_4_6220219_1608844623432_308574_4815</usedElements>
-									<usedElements>_19_0_4_6220219_1608844775281_412982_4847</usedElements>
 									<usedElements>_19_0_4_6220219_1608501856066_595533_5831</usedElements>
+									<usedElements>_19_0_4_6220219_1608844775281_412982_4847</usedElements>
 									<usedElements>_19_0_4_6220219_1608845257450_162571_4958</usedElements>
-									<usedElements>_19_0_4_6220219_1608844973164_443220_4859</usedElements>
-									<usedElements>_19_0_4_6220219_1608566721731_578746_6488</usedElements>
 									<usedElements>_19_0_4_6220219_1608501851723_992010_5825</usedElements>
 									<usedElements>_19_0_4_6220219_1608566678741_94098_6465</usedElements>
+									<usedElements>_19_0_4_6220219_1608844973164_443220_4859</usedElements>
+									<usedElements>_19_0_4_6220219_1608566721731_578746_6488</usedElements>
 									<usedElements>_19_0_4_6220219_1608468485407_896295_5033</usedElements>
 									<usedElements>_19_0_4_6220219_1608501606278_26561_5669</usedElements>
 									<usedElements>_19_0_4_6220219_1608845604697_226031_5055</usedElements>
@@ -156,9 +157,9 @@
 									<usedElements>_19_0_4_6220219_1608566703345_999284_6468</usedElements>
 									<usedElements>_19_0_4_6220219_1608501179036_719357_5468</usedElements>
 									<usedElements>_19_0_4_6220219_1608500082185_405048_5391</usedElements>
-									<usedElements>_19_0_4_6220219_1608468487789_561088_5064</usedElements>
 									<usedElements>_19_0_4_6220219_1608844779733_195751_4853</usedElements>
 									<usedElements>_19_0_4_6220219_1608468492509_131026_5126</usedElements>
+									<usedElements>_19_0_4_6220219_1608468487789_561088_5064</usedElements>
 									<usedElements>_19_0_4_6220219_1608746472736_435079_4875</usedElements>
 									<usedElements>_19_0_4_6220219_1608501179041_570194_5469</usedElements>
 									<usedElements>_19_0_4_6220219_1608566630119_290762_6435</usedElements>
@@ -167,8 +168,8 @@
 									<usedElements>_19_0_4_6220219_1608845389966_80705_4994</usedElements>
 									<usedElements>_19_0_4_6220219_1608501088044_386574_5462</usedElements>
 									<usedElements>_19_0_4_6220219_1608746476988_387162_4881</usedElements>
-									<usedElements>_19_0_4_6220219_1608746502788_97817_4884</usedElements>
 									<usedElements>_19_0_4_6220219_1608845486416_331036_5000</usedElements>
+									<usedElements>_19_0_4_6220219_1608746502788_97817_4884</usedElements>
 									<usedElements>_19_0_4_6220219_1608566548703_707157_6426</usedElements>
 									<usedElements>_19_0_4_6220219_1608566574082_440254_6432</usedElements>
 									<usedElements>_19_0_4_6220219_1608501078480_558964_5456</usedElements>
@@ -177,8 +178,9 @@
 									<usedElements>_19_0_4_6220219_1608562938823_695136_6248</usedElements>
 									<usedElements>_19_0_4_6220219_1608746726988_268642_4929</usedElements>
 									<usedElements>_19_0_4_6220219_1608746748916_62696_4987</usedElements>
-									<usedElements>_19_0_4_6220219_1608561837708_417683_6047</usedElements>
+									<usedElements>_19_0_4_6220219_1609012554201_151712_4815</usedElements>
 									<usedElements>_19_0_4_6220219_1608845378176_911920_4991</usedElements>
+									<usedElements>_19_0_4_6220219_1608561837708_417683_6047</usedElements>
 									<usedElements>_19_0_4_6220219_1608501065452_653105_5442</usedElements>
 									<usedElements>_19_0_4_6220219_1608500110519_598610_5401</usedElements>
 									<usedElements>_19_0_4_6220219_1608492069606_821574_4846</usedElements>
@@ -193,8 +195,8 @@
 									<usedElements>_19_0_4_6220219_1608563258344_544014_6286</usedElements>
 									<usedElements>_19_0_4_6220219_1608563594221_164273_6319</usedElements>
 									<usedElements>_19_0_4_6220219_1608562293678_315724_6204</usedElements>
-									<usedElements>_19_0_4_6220219_1608561822353_42664_6029</usedElements>
 									<usedElements>_19_0_4_6220219_1608500132905_915197_5404</usedElements>
+									<usedElements>_19_0_4_6220219_1608561822353_42664_6029</usedElements>
 									<usedElements>_19_0_4_6220219_1608500460301_214771_5411</usedElements>
 									<usedElements>_19_0_4_6220219_1608845174264_117735_4926</usedElements>
 									<usedElements>_19_0_4_6220219_1608561472933_863929_5881</usedElements>
@@ -206,9 +208,9 @@
 									<usedElements>_19_0_4_6220219_1608501726677_614015_5767</usedElements>
 									<usedElements>_19_0_4_6220219_1608500061999_159045_5368</usedElements>
 									<usedElements>_19_0_4_6220219_1608563668273_95909_6361</usedElements>
+									<usedElements>_19_0_4_6220219_1608468494677_181923_5157</usedElements>
 									<usedElements>_19_0_4_6220219_1608845180007_399004_4929</usedElements>
 									<usedElements>_19_0_4_6220219_1608746276733_755768_4821</usedElements>
-									<usedElements>_19_0_4_6220219_1608468494677_181923_5157</usedElements>
 									<usedElements>_19_0_4_6220219_1608845589364_479727_5032</usedElements>
 									<usedElements>_19_0_4_6220219_1608563659019_862049_6355</usedElements>
 									<usedElements>_19_0_4_6220219_1608565185683_89924_6395</usedElements>
@@ -285,6 +287,10 @@
 			<packagedElement xmi:type='uml:Usage' xmi:id='_19_0_4_6220219_1608845389966_80705_4994'>
 				<client xmi:idref='_19_0_4_6220219_1608501726677_614015_5767'/>
 				<supplier xmi:idref='_19_0_4_6220219_1608845346612_921401_4967'/>
+			</packagedElement>
+			<packagedElement xmi:type='uml:Usage' xmi:id='_19_0_4_6220219_1609012554201_151712_4815'>
+				<client xmi:idref='_19_0_4_6220219_1608501726677_614015_5767'/>
+				<supplier xmi:idref='_19_0_4_6220219_1608563641117_252847_6331'/>
 			</packagedElement>
 			<realization xmi:type='uml:ComponentRealization' xmi:id='_19_0_4_6220219_1608468605432_554103_5311'>
 				<client xmi:idref='_19_0_4_6220219_1608468485407_896295_5033'/>
@@ -677,252 +683,17 @@
 			<stereotype name='Model:external_component' stereotypeHREF='local:/PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model#_19_0_4_6220219_1608746619711_855561_4914'/>
 		</stereotypesHREFS>
 	</xmi:Extension>
-	<Model:service xmi:id='_19_0_4_6220219_1608745436205_386604_4817' base_Element='_19_0_4_6220219_1608468357156_816562_4971'/>
-	<Model:service xmi:id='_19_0_4_6220219_1608745408190_438321_4815' base_Element='_19_0_4_6220219_1608468404359_938115_5002'/>
-	<Model:service xmi:id='_19_0_4_6220219_1608745393291_877736_4814' base_Element='_19_0_4_6220219_1608500460301_214771_5411'/>
-	<Model:external_component xmi:id='_19_0_4_6220219_1608746638889_815626_4920' base_Element='_19_0_4_6220219_1608746276733_755768_4821'/>
-	<Model:external_component xmi:id='_19_0_4_6220219_1608746667541_80514_4927' base_Element='_19_0_4_6220219_1608746502788_97817_4884'/>
 	<Model:service xmi:id='_19_0_4_6220219_1608745420714_300511_4816' base_Element='_19_0_4_6220219_1608468312384_988060_4940'/>
-	<Model:service xmi:id='_19_0_4_6220219_1608845502784_903513_5030' base_Element='_19_0_4_6220219_1608845486416_331036_5000'/>
+	<Model:service xmi:id='_19_0_4_6220219_1608745436205_386604_4817' base_Element='_19_0_4_6220219_1608468357156_816562_4971'/>
+	<Model:service xmi:id='_19_0_4_6220219_1608745393291_877736_4814' base_Element='_19_0_4_6220219_1608500460301_214771_5411'/>
+	<Model:external_component xmi:id='_19_0_4_6220219_1608746667541_80514_4927' base_Element='_19_0_4_6220219_1608746502788_97817_4884'/>
+	<Model:external_component xmi:id='_19_0_4_6220219_1608746638889_815626_4920' base_Element='_19_0_4_6220219_1608746276733_755768_4821'/>
 	<Model:external_component xmi:id='_19_0_4_6220219_1608845003158_741585_4889' base_Element='_19_0_4_6220219_1608844973164_443220_4859'/>
-	<MagicDraw_Profile:DiagramInfo xmi:id='_19_0_4_6220219_1608467823944_116056_4808' base_Diagram='_19_0_4_6220219_1608467823843_671737_4796' Creation_date='20/12/20 13.37' Modification_date='24/12/20 23.13' Author='aless' Last_modified_by='aless'/>
+	<Model:service xmi:id='_19_0_4_6220219_1608745408190_438321_4815' base_Element='_19_0_4_6220219_1608468404359_938115_5002'/>
+	<Model:service xmi:id='_19_0_4_6220219_1608845502784_903513_5030' base_Element='_19_0_4_6220219_1608845486416_331036_5000'/>
+	<MagicDraw_Profile:DiagramInfo xmi:id='_19_0_4_6220219_1608467823944_116056_4808' base_Diagram='_19_0_4_6220219_1608467823843_671737_4796' Creation_date='20/12/20 13.37' Modification_date='26/12/20 20.55' Author='aless' Last_modified_by='aless'/>
 	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='proxy.local__PROJECT$h877558e9224f114d50dea1f39a1c119_resource_com$dnomagic$dci$dmetamodel$dproject$dsnapshot' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
-<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:project="http://www.nomagic.com/ns/cameo/client/project/1.0" xmi:id="_VWTUgU_TEeCNOP_jel_PNg" description="" id="PROJECT-877558e9224f114d50dea1f39a1c119">
-  <ownedSections xmi:id="_VWY0EU_TEeCNOP_jel_PNg" name="model" featuredBy="_VWY0EE_TEeCNOP_jel_PNg"/>
-  <ownedSections xmi:id="_VabmkU_TEeCNOP_jel_PNg" name="commonprojectoptions" shared="true" featuredBy="_VabmkE_TEeCNOP_jel_PNg"/>
-  <ownedSections xmi:id="_VacNoU_TEeCNOP_jel_PNg" name="personalprojectoptions" shared="true" belongsTo="_VacNok_TEeCNOP_jel_PNg" featuredBy="_VabmkE_TEeCNOP_jel_PNg"/>
-  <ownedSections xmi:id="_VbQF8E_TEeCNOP_jel_PNg" name="shared_model" shared="true" featuredBy="_VWY0EE_TEeCNOP_jel_PNg">
-    <sharePoints xmi:id="_VbhywE_TEeCNOP_jel_PNg" ID="magicdraw_uml_standard_profile_v_0001">
-      <object href="PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#magicdraw_uml_standard_profile_v_0001"/>
-      <options xmi:id="_Bnb0gH02EeCAfIowCLYtPA" key="preferredPath" value=""/>
-    </sharePoints>
-  </ownedSections>
-  <ownedSections xmi:id="_VfpdwU_TEeCNOP_jel_PNg" name="commoncodeengineering" featuredBy="_VfpdwE_TEeCNOP_jel_PNg"/>
-  <userParts xmi:id="_VacNok_TEeCNOP_jel_PNg" user="_kpyFAVxdEeC_ZNJv4YLpoQ" sections="_VacNoU_TEeCNOP_jel_PNg"/>
-  <features xmi:id="_VWY0EE_TEeCNOP_jel_PNg" name="UML Model" namespace="com.nomagic.magicdraw.uml_model" version="17.0" sections="_VWY0EU_TEeCNOP_jel_PNg _VbQF8E_TEeCNOP_jel_PNg" internalVersion="1"/>
-  <features xmi:id="_VabmkE_TEeCNOP_jel_PNg" name="Project Options" namespace="com.nomagic.magicdraw.core.project.options" version="1.0" sections="_VabmkU_TEeCNOP_jel_PNg _VacNoU_TEeCNOP_jel_PNg" internalVersion="1"/>
-  <features xmi:id="_Vfo2sE_TEeCNOP_jel_PNg" name="Language Properties" namespace="com.nomagic.magicdraw.ce.languageproperties" version="1.0" internalVersion="1"/>
-  <features xmi:id="_VfpdwE_TEeCNOP_jel_PNg" name="Code Engineering" namespace="com.nomagic.magicdraw.ce" version="1.0" sections="_VfpdwU_TEeCNOP_jel_PNg" internalVersion="1"/>
-  <features xmi:id="_x_Z_IFUEEee8oPCPVi3wjg" name="DMN Code Engineering" namespace="com.nomagic.magicdraw.ce.dmn" version="1.0" internalVersion="1"/>
-  <properties xmi:id="_Vbhywk_TEeCNOP_jel_PNg" key="standardProfile" value="true"/>
-  <properties xmi:id="_VbiZ0E_TEeCNOP_jel_PNg" key="internalVersion" value="19.0 SP3"/>
-  <properties xmi:id="_srSgUFnLEeCNG86yLj6xYg" key="MODULES_DIRS" value="&lt;install.root>/templates&lt;>&lt;install.root>/profiles&lt;>&lt;project.dir>/&lt;>&lt;install.root>/modelLibraries&lt;>/&lt;install.root>/profiles"/>
-  <properties xmi:id="_94jvAH01EeCAfIowCLYtPA" key="exporterDescription" value="ac ed 0 5 73 72 0 2e 63 6f 6d 2e 6e 6f 6d 61 67 69 63 2e 70 65 72 73 69 73 74 65 6e 63 65 2e 58 6d 69 45 78 70 6f 72 74 65 72 44 65 73 63 72 69 70 74 69 6f 6e f5 3e fd c8 e7 3c 3b d7 2 0 5 4c 0 5 6d 4e 61 6d 65 74 0 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 0 12 6d 52 65 71 75 69 72 65 64 50 6c 75 67 69 6e 4d 61 70 74 0 f 4c 6a 61 76 61 2f 75 74 69 6c 2f 4d 61 70 3b 4c 0 12 6d 52 65 71 75 69 72 65 64 52 65 73 6f 75 72 63 65 73 74 0 10 4c 6a 61 76 61 2f 75 74 69 6c 2f 4c 69 73 74 3b 4c 0 10 6d 55 4d 4c 4e 61 6d 65 73 70 61 63 65 55 52 49 71 0 7e 0 1 4c 0 8 6d 56 65 72 73 69 6f 6e 71 0 7e 0 1 78 70 74 0 d 4d 61 67 69 63 44 72 61 77 20 55 4d 4c 73 72 0 11 6a 61 76 61 2e 75 74 69 6c 2e 48 61 73 68 4d 61 70 5 7 da c1 c3 16 60 d1 3 0 2 46 0 a 6c 6f 61 64 46 61 63 74 6f 72 49 0 9 74 68 72 65 73 68 6f 6c 64 78 70 3f 40 0 0 0 0 0 0 77 8 0 0 0 10 0 0 0 0 78 73 72 0 13 6a 61 76 61 2e 75 74 69 6c 2e 41 72 72 61 79 4c 69 73 74 78 81 d2 1d 99 c7 61 9d 3 0 1 49 0 4 73 69 7a 65 78 70 0 0 0 0 77 4 0 0 0 0 78 70 74 0 7 31 39 2e 30 20 76 39 "/>
-  <properties xmi:id="_DnjcsMQEEeCVy5mnlxX55w" key="fileVersion" value="986"/>
-  <properties xmi:id="_Doc0kMQEEeCVy5mnlxX55w" key="MODEL_ROOT_HREF" value="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.model#eee_1045467100313_135436_1"/>
-  <properties xmi:id="_BwA7QADBEeK92_v4nw3vUw" key="CI_VERSION" value="V1702_SP1"/>
-  <properties xmi:id="_z_AY0MGpEeS9Iojkvg0NZg" key="fileFormatVersion" value="18.1 beta.esi"/>
-  <properties xmi:id="_SDFrYW6cEeWDd-3OrajLsA" key="saveID" value="079fbe67-9005-402a-a91a-d1f81abae3f0"/>
-  <properties xmi:id="_dhIioFHEEeiUvMqDA7b6Sw" key="compatibleVersion" value="19.0"/>
-  <properties xmi:id="_6OTmYRgBEem5GakRwxW-Zg" key="requiredFeature" value=""/>
-  <projectUsers xmi:id="_kpyFAVxdEeC_ZNJv4YLpoQ" userId="default"/>
-</project:Project>
-</filePart>
-	</xmi:Extension>
-	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867' type='BINARY'>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</filePart>
-	</xmi:Extension>
-	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='com.nomagic.ci.persistence.local.proxy.privatedependencylist' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
-<snapshot:PrivateDependenciesContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:snapshot="http://www.nomagic.com/ns/cameo/client/snapshot/1.0" xmi:id="_XfkCsAJHEeKcqJgnVU4y2Q">
-  <referencedResources xmi:id="_bzZCUEY1Eeu9iLogfjWNtw" originalResourceURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel">
-    <referencedObjects>_9_0_62a020a_1105704884807_371561_7741</referencedObjects>
-    <referencedObjects>_be00301_1077726770128_871366_1</referencedObjects>
-    <referencedObjects>_9_0_be00301_1108044380615_150487_0</referencedObjects>
-    <referencedObjects>_be00301_1073394345322_922552_1</referencedObjects>
-    <referencedObjects>_be00301_1073306188629_537791_2</referencedObjects>
-    <referencedObjects>magicdraw_uml_standard_profile_v_0001</referencedObjects>
-    <referencedObjects>_16_8beta_8ca0285_1257244649124_794756_344</referencedObjects>
-  </referencedResources>
-  <referencedResources xmi:id="_bzZCUUY1Eeu9iLogfjWNtw" originalResourceURI="local:/PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model">
-    <referencedObjects>eee_1045467100313_135436_1</referencedObjects>
-  </referencedResources>
-</snapshot:PrivateDependenciesContainer>
-</filePart>
-	</xmi:Extension>
-	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='com.nomagic.ci.proxy.snapshot.descriptor.descriptors' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
-<snapshot:SnapshotInfoContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:snapshot="http://www.nomagic.com/ns/cameo/client/snapshot/1.0" xmi:id="_w_oCgJnOEeG5IL63JP9cFw">
-  <snaphotDescriptors xmi:id="_xwW74JnOEeG5IL63JP9cFw" originalResourceURI="local:/PROJECT-5d6756d4ab7fcc1b9be2b6b7ce3f4f23?resource=com.nomagic.magicdraw.uml_umodel.model"/>
-  <snaphotDescriptors xmi:id="_xwW74ZnOEeG5IL63JP9cFw" originalResourceURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel">
-    <sharePointObjects>magicdraw_uml_standard_profile_v_0001</sharePointObjects>
-  </snaphotDescriptors>
-  <snaphotDescriptors xmi:id="_AUq3gELAEeuZeKpjsXPqpQ" originalResourceURI="local:/PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model"/>
-</snapshot:SnapshotInfoContainer>
-</filePart>
-	</xmi:Extension>
-	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='com.nomagic.ci.metamodel.project' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;'>
-<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:project="http://www.nomagic.com/ns/cameo/client/project/1.0" xmi:id="_GLT9QFYDEeCyhsLctII43A" description="" id="PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867">
-  <ownedSections xmi:id="_GOUN8FYDEeCyhsLctII43A" name="model" featuredBy="_GOS_0FYDEeCyhsLctII43A"/>
-  <ownedSections xmi:id="_HB1VkFYDEeCyhsLctII43A" name="commonprojectoptions" shared="true" featuredBy="_HB0ugFYDEeCyhsLctII43A"/>
-  <ownedSections xmi:id="_HB4_8FYDEeCyhsLctII43A" name="personalprojectoptions" shared="true" belongsTo="_HB4_8VYDEeCyhsLctII43A" featuredBy="_HB0ugFYDEeCyhsLctII43A"/>
-  <ownedSections xmi:id="_1OlPIJjZEeCrL4EC3xSIEw" name="commoncodeengineering" featuredBy="_1ObeIZjZEeCrL4EC3xSIEw"/>
-  <userParts xmi:id="_HB4_8VYDEeCyhsLctII43A" user="_zRtSwZjZEeCrL4EC3xSIEw" sections="_HB4_8FYDEeCyhsLctII43A"/>
-  <projectUsages xmi:id="_GPTscFYDEeCyhsLctII43A" usedProjectURI="file:/C:/Program%20Files/MagicDraw/profiles/UML_Standard_Profile.mdzip" readonly="true" alternateLocation="file:/home/donce/md17/git-17-copy/md/core/profiles/UML_Standard_Profile.mdzip" preferredProjectRepositoryType="" loadedAutomatically="true" withPrivateDependencies="true">
-    <usedProject href="PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.ci.metamodel.project#_VWTUgU_TEeCNOP_jel_PNg"/>
-    <mountPoints xmi:id="_HBun4FYDEeCyhsLctII43A" sharePointID="magicdraw_uml_standard_profile_v_0001" containmentFeatureID="61" featureName="UML Model" containmentIndex="-1" containmentFeatureName="packagedElement">
-      <mountedPoint href="PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#magicdraw_uml_standard_profile_v_0001"/>
-      <mountedOn href="PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model#eee_1045467100313_135436_1"/>
-      <options xmi:id="_bxHKYEY1Eeu9iLogfjWNtw" key="preferredPath" value="::"/>
-    </mountPoints>
-    <properties xmi:id="_HBzgYFYDEeCyhsLctII43A" key="usedVersion" value="19.0 SP3"/>
-    <properties xmi:id="_I2i0cFYDEeCyhsLctII43A" key="LOCAL_PROJECT_ID" value="PROJECT-877558e9224f114d50dea1f39a1c119"/>
-  </projectUsages>
-  <features xmi:id="_GOS_0FYDEeCyhsLctII43A" name="UML Model" namespace="com.nomagic.magicdraw.uml_model" version="17.0" sections="_GOUN8FYDEeCyhsLctII43A" internalVersion="1"/>
-  <features xmi:id="_HB0ugFYDEeCyhsLctII43A" name="Project Options" namespace="com.nomagic.magicdraw.core.project.options" version="1.0" sections="_HB1VkFYDEeCyhsLctII43A _HB4_8FYDEeCyhsLctII43A" internalVersion="1"/>
-  <features xmi:id="_1ObeIJjZEeCrL4EC3xSIEw" name="Language Properties" namespace="com.nomagic.magicdraw.ce.languageproperties" version="1.0" internalVersion="1"/>
-  <features xmi:id="_1ObeIZjZEeCrL4EC3xSIEw" name="Code Engineering" namespace="com.nomagic.magicdraw.ce" version="1.0" sections="_1OlPIJjZEeCrL4EC3xSIEw" internalVersion="1"/>
-  <properties xmi:id="_GPLwoFYDEeCyhsLctII43A" key="standardProfile" value="false"/>
-  <properties xmi:id="_GPLwoVYDEeCyhsLctII43A" key="internalVersion" value="19.0"/>
-  <properties xmi:id="_I3t5IFYDEeCyhsLctII43A" key="MODULES_DIRS" value="&lt;project.dir>&lt;>&lt;install.root>\profiles&lt;>&lt;install.root>\modelLibraries"/>
-  <properties xmi:id="_4iLt4JjZEeCrL4EC3xSIEw" key="fileVersion" value="95"/>
-  <properties xmi:id="_4ieo0JjZEeCrL4EC3xSIEw" key="exporterDescription" value="ac ed 0 5 73 72 0 2e 63 6f 6d 2e 6e 6f 6d 61 67 69 63 2e 70 65 72 73 69 73 74 65 6e 63 65 2e 58 6d 69 45 78 70 6f 72 74 65 72 44 65 73 63 72 69 70 74 69 6f 6e f5 3e fd c8 e7 3c 3b d7 2 0 5 4c 0 5 6d 4e 61 6d 65 74 0 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 0 12 6d 52 65 71 75 69 72 65 64 50 6c 75 67 69 6e 4d 61 70 74 0 f 4c 6a 61 76 61 2f 75 74 69 6c 2f 4d 61 70 3b 4c 0 12 6d 52 65 71 75 69 72 65 64 52 65 73 6f 75 72 63 65 73 74 0 10 4c 6a 61 76 61 2f 75 74 69 6c 2f 4c 69 73 74 3b 4c 0 10 6d 55 4d 4c 4e 61 6d 65 73 70 61 63 65 55 52 49 71 0 7e 0 1 4c 0 8 6d 56 65 72 73 69 6f 6e 71 0 7e 0 1 78 70 74 0 d 4d 61 67 69 63 44 72 61 77 20 55 4d 4c 73 72 0 11 6a 61 76 61 2e 75 74 69 6c 2e 48 61 73 68 4d 61 70 5 7 da c1 c3 16 60 d1 3 0 2 46 0 a 6c 6f 61 64 46 61 63 74 6f 72 49 0 9 74 68 72 65 73 68 6f 6c 64 78 70 3f 40 0 0 0 0 0 0 77 8 0 0 0 10 0 0 0 0 78 73 72 0 13 6a 61 76 61 2e 75 74 69 6c 2e 41 72 72 61 79 4c 69 73 74 78 81 d2 1d 99 c7 61 9d 3 0 1 49 0 4 73 69 7a 65 78 70 0 0 0 0 77 4 0 0 0 0 78 70 74 0 7 31 39 2e 30 20 76 39 "/>
-  <properties xmi:id="_4ieo0ZjZEeCrL4EC3xSIEw" key="MODEL_ROOT_HREF" value="local:/PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model#eee_1045467100313_135436_1"/>
-  <properties xmi:id="_Xf1vgAJHEeKcqJgnVU4y2Q" key="CI_VERSION" value="V1702_SP1"/>
-  <properties xmi:id="_WHDv8NnXEeSt1dUa3K1eOA" key="fileFormatVersion" value="18.1 beta.esi"/>
-  <properties xmi:id="_oI378G6KEeWoxPthTK0iTA" key="saveID" value="283e125c-f1b0-404c-b635-11c477497478"/>
-  <properties xmi:id="_QKbVQCaYEeijz6gJNBJu7Q" key="compatibleVersion" value=""/>
-  <projectUsers xmi:id="_zRtSwZjZEeCrL4EC3xSIEw" userId="default"/>
-</project:Project>
-</filePart>
-	</xmi:Extension>
-	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='com.nomagic.magicdraw.ce.commoncodeengineering' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:md.ce.corbaidl.rt.options="http://www.nomagic.com/magicdraw/ce/corbaidl/rt/options/1" xmlns:md.ce.cppAnsi.rt.options="http://www.nomagic.com/magicdraw/ce/cppAnsi/rt/options/1" xmlns:md.ce.csh.code.documentation="http://www.nomagic.com/magicdraw/ce/csh/code/documentation/1" xmlns:md.ce.csh.rt.options="http://www.nomagic.com/magicdraw/ce/csh/rt/options/1" xmlns:md.ce.java.code.documentation="http://www.nomagic.com/magicdraw/ce/java/code/documentation/1" xmlns:md.ce.java.rt.options="http://www.nomagic.com/magicdraw/ce/java/rt/options/1" xmlns:md.ce.msil.rt.options="http://www.nomagic.com/magicdraw/ce/msil/rt/options/1" xmlns:md.ce.rt.options="http://www.nomagic.com/magicdraw/ce/rt/options/1">
-  <md.ce.rt.options:Options xmi:id="_1OlPIZjZEeCrL4EC3xSIEw" tempDirectory="Active Directory" defaultWorkingDirectory="&lt;install.root>" spaces="8" defaultLanguage="Java" visualizationOption="1" codeGenerationReverseOption="2">
-    <defaultWorkingPackage href="PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model#eee_1045467100313_135436_1"/>
-  </md.ce.rt.options:Options>
-  <md.ce.java.rt.options:JavaLanguageOptions xmi:id="_6-fYUOlYEeKM1O5DqVzPvA" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR" classpath="lib\xalan.jar;C:\Program Files\Java\jre1.8.0_144\lib\resources.jar;C:\Program Files\Java\jre1.8.0_144\lib\rt.jar;C:\Program Files\Java\jre1.8.0_144\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_144\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_144\lib\jce.jar;C:\Program Files\Java\jre1.8.0_144\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_144\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_144\classes" javaSource="8.0">
-    <documentationTagProcessors xsi:type="md.ce.java.code.documentation:JavaDocumentationProcessor" xmi:id="_6-fYUelYEeKM1O5DqVzPvA" ID="JAVA_DOC_PROCESSOR">
-      <documentationTagManagers xmi:id="_6-fYUulYEeKM1O5DqVzPvA" ID="CLASSIFIER">
-        <documentationTags xmi:id="_6-fYU-lYEeKM1O5DqVzPvA" name="DESCRIPTION" valueEditable="false"/>
-        <documentationTags xmi:id="_6-fYVOlYEeKM1O5DqVzPvA" name="@param &lt;>" valueEditable="false"/>
-      </documentationTagManagers>
-      <documentationTagManagers xmi:id="_6-fYVelYEeKM1O5DqVzPvA" ID="OPERATION">
-        <documentationTags xmi:id="_6-fYVulYEeKM1O5DqVzPvA" name="DESCRIPTION" valueEditable="false"/>
-        <documentationTags xmi:id="_6-fYV-lYEeKM1O5DqVzPvA" name="@param" valueEditable="false"/>
-        <documentationTags xmi:id="_6-fYWOlYEeKM1O5DqVzPvA" name="@param &lt;>" valueEditable="false"/>
-        <documentationTags xmi:id="_6-fYWelYEeKM1O5DqVzPvA" name="@return" valueEditable="false"/>
-        <documentationTags xmi:id="_6-fYWulYEeKM1O5DqVzPvA" name="@throws" valueEditable="false"/>
-      </documentationTagManagers>
-      <documentationTagManagers xmi:id="_6-fYW-lYEeKM1O5DqVzPvA" ID="ATTRIBUTE">
-        <documentationTags xmi:id="_6-fYXOlYEeKM1O5DqVzPvA" name="DESCRIPTION" valueEditable="false"/>
-      </documentationTagManagers>
-    </documentationTagProcessors>
-    <userDefinedAttributeCreationRule xmi:id="_6-fYXelYEeKM1O5DqVzPvA">
-      <rules xmi:id="_6-fYXulYEeKM1O5DqVzPvA" pattern="*" classType="DataType"/>
-    </userDefinedAttributeCreationRule>
-  </md.ce.java.rt.options:JavaLanguageOptions>
-  <md.ce.cppAnsi.rt.options:CppLanguageOptions xmi:id="_6-y6UOlYEeKM1O5DqVzPvA" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR" macros="//This file contains a list of explicit macros to be expanded before reverse engineering&#xA;#define ODBCXX_EXPORT&#xA;#define __EXPORT&#xA;&#xA;//Type Casting of MFC Class Objects&#xA;#define DYNAMIC_DOWNCAST( class, pointer )&#xA;#define STATIC_DOWNCAST( class_name, pobject )&#xA;&#xA;//Run-Time Object Model Services&#xA;#define DECLARE_DYNAMIC( class_name )&#xA;#define DECLARE_DYNCREATE( class_name )&#xA;#define DECLARE_SERIAL( class_name )&#xA;#define IMPLEMENT_DYNAMIC( class_name, base_class_name )&#xA;#define IMPLEMENT_DYNCREATE( class_name, base_class_name )&#xA;#define IMPLEMENT_SERIAL( class_name, base_class_name, wSchema )&#xA;#define RUNTIME_CLASS( class_name )&#xA;#define DECLARE_OLECREATE( class_name )&#xA;#define IMPLEMENT_OLECREATE( class_name, external_name, l, w1, w2, b1, b2, b3, b4, b5, b6, b7, b8 )&#xA;&#xA;//Diagnostic Services&#xA;#define ASSERT( booleanExpression )&#xA;#define ASSERT_KINDOF( classname, pobject )&#xA;#define ASSERT_VALID( pObject )&#xA;#define TRACE( exp )&#xA;#define TRACE0( exp )&#xA;#define TRACE1( exp, param1 )&#xA;#define TRACE2( exp, param1, param2 )&#xA;#define TRACE3( exp, param1, param2, param3 )&#xA;#define VERIFY( booleanExpression )&#xA;&#xA;//Exception processing&#xA;#define TRY&#xA;#define CATCH( exception_class, exception_object_pointer_name )&#xA;#define CATCH_ALL( exception_object_pointer_name )&#xA;#define AND_CATCH( exception_class, exception_object_pointer_name )&#xA;#define AND_CATCH_ALL( exception_object_pointer_name )&#xA;#define END_CATCH&#xA;#define END_CATCH_ALL&#xA;#define THROW( exception_object_pointer )&#xA;#define THROW_LAST( )&#xA;&#xA;//Message Map Macros&#xA;#define DECLARE_MESSAGE_MAP( )&#xA;#define BEGIN_MESSAGE_MAP( theClass, baseClass )&#xA;#define END_MESSAGE_MAP( )&#xA;#define ON_COMMAND( id, memberFxn )&#xA;#define ON_CONTROL( wNotifyCode, id, memberFxn )&#xA;#define ON_MESSAGE( message, memberFxn )&#xA;#define ON_OLECMD( pguid, olecmdid, id )&#xA;#define ON_REGISTERED_MESSAGE( nMessageVariable, memberFxn )&#xA;#define ON_REGISTERED_THREAD_MESSAGE( nMessageVariable, memberFxn )&#xA;#define ON_THREAD_MESSAGE( message, memberFxn )&#xA;#define ON_UPDATE_COMMAND_UI( id, memberFxn )&#xA;#define ON_COMMAND_RANGE( id1, id2, memberFxn )&#xA;#define ON_UPDATE_COMMAND_UI_RANGE( id1, id2, memberFxn )&#xA;#define ON_CONTROL_RANGE( wNotifyCode, id1, id2, memberFxn )&#xA;#define ON_WM_CREATE( )&#xA;#define ON_WM_DESTROY( )&#xA;#define ON_NOTIFY( wNotifyCode, id, memberFxn )&#xA;#define ON_WM_TIMER( )&#xA;#define ON_WM_SYSCOMMAND( )&#xA;#define ON_BN_CLICKED( id, memberFxn )&#xA;#define ON_WM_PAINT( )&#xA;#define ON_WM_QUERYDRAGICON( )&#xA;#define ON_WM_SIZE( )&#xA;&#xA;//Application information and management&#xA;BOOL AFXAPI AfxWinInit( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow )&#xA;&#xA;//Database Macros and Globals&#xA;#define AFX_ODBC_CALL( SQLFunc )&#xA;#define AFX_SQL_ASYNC( prs, SQLFunc )&#xA;#define AFX_SQL_SYNC( SQLFunc )&#xA;&#xA;//Internet Server API (ISAPI) Parse Maps&#xA;#define BEGIN_PARSE_MAP( theClass, baseClass )&#xA;#define ON_PARSE_COMMAND( FnName, mapClass, Args )&#xA;#define ON_PARSE_COMMAND_PARAMS( Params )&#xA;#define DEFAULT_PARSE_COMMAND( FnName, mapClass )&#xA;#define END_PARSE_MAP( theClass )&#xA;&#xA;//Internet Server API (ISAPI) Diagnostic Macros&#xA;#define ISAPIASSERT( booleanExpression )&#xA;#define ISAPITRACE( exp )&#xA;#define ISAPITRACE0( exp )&#xA;#define ISAPITRACE1( exp, param1 )&#xA;#define ISAPITRACE2( exp, param1, param2 )&#xA;#define ISAPITRACE3( exp, param1, param2, param3 )&#xA;#define ISAPIVERIFY( booleanExpression )&#xA;&#xA;&#xA;// OLE Dispatch Maps&#xA;#define DECLARE_DISPATCH_MAP( )&#xA;#define BEGIN_DISPATCH_MAP( theClass, baseClass )&#xA;#define END_DISPATCH_MAP( )&#xA;#define DISP_FUNCTION( theClass, pszName, pfnMember, vtRetVal, vtsParams )&#xA;#define DISP_PROPERTY( theClass, pszName, memberName, vtPropType )&#xA;#define DISP_PROPERTY_EX( theClass, pszName, memberGet, memberSet, vtPropType )&#xA;#define DISP_PROPERTY_NOTIFY( theClass, szExternalName, memberName, pfnAfterSet, vtPropType )&#xA;#define DISP_PROPERTY_NOTIFY( theClass, pszExternalName, pfnGet, pfnSet, vtPropType, vtsParams )&#xA;#define DISP_DEFVALUE( theClass, pszName )&#xA;&#xA;// OLE Type Library Access&#xA;#define DECLARE_OLETYPELIB( class_name )&#xA;#define IMPLEMENT_OLETYPELIB( class_name, tlid, wVerMajor, wVerMinor )&#xA;&#xA;// OLE Property Pages&#xA;#define BEGIN_PROPPAGEIDS( class_name, count )&#xA;#define END_PROPPAGEIDS( class_name )&#xA;#define PROPPAGEID( clsid )&#xA;&#xA;// OLE Event Maps&#xA;#define DECLARE_EVENT_MAP( )&#xA;#define BEGIN_EVENT_MAP( theClass, baseClass )&#xA;#define END_EVENT_MAP( )&#xA;#define EVENT_CUSTOM( pszName, pfnFire, vtsParams )&#xA;#define EVENT_CUSTOM_ID( pszName, dispid, pfnFire, vtsParams )&#xA;#define ON_OLEVERB( idsVerbName, memberFxn )&#xA;#define ON_STDOLEVERB( iVerb, memberFxn )&#xA;&#xA;// OLE Event Sink Maps&#xA;#define BEGIN_EVENTSINK_MAP( theClass, baseClass )&#xA;#define DECLARE_EVENTSINK_MAP( )&#xA;#define END_EVENTSINK_MAP( )&#xA;#define ON_EVENT( theClass, id, dispid, pfnHandler, vtsParams )&#xA;#define ON_EVENT_RANGE( theClass, idFirst, idLast, dispid, pfnHandler, vtsParams )&#xA;#define ON_EVENT_REFLECT( theClass, dispid, pfnHandler, vtsParams )&#xA;#define ON_PROPNOTIFY( theClass, id, dispid, pfnRequest, pfnChanged )&#xA;#define ON_PROPNOTIFY_RANGE( theClass, idFirst, idLast, dispid, pfnRequest, pfnChanged )&#xA;#define ON_PROPNOTIFY_REFLECT( theClass, dispid, pfnRequest, pfnChanged )&#xA;&#xA;// OLE Connection Maps&#xA;#define BEGIN_CONNECTION_PART( theClass, localClass )&#xA;#define END_CONNECTION_PART( localClass )&#xA;#define CONNECTION_IID( iid )&#xA;#define DECLARE_CONNECTION_MAP( )&#xA;#define BEGIN_CONNECTION_MAP( theClass, theBase )&#xA;#define END_CONNECTION_MAP( )&#xA;#define CONNECTION_PART( theClass, iid, localClass )&#xA;&#xA;// OLE Registering OLE Controls&#xA;BOOL AFXAPI AfxOleRegisterPropertyPageClass( HINSTANCE hInstance, REFCLSID clsid, UINT idTypeName, int nRegFlags )&#xA;&#xA;// OLE Class Factories and Licensing&#xA;#define DECLARE_OLECREATE_EX( class_name )&#xA;#define IMPLEMENT_OLECREATE_EX( class_name, external_name, l, w1, w2, b1, b2, b3, b4, b5, b6, b7, b8 )&#xA;#define BEGIN_OLEFACTORY( class_name )&#xA;#define END_OLEFACTORY( class_name )&#xA;&#xA;//ATL&#xA;#define DECLARE_AGGREGATABLE( x )&#xA;#define DECLARE_CLASSFACTORY( )&#xA;#define DECLARE_CLASSFACTORY_EX( cf )&#xA;#define DECLARE_CLASSFACTORY2( lic )&#xA;#define DECLARE_CLASSFACTORY_AUTO_THREAD( )&#xA;#define DECLARE_CLASSFACTORY_SINGLETON( obj )&#xA;#define DECLARE_GET_CONTROLLING_UNKNOWN( )&#xA;#define DECLARE_NOT_AGGREGATABLE( x )&#xA;#define DECLARE_ONLY_AGGREGATABLE( x )&#xA;#define DECLARE_POLY_AGGREGATABLE( x )&#xA;#define DECLARE_PROTECT_FINAL_CONSTRUCT( )&#xA;#define BEGIN_CATEGORY_MAP( theClass )&#xA;#define END_CATEGORY_MAP( )&#xA;#define IMPLEMENTED_CATEGORY( catID )&#xA;#define REQUIRED_CATEGORY( catID )&#xA;#define BEGIN_COM_MAP( x )&#xA;#define COM_INTERFACE_ENTRY( x )&#xA;#define COM_INTERFACE_ENTRY_IID( iid, x )&#xA;#define COM_INTERFACE_ENTRY2( x, x2 )&#xA;#define COM_INTERFACE_ENTRY2_IID( iid, x, x2 )&#xA;#define COM_INTERFACE_ENTRY_FUNC( iid, dw, func )&#xA;#define COM_INTERFACE_ENTRY_FUNC_BLIND( dw, func )&#xA;#define COM_INTERFACE_ENTRY_TEAR_OFF( iid, x )&#xA;#define COM_INTERFACE_ENTRY_CACHED_TEAR_OFF( iid, x, punk )&#xA;#define COM_INTERFACE_ENTRY_AGGREGATE( iid, punk )&#xA;#define COM_INTERFACE_ENTRY_AGGREGATE_BLIND( punk )&#xA;#define COM_INTERFACE_ENTRY_AUTOAGGREGATE( iid, punk, clsid )&#xA;#define COM_INTERFACE_ENTRY_AUTOAGGREGATE_BLIND( punk, clsid )&#xA;#define COM_INTERFACE_ENTRY_CHAIN( classname )&#xA;#define COM_INTERFACE_ENTRY_BREAK( x )&#xA;#define COM_INTERFACE_ENTRY_NOINTERFACE( x )&#xA;#define END_COM_MAP( )&#xA;&#xA;#define BEGIN_SINK_MAP( _class )&#xA;#define END_SINK_MAP( )&#xA;#define SINK_ENTRY( id, dispid, fn )&#xA;#define SINK_ENTRY_EX( id, iid, dispid, fn )&#xA;#define SINK_ENTRY_INFO( id, iid, dispid, fn, info)&#xA;#define BEGIN_CONNECTION_POINT_MAP( x )&#xA;#define CONNECTION_POINT_ENTRY( iid )&#xA;#define END_CONNECTION_POINT_MAP( )&#xA;#define BEGIN_EXTENSION_SNAPIN_NODEINFO_MAP( classname )&#xA;#define BEGIN_SNAPINTOOLBARID_MAP( _class )&#xA;#define END_EXTENSION_SNAPIN_NODEINFO_MAP( )&#xA;#define END_SNAPINTOOLBARID_MAP( _class )&#xA;#define EXTENSION_SNAPIN_DATACLASS( dataClass )&#xA;#define EXTENSION_SNAPIN_NODEINFO_ENTRY( dataClass )&#xA;#define SNAPINMENUID( id )&#xA;#define SNAPINTOOLBARID_ENTRY( id )&#xA;#define ATLTRACE( exp )&#xA;#define ATLTRACENOTIMPL( funcname )&#xA;#define ATLTRACE2( DWORD category, UINT level, LPCSTR lpszFormat, ... )&#xA;#define BEGIN_MSG_MAP( theClass )&#xA;#define MESSAGE_HANDLER( msg, func )&#xA;#define MESSAGE_RANGE_HANDLER( msgFirst, msgLast, func )&#xA;#define COMMAND_HANDLER( id, code, func )&#xA;#define COMMAND_ID_HANDLER( id, func )&#xA;#define COMMAND_RANGE_HANDLER( idFirst, idLast, func )&#xA;#define NOTIFY_HANDLER( id, cd, func )&#xA;#define NOTIFY_ID_HANDLER( id, func )&#xA;#define NOTIFY_CODE_HANDLER( cd, func )&#xA;#define NOTIFY_RANGE_HANDLER( idFirst, idLast, func )&#xA;#define CHAIN_MSG_MAP( theChainClass )&#xA;#define CHAIN_MSG_MAP_MEMBER( theChainMember )&#xA;#define CHAIN_MSG_MAP_ALT( theChainClass, msgMapID )&#xA;#define CHAIN_MSG_MAP_ALT_MEMBER( theChainMember, msgMapID )&#xA;#define CHAIN_MSG_MAP_DYNAMIC( dynaChainID )&#xA;#define END_MSG_MAP( )&#xA;#define ALT_MSG_MAP( msgMapID )&#xA;#define DECLARE_EMPTY_MSG_MAP( )&#xA;#define COMMAND_CODE_HANDLER( code, func )&#xA;#define REFLECT_NOTIFICATIONS( )&#xA;#define DEFAULT_REFLECTION_HANDLER( )&#xA;#define BEGIN_OBJECT_MAP( x )&#xA;#define OBJECT_ENTRY( clsid, class )&#xA;#define OBJECT_ENTRY_NON_CREATEABLE( class )&#xA;#define END_OBJECT_MAP( )&#xA;#define DECLARE_OBJECT_DESCRIPTION( x )&#xA;#define BEGIN_PROP_MAP( theClass )&#xA;#define PROP_DATA_ENTRY( szDesc, member, vt )&#xA;#define PROP_ENTRY( szDesc, dispid, clsid )&#xA;#define PROP_ENTRY_EX( szDesc, dispid, clsid, iidDispatch )&#xA;#define PROP_PAGE( clsid )&#xA;#define END_PROPERTY_MAP( )&#xA;#define DECLARE_NO_REGISTRY( )&#xA;#define DECLARE_REGISTRY( class, pid, vpid, nid, flags )&#xA;#define DECLARE_REGISTRY_RESOURCE( x )&#xA;#define DECLARE_REGISTRY_RESOURCEID( x )&#xA;#define BEGIN_SERVICE_MAP( theClass )&#xA;#define END_SERVICE_MAP( )&#xA;#define SERVICE_ENTRY( SID )&#xA;#define SERVICE_ENTRY_CHAIN( punk )&#xA;#define IMPLEMENT_BOOL_STOCKPROP( fname, pname, dispid )&#xA;#define IMPLEMENT_BSTR_STOCKPROP( fname, pname, dispid )&#xA;#define IMPLEMENT_STOCKPROP( type, fname, pname, dispid )&#xA;#define A2BSTR(lpa)&#xA;#define OLE2A(lpa)&#xA;#define T2A(lpa)&#xA;#define W2A(lpa)&#xA;#define A2COLE(lpa)&#xA;#define OLE2BSTR(lpa)&#xA;#define T2BSTR(lpa)&#xA;#define W2BSTR(lpa)&#xA;#define A2CT(lpa)&#xA;#define OLE2CA(lpa)&#xA;#define T2CA(lpa)&#xA;#define W2CA(lpa)&#xA;#define A2CW(lpa)&#xA;#define OLE2CT(lpa)&#xA;#define T2COLE(lpa)&#xA;#define W2COLE(lpa)&#xA;#define A2OLE(lpa)&#xA;#define OLE2CW(lpa)&#xA;#define T2CW(lpa)&#xA;#define W2CT(lpa)&#xA;#define A2T(lpa)&#xA;#define OLE2T(lpa)&#xA;#define T2OLE(lpa)&#xA;#define W2OLE(lpa)&#xA;#define A2W(lpa)&#xA;#define OLE2W(lpa)&#xA;#define T2W(lpa)&#xA;#define W2T(lpa)&#xA;#define DEVMODEA2W(lpa)&#xA;#define TEXTMETRICA2W(lpa)&#xA;#define DEVMODEOLE2T(lpa)&#xA;#define TEXTMETRICOLE2T(lpa)&#xA;#define DEVMODET2OLE(lpa)&#xA;#define TEXTMETRICT2OLE(lpa)&#xA;#define DEVMODEW2A(lpa)&#xA;#define TEXTMETRICW2A(lpa)&#xA;#define DECLARE_WND_CLASS( WndClassName )&#xA;#define DECLARE_WND_SUPERCLASS( WndClassName, OrigWndClassName )&#xA;#define DECLARE_WND_CLASS_EX( WndClassName, style, bkgnd )&#xA;&#xA;// OLE DB&#xA;#define BEGIN_ACCESSOR( num, bAuto )&#xA;#define BEGIN_ACCESSOR_MAP( x, num )&#xA;#define END_ACCESSOR( )&#xA;#define END_ACCESSOR_MAP( )&#xA;#define BEGIN_COLUMN_MAP( x )&#xA;#define BOOKMARK_ENTRY( variable )&#xA;#define COLUMN_ENTRY( nOrdinal, data )&#xA;#define COLUMN_ENTRY_TYPE ( nOrdinal, wType, data )&#xA;#define COLUMN_ENTRY_TYPE_SIZE( nOrdinal, wType, nLength, data )&#xA;#define BLOB _ENTRY( nOrdinal, IID, flags, data )&#xA;#define COLUMN_ENTRY_EX( nOrdinal, wType, nLength, nPrecision, nScale, data, length, status )&#xA;#define COLUMN_ENTRY_LENGTH( nOrdinal, data, length )&#xA;#define COLUMN_ENTRY_LENGTH_STATUS( nOrdinal, data, length, status )&#xA;#define COLUMN_ENTRY_PS( nOrdinal, nPrecision, nScale, data ) &#xA;#define COLUMN_ENTRY_PS_LENGTH( nOrdinal, nPrecision, nScale, data, length )&#xA;#define COLUMN_ENTRY_PS_STATUS( nOrdinal, nPrecision, nScale, data, status )&#xA;#define COLUMN_ENTRY_PS_LENGTH_STATUS( nOrdinal, nPrecision, nScale, data, length, status )&#xA;#define COLUMN_ENTRY_STATUS( nOrdinal, data, status )&#xA;#define END_COLUMN_MAP( )&#xA;#define DEFINE_COMMAND( x, szCommand )&#xA;#define BEGIN_PARAM_MAP( x )&#xA;#define END_PARAM_MAP( )&#xA;#define SET_PARAM_TYPE( type )&#xA;#define BEGIN_PROPERTY_SET( pguid )&#xA;#define BEGIN_PROPERTY_SET(pguid, flags)&#xA;#define BEGIN_PROPSET_MAP( Class )&#xA;#define CHAIN_PROPERTY_SET( ChainClass )&#xA;#define END_PROPERTY_SET( guid )&#xA;#define END_PROPSET_MAP( )&#xA;#define PROPERTY_INFO_ENTRY( dwPropID )&#xA;#define PROPERTY_INFO_ENTRY( dwPropID, vt, dwFlags, value, options)&#xA;#define PROPERTY_INFO_ENTRY( dwPropID, value )&#xA;#define BEGIN_PROVIDER_COLUMN_MAP( theClass ) &#xA;#define END_PROVIDER_COLUMN_MAP( )&#xA;#define PROVIDER_COLUMN_ENTRY_GN ( name, ordinal, flags, colSize, dbtype, precision, scale, guid )&#xA;#define PROVIDER_COLUMN_ENTRY_FIXED( name, ordinal, dbtype, member )&#xA;#define PROVIDER_COLUMN_ENTRY_LENGTH( name, ordinal, size, member )&#xA;#define PROVIDER_COLUMN_ENTRY_STR( name, ordinal, member )&#xA;#define PROVIDER_COLUMN_ENTRY_WSTR( name, ordinal, member )&#xA;&#xA;// PARSE&#xA;#define BEGIN_PARSE_MAP( theClass, baseClass )&#xA;#define ON_PARSE_COMMAND( FnName, mapClass, Args )&#xA;#define ON_PARSE_COMMAND_PARAMS( Params )&#xA;#define DEFAULT_PARSE_COMMAND( FnName, mapClass )&#xA;#define END_PARSE_MAP( theClass )&#xA;#define END_PROPERTY_SET( guid )&#xA;#define BEGIN_PROPSET_MAP( Class )&#xA;#define PROPERTY_INFO_ENTRY( dwPropID )&#xA;#define END_PROPSET_MAP( )&#xA;&#xA;#define MAKELPARAM(low, high)&#xA;#define MAKELRESULT(low, high)&#xA;#define MAKELP(sel, off) &#xA;#define SELECTOROF(lp) &#xA;#define OFFSETOF(lp) &#xA;#define FIELDOFFSET(type, field)&#xA;#define afx_msg&#xA;#define ACE_ALLOC_HOOK_DECLARE&#xA;&#xA;// xerces&#xA;#define XERCES_CPP_NAMESPACE_BEGIN namespace xerces {&#xA;#define XERCES_CPP_NAMESPACE_END }&#xA;#define XERCES_CPP_NAMESPACE_USE using namespace XERCES_CPP_NAMESPACE;&#xA;#define XERCES_CPP_NAMESPACE_QUALIFIER XERCES_CPP_NAMESPACE::&#xA;#define CDOM_EXPORT&#xA;#define ATL_NO_VTABLE&#xA;#define PLATFORM_IMPORT&#xA;#define PARSERS_EXPORT&#xA;&#xA;// QT&#xA;#define Q_AUTOTEST_EXPORT&#xA;#define Q_CLASSINFO(name, value)&#xA;#define Q_COMPAT_EXPORT&#xA;#define Q_CORE_EXPORT&#xA;#define Q_CORE_EXPORT_INLINE inline&#xA;#define Q_D(Class)&#xA;#define Q_DECL_IMPORT&#xA;#define Q_DECLARE_ASSOCIATIVE_ITERATOR(map)&#xA;#define Q_DECLARE_BUILTIN_METATYPE(TYPE, NAME)&#xA;#define Q_DECLARE_EXTENSION_INTERFACE(IFace, IId)&#xA;#define Q_DECLARE_FLAGS(Flags, enum)&#xA;#define Q_DECLARE_INTERFACE(IFace, IId)&#xA;#define Q_DECLARE_METATYPE(txt)&#xA;#define Q_DECLARE_MUTABLE_SEQUENTIAL_ITERATOR(c)&#xA;#define Q_DECLARE_MUTABLE_ASSOCIATIVE_ITERATOR(c)&#xA;#define Q_DECLARE_OPERATORS_FOR_FLAGS(Flags)&#xA;#define Q_DECLARE_PRIVATE(Class)&#xA;#define Q_DECLARE_PUBLIC(Class)&#xA;#define Q_DECLARE_SEQUENTIAL_ITERATOR(name)&#xA;#define Q_DECLARE_SHARED(name)&#xA;#define Q_DECLARE_TYPEINFO(TYPE, FLAGS)&#xA;#define Q_DECL_DEPRECATED&#xA;#define Q_DISABLE_COPY(Class)&#xA;#define Q_DUMMY_COMPARISON_OPERATOR(c)&#xA;#define Q_ENUMS(x)&#xA;#define Q_FLAGS(x)&#xA;#define Q_GADGET&#xA;#define Q_GUI_EXPORT&#xA;#define Q_GUI_EXPORT_INLINE inline&#xA;#define Q_INLINE_TEMPLATE&#xA;#define Q_INTERFACES(x)&#xA;#define Q_NETWORK_EXPORT&#xA;#define Q_NOREPLY&#xA;#define Q_OBJECT&#xA;#define Q_OPENGL_EXPORT&#xA;#define Q_OUTOFLINE_TEMPLATE inline&#xA;#define Q_OVERRIDE(text)&#xA;#define Q_PRIVATE_SLOT(d, signature)&#xA;#define Q_PROPERTY(text)&#xA;#define Q_Q(Class)&#xA;#define Q_REQUIRED_RESULT&#xA;#define Q_SCRIPTABLE&#xA;#define Q_SIGNALS protected&#xA;#define Q_SLOTS&#xA;#define Q_SQL_EXPORT&#xA;#define Q_SVG_EXPORT&#xA;#define Q_TESTLIB_EXPORT&#xA;#define Q_TYPENAME typename&#xA;#define Q_XML_EXPORT&#xA;&#xA;#define QDBUS_EXPORT&#xA;#define QDESIGNER_COMPONENTS_EXPORT&#xA;#define QDESIGNER_EXTENSION_EXPORT&#xA;#define QDESIGNER_SDK_EXPORT&#xA;#define QDESIGNER_SHARED_EXPORT&#xA;#define QDESIGNER_UILIB_EXPORT&#xA;#define QDESIGNER_WIDGET_EXPORT&#xA;#define QDOC_PROPERTY(text)&#xA;&#xA;#define QT_ASCII_CAST_WARN&#xA;#define QT_ASCII_CAST_WARN_CONSTRUCTOR&#xA;#define QT_ASSISTANT_CLIENT_EXPORT&#xA;#define QT_BEGIN_HEADER&#xA;#define QT_DEPRECATED&#xA;#define QT_DEPRECATED_VARIABLE&#xA;#define QT_DEPRECATED_CONSTRUCTOR&#xA;#define QT_END_HEADER&#xA;#define QT_FASTCALL&#xA;#define QT_FT_BEGIN_HEADER&#xA;#define QT_FT_END_HEADER&#xA;#define QT_MOC_COMPAT&#xA;#define QT_MODULE(name)&#xA;#define QT_STATIC_CONST static const&#xA;#define QT_STATIC_CONST_IMPL const&#xA;#define QT_TR_NOOP(x)&#xA;#define QT_TRANSLATE_NOOP(scope, x)&#xA;&#xA;#define slots&#xA;#define signals protected&#xA;&#xA;&#xA;// Microsoft extension&#xA;#define CALLBACK&#xA;#define LRESULT void&#xA;#define _ENTRY(p1, p2, p3, p4) p1&#xA;&#xA;#define CFX_EXPORT&#xA;&#xA;// GCC&#xA;#define __extension__&#xA;&#xA;// Symbian macro&#xA;#define _L(string) TPtrC((const TText*) string)&#xA;#define _LIT(name,s) const static TListC&lt;sizeof(s)> name = {sizeof(s) -1,s}&#xA;#define _LIT8(name,s) const static TListC&lt;sizeof(s)> name = {sizeof(s) -1,s}&#xA;&#xA;#define IMPORT_C /*__declspec(dllimport)*/&#xA;#define EXPORT_C /*__declspec(dllexport)*/&#xA;&#xA;#define NONSHARABLE_CLASS(x) class x&#xA;#define NONSHARABLE_STRUCT(x) struct x&#xA;&#xA;#define GLREF_D extern&#xA;#define GLDEF_D&#xA;#define LOCAL_D static&#xA;#define GLREF_C extern&#xA;#define GLDEF_C&#xA;#define LOCAL_C static&#xA;">
-    <userDefinedAttributeCreationRule xmi:id="_6-y6UelYEeKM1O5DqVzPvA">
-      <rules xmi:id="_6-y6UulYEeKM1O5DqVzPvA" pattern="*" classType="DataType"/>
-    </userDefinedAttributeCreationRule>
-  </md.ce.cppAnsi.rt.options:CppLanguageOptions>
-  <md.ce.csh.rt.options:CshLanguageOptions xmi:id="_6-y6U-lYEeKM1O5DqVzPvA" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR">
-    <documentationTagProcessors xsi:type="md.ce.csh.code.documentation:CshDocumentationProcessor" xmi:id="_6-y6VOlYEeKM1O5DqVzPvA" ID="CSH_XML_PROCESSOR">
-      <documentationTagManagers xmi:id="_6-y6VelYEeKM1O5DqVzPvA" ID="CLASSIFIER">
-        <documentationTags xmi:id="_6-y6VulYEeKM1O5DqVzPvA" name="summary" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6V-lYEeKM1O5DqVzPvA" name="remarks" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6WOlYEeKM1O5DqVzPvA" name="permission" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6WelYEeKM1O5DqVzPvA" name="example" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6WulYEeKM1O5DqVzPvA" name="seealso" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6W-lYEeKM1O5DqVzPvA" name="include" valueEditable="false"/>
-      </documentationTagManagers>
-      <documentationTagManagers xmi:id="_6-y6XOlYEeKM1O5DqVzPvA" ID="OPERATION">
-        <documentationTags xmi:id="_6-y6XelYEeKM1O5DqVzPvA" name="summary" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6XulYEeKM1O5DqVzPvA" name="value" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6X-lYEeKM1O5DqVzPvA" name="param" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6YOlYEeKM1O5DqVzPvA" name="returns" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6YelYEeKM1O5DqVzPvA" name="exception" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6YulYEeKM1O5DqVzPvA" name="permission" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6Y-lYEeKM1O5DqVzPvA" name="example" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6ZOlYEeKM1O5DqVzPvA" name="seealso" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6ZelYEeKM1O5DqVzPvA" name="include" valueEditable="false"/>
-      </documentationTagManagers>
-      <documentationTagManagers xmi:id="_6-y6ZulYEeKM1O5DqVzPvA" ID="ATTRIBUTE">
-        <documentationTags xmi:id="_6-y6Z-lYEeKM1O5DqVzPvA" name="summary" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6aOlYEeKM1O5DqVzPvA" name="permission" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6aelYEeKM1O5DqVzPvA" name="example" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6aulYEeKM1O5DqVzPvA" name="seealso" valueEditable="false"/>
-        <documentationTags xmi:id="_6-y6a-lYEeKM1O5DqVzPvA" name="include" valueEditable="false"/>
-      </documentationTagManagers>
-    </documentationTagProcessors>
-    <userDefinedAttributeCreationRule xmi:id="_6-y6bOlYEeKM1O5DqVzPvA">
-      <rules xmi:id="_6-y6belYEeKM1O5DqVzPvA" pattern="*" classType="DataType"/>
-    </userDefinedAttributeCreationRule>
-  </md.ce.csh.rt.options:CshLanguageOptions>
-  <md.ce.msil.rt.options:MsilLanguageOptions xmi:id="_6-y6bulYEeKM1O5DqVzPvA" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR">
-    <userDefinedAttributeCreationRule xmi:id="_6-y6b-lYEeKM1O5DqVzPvA">
-      <rules xmi:id="_6-y6cOlYEeKM1O5DqVzPvA" pattern="*" classType="DataType"/>
-    </userDefinedAttributeCreationRule>
-  </md.ce.msil.rt.options:MsilLanguageOptions>
-  <md.ce.corbaidl.rt.options:CORBAIDLLanguageOptions xmi:id="_6-y6celYEeKM1O5DqVzPvA" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR">
-    <userDefinedAttributeCreationRule xmi:id="_6-y6culYEeKM1O5DqVzPvA">
-      <rules xmi:id="_6-y6c-lYEeKM1O5DqVzPvA" pattern="*" classType="DataType"/>
-    </userDefinedAttributeCreationRule>
-  </md.ce.corbaidl.rt.options:CORBAIDLLanguageOptions>
-</xmi:XMI>
-</filePart>
-	</xmi:Extension>
-	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='proxy.local__PROJECT$h877558e9224f114d50dea1f39a1c119_resource_com$dnomagic$dmagicdraw$duml_umodel$dshared_umodel$dsnapshot' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
-<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.nomagic.com/magicdraw/UML/2.5.1" xmi:id="magicdraw_uml_standard_profile_v_0001" ID="magicdraw_uml_standard_profile_v_0001" name="UML Standard Profile">
-  <appliedStereotypeInstance xmi:id="_12_1_8f90291_1174411598625_504587_98" ID="_12_1_8f90291_1174411598625_504587_98" classifier="_12_1_8f90291_1173963323875_662612_98"/>
-  <packagedElement xsi:type="uml:Profile" xmi:id="_be00301_1073394351331_445580_2" ID="_be00301_1073394351331_445580_2" name="MagicDraw Profile">
-    <packagedElement xsi:type="uml:Stereotype" xmi:id="_12_1_8f90291_1173963323875_662612_98" ID="_12_1_8f90291_1173963323875_662612_98" name="auxiliaryResource" _extensionEndOfType="_12_1_8f90291_1173963939937_399630_100">
-      <generalization xmi:id="_15_0_8f90291_1196866634537_680603_98" ID="_15_0_8f90291_1196866634537_680603_98" general="_9_0_be00301_1108044721245_236588_411"/>
-      <ownedAttribute xmi:id="_12_1_8f90291_1173963939937_52316_99" ID="_12_1_8f90291_1173963939937_52316_99" name="base_Element" visibility="private" type="_9_0_62a020a_1105704884807_371561_7741" association="_12_1_8f90291_1173963939937_323574_98"/>
-      <ownedAttribute xmi:id="_19_0_8760276_1515156810551_352594_4505" ID="_19_0_8760276_1515156810551_352594_4505" name="treatAsAuxiliaryInOwningProject" visibility="private" type="_12_0EAPbeta_be00301_1157529792739_987548_11"/>
-    </packagedElement>
-    <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081772098_323897_274" ID="_10_0EAPbeta_be00301_1123081772098_323897_274" memberEnd="_10_0EAPbeta_be00301_1123081772108_624594_276 _10_0EAPbeta_be00301_1123081772098_411862_275">
-      <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081772108_624594_276" ID="_10_0EAPbeta_be00301_1123081772108_624594_276" name="extension_InvisibleStereotype" visibility="private" type="_9_0_be00301_1108044721245_236588_411" aggregation="composite" association="_10_0EAPbeta_be00301_1123081772098_323897_274"/>
-    </packagedElement>
-    <packagedElement xsi:type="uml:Extension" xmi:id="_12_1_8f90291_1173963939937_323574_98" ID="_12_1_8f90291_1173963939937_323574_98" memberEnd="_12_1_8f90291_1173963939937_399630_100 _12_1_8f90291_1173963939937_52316_99">
-      <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_12_1_8f90291_1173963939937_399630_100" ID="_12_1_8f90291_1173963939937_399630_100" name="extension_auxiliaryResource" visibility="private" type="_12_1_8f90291_1173963323875_662612_98" aggregation="composite" association="_12_1_8f90291_1173963939937_323574_98"/>
-    </packagedElement>
-    <packagedElement xsi:type="uml:Stereotype" xmi:id="_9_0_be00301_1108044721245_236588_411" ID="_9_0_be00301_1108044721245_236588_411" name="InvisibleStereotype" _extensionEndOfType="_10_0EAPbeta_be00301_1123081772108_624594_276">
-      <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081772098_411862_275" ID="_10_0EAPbeta_be00301_1123081772098_411862_275" name="base_Element" visibility="private" type="_9_0_62a020a_1105704884807_371561_7741" association="_10_0EAPbeta_be00301_1123081772098_323897_274"/>
-    </packagedElement>
-    <packagedElement xsi:type="uml:Stereotype" xmi:id="_9_0_be00301_1108044380615_150487_0" ID="_9_0_be00301_1108044380615_150487_0" name="DiagramInfo" _extensionEndOfType="_10_0EAPbeta_be00301_1123081772498_435993_357">
-      <generalization xmi:id="_9_0_be00301_1108044989070_469307_436" ID="_9_0_be00301_1108044989070_469307_436" general="_9_0_be00301_1108044721245_236588_411"/>
-      <ownedAttribute xmi:id="_be00301_1073306188629_537791_2" ID="_be00301_1073306188629_537791_2" name="Creation date" visibility="private" type="_be00301_1073305590699_364818_1"/>
-      <ownedAttribute xmi:id="_be00301_1077726770128_871366_1" ID="_be00301_1077726770128_871366_1" name="Author" visibility="private" type="_9_0_2_91a0295_1110274713995_297054_0"/>
-      <ownedAttribute xmi:id="_be00301_1073394345322_922552_1" ID="_be00301_1073394345322_922552_1" name="Modification date" visibility="private" type="_be00301_1073305590699_364818_1"/>
-      <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081772498_901864_356" ID="_10_0EAPbeta_be00301_1123081772498_901864_356" name="base_Diagram" visibility="private" type="_9_0_62a020a_1106296071977_61607_0" association="_10_0EAPbeta_be00301_1123081772498_531863_355"/>
-      <ownedAttribute xmi:id="_16_8beta_8ca0285_1257244649124_794756_344" ID="_16_8beta_8ca0285_1257244649124_794756_344" name="Last modified by" visibility="private" type="_9_0_2_91a0295_1110274713995_297054_0"/>
-    </packagedElement>
-    <packagedElement xsi:type="uml:Package" xmi:id="_9_0_2_be00301_1111670217596_336168_627" ID="_9_0_2_be00301_1111670217596_336168_627" name="datatypes">
-      <packagedElement xsi:type="uml:DataType" xmi:id="_be00301_1073305590699_364818_1" ID="_be00301_1073305590699_364818_1" name="date"/>
-    </packagedElement>
-    <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081772498_531863_355" ID="_10_0EAPbeta_be00301_1123081772498_531863_355" memberEnd="_10_0EAPbeta_be00301_1123081772498_435993_357 _10_0EAPbeta_be00301_1123081772498_901864_356">
-      <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081772498_435993_357" ID="_10_0EAPbeta_be00301_1123081772498_435993_357" name="extension_DiagramInfo" visibility="private" type="_9_0_be00301_1108044380615_150487_0" aggregation="composite" association="_10_0EAPbeta_be00301_1123081772498_531863_355"/>
-    </packagedElement>
-  </packagedElement>
-  <packagedElement xsi:type="uml:Model" xmi:id="_9_0_be00301_1108053761194_467635_11463" ID="_9_0_be00301_1108053761194_467635_11463" name="UML2 Metamodel">
-    <appliedStereotypeInstance xmi:id="_10_0EAPbeta_be00301_1123081771126_233373_95" ID="_10_0EAPbeta_be00301_1123081771126_233373_95" classifier="magicdraw_1046861421236_601240_36"/>
-    <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704884807_371561_7741" ID="_9_0_62a020a_1105704884807_371561_7741" name="Element"/>
-    <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704920340_825592_9329" ID="_9_0_62a020a_1105704920340_825592_9329" name="Model"/>
-    <packagedElement xsi:type="uml:Package" xmi:id="_12_0EAPbeta_be00301_1157529392394_202602_1" ID="_12_0EAPbeta_be00301_1157529392394_202602_1" name="PrimitiveTypes">
-      <packagedElement xsi:type="uml:PrimitiveType" xmi:id="_9_0_2_91a0295_1110274713995_297054_0" ID="_9_0_2_91a0295_1110274713995_297054_0" name="String"/>
-      <packagedElement xsi:type="uml:PrimitiveType" xmi:id="_12_0EAPbeta_be00301_1157529792739_987548_11" ID="_12_0EAPbeta_be00301_1157529792739_987548_11" name="Boolean"/>
-    </packagedElement>
-    <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1106296071977_61607_0" ID="_9_0_62a020a_1106296071977_61607_0" name="Diagram"/>
-  </packagedElement>
-  <packagedElement xsi:type="uml:Profile" xmi:id="_9_0_be00301_1108050582343_527400_10847" ID="_9_0_be00301_1108050582343_527400_10847" name="StandardProfile">
-    <packagedElement xsi:type="uml:Stereotype" xmi:id="magicdraw_1046861421236_601240_36" ID="magicdraw_1046861421236_601240_36" name="Metamodel" _extensionEndOfType="_10_0EAPbeta_be00301_1123081771136_580423_99">
-      <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081771136_271406_98" ID="_10_0EAPbeta_be00301_1123081771136_271406_98" name="base_Model" visibility="private" type="_9_0_62a020a_1105704920340_825592_9329" association="_10_0EAPbeta_be00301_1123081771136_824883_97"/>
-    </packagedElement>
-    <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081771136_824883_97" ID="_10_0EAPbeta_be00301_1123081771136_824883_97" memberEnd="_10_0EAPbeta_be00301_1123081771136_580423_99 _10_0EAPbeta_be00301_1123081771136_271406_98">
-      <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081771136_580423_99" ID="_10_0EAPbeta_be00301_1123081771136_580423_99" name="extension_metamodel" visibility="private" type="magicdraw_1046861421236_601240_36" aggregation="composite" association="_10_0EAPbeta_be00301_1123081771136_824883_97"/>
-    </packagedElement>
-  </packagedElement>
-</uml:Package>
-</filePart>
-	</xmi:Extension>
-	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='BINARY-b765c5f5-336c-4d53-ab30-aa2267180ec7' type='XML' header='&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;'>
+		<filePart name='BINARY-c478494c-2c9b-45bd-bfaa-de376295902d' type='XML' header='&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;'>
 
 <mdOwnedViews>
 	<mdElement elementClass='DiagramFrame' xmi:id='_19_0_4_6220219_1608467823972_435097_4818'>
@@ -1584,6 +1355,16 @@
 				<linkFirstEndID xmi:idref='_19_0_4_6220219_1608845346635_155609_4969'/>
 				<linkSecondEndID xmi:idref='_19_0_4_6220219_1608501726679_769661_5768'/>
 				<geometry>720, 426; 473, 613; </geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+				<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+				<nameVisible xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='Usage' xmi:id='_19_0_4_6220219_1609012554232_57890_4816'>
+				<elementID xmi:idref='_19_0_4_6220219_1609012554201_151712_4815'/>
+				<linkFirstEndID xmi:idref='_19_0_4_6220219_1608563641119_194360_6333'/>
+				<linkSecondEndID xmi:idref='_19_0_4_6220219_1608501726679_769661_5768'/>
+				<geometry>1044, 608; 728, 599; 473, 618; </geometry>
 				<compartment compartmentID='TAGGED_VALUES'/>
 				<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
 				<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
@@ -2322,7 +2103,242 @@
 </mdOwnedViews></filePart>
 	</xmi:Extension>
 	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='Binaries.properties' type='BINARY'>H4sIAAAAAAAAAFPm5VIOyShVcElNVjAyUTAytjI0sTIxV3B2DVEwMjAy4OVKzs/Vy8vPTUzPTNYDkylFieV6pbk58bn5Kak5emDS1snTzzEoUjfJ3Mw02TTNVNfY2CxZ1yTF1Fg3McnYQDcx0cjIzNzQwiA12ZyXCwCW4rn4dQAAAA==</filePart>
+		<filePart name='proxy.local__PROJECT$h877558e9224f114d50dea1f39a1c119_resource_com$dnomagic$dci$dmetamodel$dproject$dsnapshot' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
+<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:project="http://www.nomagic.com/ns/cameo/client/project/1.0" xmi:id="_VWTUgU_TEeCNOP_jel_PNg" description="" id="PROJECT-877558e9224f114d50dea1f39a1c119">
+  <ownedSections xmi:id="_VWY0EU_TEeCNOP_jel_PNg" name="model" featuredBy="_VWY0EE_TEeCNOP_jel_PNg"/>
+  <ownedSections xmi:id="_VabmkU_TEeCNOP_jel_PNg" name="commonprojectoptions" shared="true" featuredBy="_VabmkE_TEeCNOP_jel_PNg"/>
+  <ownedSections xmi:id="_VacNoU_TEeCNOP_jel_PNg" name="personalprojectoptions" shared="true" belongsTo="_VacNok_TEeCNOP_jel_PNg" featuredBy="_VabmkE_TEeCNOP_jel_PNg"/>
+  <ownedSections xmi:id="_VbQF8E_TEeCNOP_jel_PNg" name="shared_model" shared="true" featuredBy="_VWY0EE_TEeCNOP_jel_PNg">
+    <sharePoints xmi:id="_VbhywE_TEeCNOP_jel_PNg" ID="magicdraw_uml_standard_profile_v_0001">
+      <object href="PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#magicdraw_uml_standard_profile_v_0001"/>
+      <options xmi:id="_Bnb0gH02EeCAfIowCLYtPA" key="preferredPath" value=""/>
+    </sharePoints>
+  </ownedSections>
+  <ownedSections xmi:id="_VfpdwU_TEeCNOP_jel_PNg" name="commoncodeengineering" featuredBy="_VfpdwE_TEeCNOP_jel_PNg"/>
+  <userParts xmi:id="_VacNok_TEeCNOP_jel_PNg" user="_kpyFAVxdEeC_ZNJv4YLpoQ" sections="_VacNoU_TEeCNOP_jel_PNg"/>
+  <features xmi:id="_VWY0EE_TEeCNOP_jel_PNg" name="UML Model" namespace="com.nomagic.magicdraw.uml_model" version="17.0" sections="_VWY0EU_TEeCNOP_jel_PNg _VbQF8E_TEeCNOP_jel_PNg" internalVersion="1"/>
+  <features xmi:id="_VabmkE_TEeCNOP_jel_PNg" name="Project Options" namespace="com.nomagic.magicdraw.core.project.options" version="1.0" sections="_VabmkU_TEeCNOP_jel_PNg _VacNoU_TEeCNOP_jel_PNg" internalVersion="1"/>
+  <features xmi:id="_Vfo2sE_TEeCNOP_jel_PNg" name="Language Properties" namespace="com.nomagic.magicdraw.ce.languageproperties" version="1.0" internalVersion="1"/>
+  <features xmi:id="_VfpdwE_TEeCNOP_jel_PNg" name="Code Engineering" namespace="com.nomagic.magicdraw.ce" version="1.0" sections="_VfpdwU_TEeCNOP_jel_PNg" internalVersion="1"/>
+  <features xmi:id="_x_Z_IFUEEee8oPCPVi3wjg" name="DMN Code Engineering" namespace="com.nomagic.magicdraw.ce.dmn" version="1.0" internalVersion="1"/>
+  <properties xmi:id="_Vbhywk_TEeCNOP_jel_PNg" key="standardProfile" value="true"/>
+  <properties xmi:id="_VbiZ0E_TEeCNOP_jel_PNg" key="internalVersion" value="19.0 SP3"/>
+  <properties xmi:id="_srSgUFnLEeCNG86yLj6xYg" key="MODULES_DIRS" value="&lt;install.root>/templates&lt;>&lt;install.root>/profiles&lt;>&lt;project.dir>/&lt;>&lt;install.root>/modelLibraries&lt;>/&lt;install.root>/profiles"/>
+  <properties xmi:id="_94jvAH01EeCAfIowCLYtPA" key="exporterDescription" value="ac ed 0 5 73 72 0 2e 63 6f 6d 2e 6e 6f 6d 61 67 69 63 2e 70 65 72 73 69 73 74 65 6e 63 65 2e 58 6d 69 45 78 70 6f 72 74 65 72 44 65 73 63 72 69 70 74 69 6f 6e f5 3e fd c8 e7 3c 3b d7 2 0 5 4c 0 5 6d 4e 61 6d 65 74 0 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 0 12 6d 52 65 71 75 69 72 65 64 50 6c 75 67 69 6e 4d 61 70 74 0 f 4c 6a 61 76 61 2f 75 74 69 6c 2f 4d 61 70 3b 4c 0 12 6d 52 65 71 75 69 72 65 64 52 65 73 6f 75 72 63 65 73 74 0 10 4c 6a 61 76 61 2f 75 74 69 6c 2f 4c 69 73 74 3b 4c 0 10 6d 55 4d 4c 4e 61 6d 65 73 70 61 63 65 55 52 49 71 0 7e 0 1 4c 0 8 6d 56 65 72 73 69 6f 6e 71 0 7e 0 1 78 70 74 0 d 4d 61 67 69 63 44 72 61 77 20 55 4d 4c 73 72 0 11 6a 61 76 61 2e 75 74 69 6c 2e 48 61 73 68 4d 61 70 5 7 da c1 c3 16 60 d1 3 0 2 46 0 a 6c 6f 61 64 46 61 63 74 6f 72 49 0 9 74 68 72 65 73 68 6f 6c 64 78 70 3f 40 0 0 0 0 0 0 77 8 0 0 0 10 0 0 0 0 78 73 72 0 13 6a 61 76 61 2e 75 74 69 6c 2e 41 72 72 61 79 4c 69 73 74 78 81 d2 1d 99 c7 61 9d 3 0 1 49 0 4 73 69 7a 65 78 70 0 0 0 0 77 4 0 0 0 0 78 70 74 0 7 31 39 2e 30 20 76 39 "/>
+  <properties xmi:id="_DnjcsMQEEeCVy5mnlxX55w" key="fileVersion" value="986"/>
+  <properties xmi:id="_Doc0kMQEEeCVy5mnlxX55w" key="MODEL_ROOT_HREF" value="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.model#eee_1045467100313_135436_1"/>
+  <properties xmi:id="_BwA7QADBEeK92_v4nw3vUw" key="CI_VERSION" value="V1702_SP1"/>
+  <properties xmi:id="_z_AY0MGpEeS9Iojkvg0NZg" key="fileFormatVersion" value="18.1 beta.esi"/>
+  <properties xmi:id="_SDFrYW6cEeWDd-3OrajLsA" key="saveID" value="079fbe67-9005-402a-a91a-d1f81abae3f0"/>
+  <properties xmi:id="_dhIioFHEEeiUvMqDA7b6Sw" key="compatibleVersion" value="19.0"/>
+  <properties xmi:id="_6OTmYRgBEem5GakRwxW-Zg" key="requiredFeature" value=""/>
+  <projectUsers xmi:id="_kpyFAVxdEeC_ZNJv4YLpoQ" userId="default"/>
+</project:Project>
+</filePart>
+	</xmi:Extension>
+	<xmi:Extension extender='MagicDraw UML 19.0'>
+		<filePart name='PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867' type='BINARY'>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</filePart>
+	</xmi:Extension>
+	<xmi:Extension extender='MagicDraw UML 19.0'>
+		<filePart name='com.nomagic.ci.persistence.local.proxy.privatedependencylist' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
+<snapshot:PrivateDependenciesContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:snapshot="http://www.nomagic.com/ns/cameo/client/snapshot/1.0" xmi:id="_XfkCsAJHEeKcqJgnVU4y2Q">
+  <referencedResources xmi:id="_ZDif0Ee0Eeue2PacOn2TuQ" originalResourceURI="local:/PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model">
+    <referencedObjects>eee_1045467100313_135436_1</referencedObjects>
+  </referencedResources>
+  <referencedResources xmi:id="_ZDif0Ue0Eeue2PacOn2TuQ" originalResourceURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel">
+    <referencedObjects>magicdraw_uml_standard_profile_v_0001</referencedObjects>
+    <referencedObjects>_9_0_62a020a_1105704884807_371561_7741</referencedObjects>
+    <referencedObjects>_16_8beta_8ca0285_1257244649124_794756_344</referencedObjects>
+    <referencedObjects>_9_0_be00301_1108044380615_150487_0</referencedObjects>
+    <referencedObjects>_be00301_1077726770128_871366_1</referencedObjects>
+    <referencedObjects>_be00301_1073306188629_537791_2</referencedObjects>
+    <referencedObjects>_be00301_1073394345322_922552_1</referencedObjects>
+  </referencedResources>
+</snapshot:PrivateDependenciesContainer>
+</filePart>
+	</xmi:Extension>
+	<xmi:Extension extender='MagicDraw UML 19.0'>
+		<filePart name='com.nomagic.ci.proxy.snapshot.descriptor.descriptors' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
+<snapshot:SnapshotInfoContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:snapshot="http://www.nomagic.com/ns/cameo/client/snapshot/1.0" xmi:id="_w_oCgJnOEeG5IL63JP9cFw">
+  <snaphotDescriptors xmi:id="_xwW74JnOEeG5IL63JP9cFw" originalResourceURI="local:/PROJECT-5d6756d4ab7fcc1b9be2b6b7ce3f4f23?resource=com.nomagic.magicdraw.uml_umodel.model"/>
+  <snaphotDescriptors xmi:id="_xwW74ZnOEeG5IL63JP9cFw" originalResourceURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel">
+    <sharePointObjects>magicdraw_uml_standard_profile_v_0001</sharePointObjects>
+  </snaphotDescriptors>
+  <snaphotDescriptors xmi:id="_AUq3gELAEeuZeKpjsXPqpQ" originalResourceURI="local:/PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model"/>
+</snapshot:SnapshotInfoContainer>
+</filePart>
+	</xmi:Extension>
+	<xmi:Extension extender='MagicDraw UML 19.0'>
+		<filePart name='com.nomagic.ci.metamodel.project' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;'>
+<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:project="http://www.nomagic.com/ns/cameo/client/project/1.0" xmi:id="_GLT9QFYDEeCyhsLctII43A" description="" id="PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867">
+  <ownedSections xmi:id="_GOUN8FYDEeCyhsLctII43A" name="model" featuredBy="_GOS_0FYDEeCyhsLctII43A"/>
+  <ownedSections xmi:id="_HB1VkFYDEeCyhsLctII43A" name="commonprojectoptions" shared="true" featuredBy="_HB0ugFYDEeCyhsLctII43A"/>
+  <ownedSections xmi:id="_HB4_8FYDEeCyhsLctII43A" name="personalprojectoptions" shared="true" belongsTo="_HB4_8VYDEeCyhsLctII43A" featuredBy="_HB0ugFYDEeCyhsLctII43A"/>
+  <ownedSections xmi:id="_1OlPIJjZEeCrL4EC3xSIEw" name="commoncodeengineering" featuredBy="_1ObeIZjZEeCrL4EC3xSIEw"/>
+  <userParts xmi:id="_HB4_8VYDEeCyhsLctII43A" user="_zRtSwZjZEeCrL4EC3xSIEw" sections="_HB4_8FYDEeCyhsLctII43A"/>
+  <projectUsages xmi:id="_GPTscFYDEeCyhsLctII43A" usedProjectURI="file:/C:/Program%20Files/MagicDraw/profiles/UML_Standard_Profile.mdzip" readonly="true" alternateLocation="file:/home/donce/md17/git-17-copy/md/core/profiles/UML_Standard_Profile.mdzip" preferredProjectRepositoryType="" loadedAutomatically="true" withPrivateDependencies="true">
+    <usedProject href="PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.ci.metamodel.project#_VWTUgU_TEeCNOP_jel_PNg"/>
+    <mountPoints xmi:id="_HBun4FYDEeCyhsLctII43A" sharePointID="magicdraw_uml_standard_profile_v_0001" containmentFeatureID="61" featureName="UML Model" containmentIndex="-1" containmentFeatureName="packagedElement">
+      <mountedPoint href="PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#magicdraw_uml_standard_profile_v_0001"/>
+      <mountedOn href="PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model#eee_1045467100313_135436_1"/>
+      <options xmi:id="_ZBWugEe0Eeue2PacOn2TuQ" key="preferredPath" value="::"/>
+    </mountPoints>
+    <properties xmi:id="_HBzgYFYDEeCyhsLctII43A" key="usedVersion" value="19.0 SP3"/>
+    <properties xmi:id="_I2i0cFYDEeCyhsLctII43A" key="LOCAL_PROJECT_ID" value="PROJECT-877558e9224f114d50dea1f39a1c119"/>
+  </projectUsages>
+  <features xmi:id="_GOS_0FYDEeCyhsLctII43A" name="UML Model" namespace="com.nomagic.magicdraw.uml_model" version="17.0" sections="_GOUN8FYDEeCyhsLctII43A" internalVersion="1"/>
+  <features xmi:id="_HB0ugFYDEeCyhsLctII43A" name="Project Options" namespace="com.nomagic.magicdraw.core.project.options" version="1.0" sections="_HB1VkFYDEeCyhsLctII43A _HB4_8FYDEeCyhsLctII43A" internalVersion="1"/>
+  <features xmi:id="_1ObeIJjZEeCrL4EC3xSIEw" name="Language Properties" namespace="com.nomagic.magicdraw.ce.languageproperties" version="1.0" internalVersion="1"/>
+  <features xmi:id="_1ObeIZjZEeCrL4EC3xSIEw" name="Code Engineering" namespace="com.nomagic.magicdraw.ce" version="1.0" sections="_1OlPIJjZEeCrL4EC3xSIEw" internalVersion="1"/>
+  <properties xmi:id="_GPLwoFYDEeCyhsLctII43A" key="standardProfile" value="false"/>
+  <properties xmi:id="_GPLwoVYDEeCyhsLctII43A" key="internalVersion" value="19.0"/>
+  <properties xmi:id="_I3t5IFYDEeCyhsLctII43A" key="MODULES_DIRS" value="&lt;project.dir>&lt;>&lt;install.root>\profiles&lt;>&lt;install.root>\modelLibraries"/>
+  <properties xmi:id="_4iLt4JjZEeCrL4EC3xSIEw" key="fileVersion" value="96"/>
+  <properties xmi:id="_4ieo0JjZEeCrL4EC3xSIEw" key="exporterDescription" value="ac ed 0 5 73 72 0 2e 63 6f 6d 2e 6e 6f 6d 61 67 69 63 2e 70 65 72 73 69 73 74 65 6e 63 65 2e 58 6d 69 45 78 70 6f 72 74 65 72 44 65 73 63 72 69 70 74 69 6f 6e f5 3e fd c8 e7 3c 3b d7 2 0 5 4c 0 5 6d 4e 61 6d 65 74 0 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 0 12 6d 52 65 71 75 69 72 65 64 50 6c 75 67 69 6e 4d 61 70 74 0 f 4c 6a 61 76 61 2f 75 74 69 6c 2f 4d 61 70 3b 4c 0 12 6d 52 65 71 75 69 72 65 64 52 65 73 6f 75 72 63 65 73 74 0 10 4c 6a 61 76 61 2f 75 74 69 6c 2f 4c 69 73 74 3b 4c 0 10 6d 55 4d 4c 4e 61 6d 65 73 70 61 63 65 55 52 49 71 0 7e 0 1 4c 0 8 6d 56 65 72 73 69 6f 6e 71 0 7e 0 1 78 70 74 0 d 4d 61 67 69 63 44 72 61 77 20 55 4d 4c 73 72 0 11 6a 61 76 61 2e 75 74 69 6c 2e 48 61 73 68 4d 61 70 5 7 da c1 c3 16 60 d1 3 0 2 46 0 a 6c 6f 61 64 46 61 63 74 6f 72 49 0 9 74 68 72 65 73 68 6f 6c 64 78 70 3f 40 0 0 0 0 0 0 77 8 0 0 0 10 0 0 0 0 78 73 72 0 13 6a 61 76 61 2e 75 74 69 6c 2e 41 72 72 61 79 4c 69 73 74 78 81 d2 1d 99 c7 61 9d 3 0 1 49 0 4 73 69 7a 65 78 70 0 0 0 0 77 4 0 0 0 0 78 70 74 0 7 31 39 2e 30 20 76 39 "/>
+  <properties xmi:id="_4ieo0ZjZEeCrL4EC3xSIEw" key="MODEL_ROOT_HREF" value="local:/PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model#eee_1045467100313_135436_1"/>
+  <properties xmi:id="_Xf1vgAJHEeKcqJgnVU4y2Q" key="CI_VERSION" value="V1702_SP1"/>
+  <properties xmi:id="_WHDv8NnXEeSt1dUa3K1eOA" key="fileFormatVersion" value="18.1 beta.esi"/>
+  <properties xmi:id="_oI378G6KEeWoxPthTK0iTA" key="saveID" value="66b5a440-228c-43d8-8b74-c36908e9b634"/>
+  <properties xmi:id="_QKbVQCaYEeijz6gJNBJu7Q" key="compatibleVersion" value=""/>
+  <projectUsers xmi:id="_zRtSwZjZEeCrL4EC3xSIEw" userId="default"/>
+</project:Project>
+</filePart>
+	</xmi:Extension>
+	<xmi:Extension extender='MagicDraw UML 19.0'>
+		<filePart name='com.nomagic.magicdraw.ce.commoncodeengineering' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:md.ce.corbaidl.rt.options="http://www.nomagic.com/magicdraw/ce/corbaidl/rt/options/1" xmlns:md.ce.cppAnsi.rt.options="http://www.nomagic.com/magicdraw/ce/cppAnsi/rt/options/1" xmlns:md.ce.csh.code.documentation="http://www.nomagic.com/magicdraw/ce/csh/code/documentation/1" xmlns:md.ce.csh.rt.options="http://www.nomagic.com/magicdraw/ce/csh/rt/options/1" xmlns:md.ce.java.code.documentation="http://www.nomagic.com/magicdraw/ce/java/code/documentation/1" xmlns:md.ce.java.rt.options="http://www.nomagic.com/magicdraw/ce/java/rt/options/1" xmlns:md.ce.msil.rt.options="http://www.nomagic.com/magicdraw/ce/msil/rt/options/1" xmlns:md.ce.rt.options="http://www.nomagic.com/magicdraw/ce/rt/options/1">
+  <md.ce.rt.options:Options xmi:id="_1OlPIZjZEeCrL4EC3xSIEw" tempDirectory="Active Directory" defaultWorkingDirectory="&lt;install.root>" spaces="8" defaultLanguage="Java" visualizationOption="1" codeGenerationReverseOption="2">
+    <defaultWorkingPackage href="PROJECT-a241c5f9-1a93-4fc6-90b5-7455cd1b6867?resource=com.nomagic.magicdraw.uml_umodel.model#eee_1045467100313_135436_1"/>
+  </md.ce.rt.options:Options>
+  <md.ce.java.rt.options:JavaLanguageOptions xmi:id="_6-fYUOlYEeKM1O5DqVzPvA" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR" classpath="lib\xalan.jar;C:\Program Files\Java\jre1.8.0_144\lib\resources.jar;C:\Program Files\Java\jre1.8.0_144\lib\rt.jar;C:\Program Files\Java\jre1.8.0_144\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_144\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_144\lib\jce.jar;C:\Program Files\Java\jre1.8.0_144\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_144\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_144\classes" javaSource="8.0">
+    <documentationTagProcessors xsi:type="md.ce.java.code.documentation:JavaDocumentationProcessor" xmi:id="_6-fYUelYEeKM1O5DqVzPvA" ID="JAVA_DOC_PROCESSOR">
+      <documentationTagManagers xmi:id="_6-fYUulYEeKM1O5DqVzPvA" ID="CLASSIFIER">
+        <documentationTags xmi:id="_6-fYU-lYEeKM1O5DqVzPvA" name="DESCRIPTION" valueEditable="false"/>
+        <documentationTags xmi:id="_6-fYVOlYEeKM1O5DqVzPvA" name="@param &lt;>" valueEditable="false"/>
+      </documentationTagManagers>
+      <documentationTagManagers xmi:id="_6-fYVelYEeKM1O5DqVzPvA" ID="OPERATION">
+        <documentationTags xmi:id="_6-fYVulYEeKM1O5DqVzPvA" name="DESCRIPTION" valueEditable="false"/>
+        <documentationTags xmi:id="_6-fYV-lYEeKM1O5DqVzPvA" name="@param" valueEditable="false"/>
+        <documentationTags xmi:id="_6-fYWOlYEeKM1O5DqVzPvA" name="@param &lt;>" valueEditable="false"/>
+        <documentationTags xmi:id="_6-fYWelYEeKM1O5DqVzPvA" name="@return" valueEditable="false"/>
+        <documentationTags xmi:id="_6-fYWulYEeKM1O5DqVzPvA" name="@throws" valueEditable="false"/>
+      </documentationTagManagers>
+      <documentationTagManagers xmi:id="_6-fYW-lYEeKM1O5DqVzPvA" ID="ATTRIBUTE">
+        <documentationTags xmi:id="_6-fYXOlYEeKM1O5DqVzPvA" name="DESCRIPTION" valueEditable="false"/>
+      </documentationTagManagers>
+    </documentationTagProcessors>
+    <userDefinedAttributeCreationRule xmi:id="_6-fYXelYEeKM1O5DqVzPvA">
+      <rules xmi:id="_6-fYXulYEeKM1O5DqVzPvA" pattern="*" classType="DataType"/>
+    </userDefinedAttributeCreationRule>
+  </md.ce.java.rt.options:JavaLanguageOptions>
+  <md.ce.cppAnsi.rt.options:CppLanguageOptions xmi:id="_6-y6UOlYEeKM1O5DqVzPvA" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR" macros="//This file contains a list of explicit macros to be expanded before reverse engineering&#xA;#define ODBCXX_EXPORT&#xA;#define __EXPORT&#xA;&#xA;//Type Casting of MFC Class Objects&#xA;#define DYNAMIC_DOWNCAST( class, pointer )&#xA;#define STATIC_DOWNCAST( class_name, pobject )&#xA;&#xA;//Run-Time Object Model Services&#xA;#define DECLARE_DYNAMIC( class_name )&#xA;#define DECLARE_DYNCREATE( class_name )&#xA;#define DECLARE_SERIAL( class_name )&#xA;#define IMPLEMENT_DYNAMIC( class_name, base_class_name )&#xA;#define IMPLEMENT_DYNCREATE( class_name, base_class_name )&#xA;#define IMPLEMENT_SERIAL( class_name, base_class_name, wSchema )&#xA;#define RUNTIME_CLASS( class_name )&#xA;#define DECLARE_OLECREATE( class_name )&#xA;#define IMPLEMENT_OLECREATE( class_name, external_name, l, w1, w2, b1, b2, b3, b4, b5, b6, b7, b8 )&#xA;&#xA;//Diagnostic Services&#xA;#define ASSERT( booleanExpression )&#xA;#define ASSERT_KINDOF( classname, pobject )&#xA;#define ASSERT_VALID( pObject )&#xA;#define TRACE( exp )&#xA;#define TRACE0( exp )&#xA;#define TRACE1( exp, param1 )&#xA;#define TRACE2( exp, param1, param2 )&#xA;#define TRACE3( exp, param1, param2, param3 )&#xA;#define VERIFY( booleanExpression )&#xA;&#xA;//Exception processing&#xA;#define TRY&#xA;#define CATCH( exception_class, exception_object_pointer_name )&#xA;#define CATCH_ALL( exception_object_pointer_name )&#xA;#define AND_CATCH( exception_class, exception_object_pointer_name )&#xA;#define AND_CATCH_ALL( exception_object_pointer_name )&#xA;#define END_CATCH&#xA;#define END_CATCH_ALL&#xA;#define THROW( exception_object_pointer )&#xA;#define THROW_LAST( )&#xA;&#xA;//Message Map Macros&#xA;#define DECLARE_MESSAGE_MAP( )&#xA;#define BEGIN_MESSAGE_MAP( theClass, baseClass )&#xA;#define END_MESSAGE_MAP( )&#xA;#define ON_COMMAND( id, memberFxn )&#xA;#define ON_CONTROL( wNotifyCode, id, memberFxn )&#xA;#define ON_MESSAGE( message, memberFxn )&#xA;#define ON_OLECMD( pguid, olecmdid, id )&#xA;#define ON_REGISTERED_MESSAGE( nMessageVariable, memberFxn )&#xA;#define ON_REGISTERED_THREAD_MESSAGE( nMessageVariable, memberFxn )&#xA;#define ON_THREAD_MESSAGE( message, memberFxn )&#xA;#define ON_UPDATE_COMMAND_UI( id, memberFxn )&#xA;#define ON_COMMAND_RANGE( id1, id2, memberFxn )&#xA;#define ON_UPDATE_COMMAND_UI_RANGE( id1, id2, memberFxn )&#xA;#define ON_CONTROL_RANGE( wNotifyCode, id1, id2, memberFxn )&#xA;#define ON_WM_CREATE( )&#xA;#define ON_WM_DESTROY( )&#xA;#define ON_NOTIFY( wNotifyCode, id, memberFxn )&#xA;#define ON_WM_TIMER( )&#xA;#define ON_WM_SYSCOMMAND( )&#xA;#define ON_BN_CLICKED( id, memberFxn )&#xA;#define ON_WM_PAINT( )&#xA;#define ON_WM_QUERYDRAGICON( )&#xA;#define ON_WM_SIZE( )&#xA;&#xA;//Application information and management&#xA;BOOL AFXAPI AfxWinInit( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow )&#xA;&#xA;//Database Macros and Globals&#xA;#define AFX_ODBC_CALL( SQLFunc )&#xA;#define AFX_SQL_ASYNC( prs, SQLFunc )&#xA;#define AFX_SQL_SYNC( SQLFunc )&#xA;&#xA;//Internet Server API (ISAPI) Parse Maps&#xA;#define BEGIN_PARSE_MAP( theClass, baseClass )&#xA;#define ON_PARSE_COMMAND( FnName, mapClass, Args )&#xA;#define ON_PARSE_COMMAND_PARAMS( Params )&#xA;#define DEFAULT_PARSE_COMMAND( FnName, mapClass )&#xA;#define END_PARSE_MAP( theClass )&#xA;&#xA;//Internet Server API (ISAPI) Diagnostic Macros&#xA;#define ISAPIASSERT( booleanExpression )&#xA;#define ISAPITRACE( exp )&#xA;#define ISAPITRACE0( exp )&#xA;#define ISAPITRACE1( exp, param1 )&#xA;#define ISAPITRACE2( exp, param1, param2 )&#xA;#define ISAPITRACE3( exp, param1, param2, param3 )&#xA;#define ISAPIVERIFY( booleanExpression )&#xA;&#xA;&#xA;// OLE Dispatch Maps&#xA;#define DECLARE_DISPATCH_MAP( )&#xA;#define BEGIN_DISPATCH_MAP( theClass, baseClass )&#xA;#define END_DISPATCH_MAP( )&#xA;#define DISP_FUNCTION( theClass, pszName, pfnMember, vtRetVal, vtsParams )&#xA;#define DISP_PROPERTY( theClass, pszName, memberName, vtPropType )&#xA;#define DISP_PROPERTY_EX( theClass, pszName, memberGet, memberSet, vtPropType )&#xA;#define DISP_PROPERTY_NOTIFY( theClass, szExternalName, memberName, pfnAfterSet, vtPropType )&#xA;#define DISP_PROPERTY_NOTIFY( theClass, pszExternalName, pfnGet, pfnSet, vtPropType, vtsParams )&#xA;#define DISP_DEFVALUE( theClass, pszName )&#xA;&#xA;// OLE Type Library Access&#xA;#define DECLARE_OLETYPELIB( class_name )&#xA;#define IMPLEMENT_OLETYPELIB( class_name, tlid, wVerMajor, wVerMinor )&#xA;&#xA;// OLE Property Pages&#xA;#define BEGIN_PROPPAGEIDS( class_name, count )&#xA;#define END_PROPPAGEIDS( class_name )&#xA;#define PROPPAGEID( clsid )&#xA;&#xA;// OLE Event Maps&#xA;#define DECLARE_EVENT_MAP( )&#xA;#define BEGIN_EVENT_MAP( theClass, baseClass )&#xA;#define END_EVENT_MAP( )&#xA;#define EVENT_CUSTOM( pszName, pfnFire, vtsParams )&#xA;#define EVENT_CUSTOM_ID( pszName, dispid, pfnFire, vtsParams )&#xA;#define ON_OLEVERB( idsVerbName, memberFxn )&#xA;#define ON_STDOLEVERB( iVerb, memberFxn )&#xA;&#xA;// OLE Event Sink Maps&#xA;#define BEGIN_EVENTSINK_MAP( theClass, baseClass )&#xA;#define DECLARE_EVENTSINK_MAP( )&#xA;#define END_EVENTSINK_MAP( )&#xA;#define ON_EVENT( theClass, id, dispid, pfnHandler, vtsParams )&#xA;#define ON_EVENT_RANGE( theClass, idFirst, idLast, dispid, pfnHandler, vtsParams )&#xA;#define ON_EVENT_REFLECT( theClass, dispid, pfnHandler, vtsParams )&#xA;#define ON_PROPNOTIFY( theClass, id, dispid, pfnRequest, pfnChanged )&#xA;#define ON_PROPNOTIFY_RANGE( theClass, idFirst, idLast, dispid, pfnRequest, pfnChanged )&#xA;#define ON_PROPNOTIFY_REFLECT( theClass, dispid, pfnRequest, pfnChanged )&#xA;&#xA;// OLE Connection Maps&#xA;#define BEGIN_CONNECTION_PART( theClass, localClass )&#xA;#define END_CONNECTION_PART( localClass )&#xA;#define CONNECTION_IID( iid )&#xA;#define DECLARE_CONNECTION_MAP( )&#xA;#define BEGIN_CONNECTION_MAP( theClass, theBase )&#xA;#define END_CONNECTION_MAP( )&#xA;#define CONNECTION_PART( theClass, iid, localClass )&#xA;&#xA;// OLE Registering OLE Controls&#xA;BOOL AFXAPI AfxOleRegisterPropertyPageClass( HINSTANCE hInstance, REFCLSID clsid, UINT idTypeName, int nRegFlags )&#xA;&#xA;// OLE Class Factories and Licensing&#xA;#define DECLARE_OLECREATE_EX( class_name )&#xA;#define IMPLEMENT_OLECREATE_EX( class_name, external_name, l, w1, w2, b1, b2, b3, b4, b5, b6, b7, b8 )&#xA;#define BEGIN_OLEFACTORY( class_name )&#xA;#define END_OLEFACTORY( class_name )&#xA;&#xA;//ATL&#xA;#define DECLARE_AGGREGATABLE( x )&#xA;#define DECLARE_CLASSFACTORY( )&#xA;#define DECLARE_CLASSFACTORY_EX( cf )&#xA;#define DECLARE_CLASSFACTORY2( lic )&#xA;#define DECLARE_CLASSFACTORY_AUTO_THREAD( )&#xA;#define DECLARE_CLASSFACTORY_SINGLETON( obj )&#xA;#define DECLARE_GET_CONTROLLING_UNKNOWN( )&#xA;#define DECLARE_NOT_AGGREGATABLE( x )&#xA;#define DECLARE_ONLY_AGGREGATABLE( x )&#xA;#define DECLARE_POLY_AGGREGATABLE( x )&#xA;#define DECLARE_PROTECT_FINAL_CONSTRUCT( )&#xA;#define BEGIN_CATEGORY_MAP( theClass )&#xA;#define END_CATEGORY_MAP( )&#xA;#define IMPLEMENTED_CATEGORY( catID )&#xA;#define REQUIRED_CATEGORY( catID )&#xA;#define BEGIN_COM_MAP( x )&#xA;#define COM_INTERFACE_ENTRY( x )&#xA;#define COM_INTERFACE_ENTRY_IID( iid, x )&#xA;#define COM_INTERFACE_ENTRY2( x, x2 )&#xA;#define COM_INTERFACE_ENTRY2_IID( iid, x, x2 )&#xA;#define COM_INTERFACE_ENTRY_FUNC( iid, dw, func )&#xA;#define COM_INTERFACE_ENTRY_FUNC_BLIND( dw, func )&#xA;#define COM_INTERFACE_ENTRY_TEAR_OFF( iid, x )&#xA;#define COM_INTERFACE_ENTRY_CACHED_TEAR_OFF( iid, x, punk )&#xA;#define COM_INTERFACE_ENTRY_AGGREGATE( iid, punk )&#xA;#define COM_INTERFACE_ENTRY_AGGREGATE_BLIND( punk )&#xA;#define COM_INTERFACE_ENTRY_AUTOAGGREGATE( iid, punk, clsid )&#xA;#define COM_INTERFACE_ENTRY_AUTOAGGREGATE_BLIND( punk, clsid )&#xA;#define COM_INTERFACE_ENTRY_CHAIN( classname )&#xA;#define COM_INTERFACE_ENTRY_BREAK( x )&#xA;#define COM_INTERFACE_ENTRY_NOINTERFACE( x )&#xA;#define END_COM_MAP( )&#xA;&#xA;#define BEGIN_SINK_MAP( _class )&#xA;#define END_SINK_MAP( )&#xA;#define SINK_ENTRY( id, dispid, fn )&#xA;#define SINK_ENTRY_EX( id, iid, dispid, fn )&#xA;#define SINK_ENTRY_INFO( id, iid, dispid, fn, info)&#xA;#define BEGIN_CONNECTION_POINT_MAP( x )&#xA;#define CONNECTION_POINT_ENTRY( iid )&#xA;#define END_CONNECTION_POINT_MAP( )&#xA;#define BEGIN_EXTENSION_SNAPIN_NODEINFO_MAP( classname )&#xA;#define BEGIN_SNAPINTOOLBARID_MAP( _class )&#xA;#define END_EXTENSION_SNAPIN_NODEINFO_MAP( )&#xA;#define END_SNAPINTOOLBARID_MAP( _class )&#xA;#define EXTENSION_SNAPIN_DATACLASS( dataClass )&#xA;#define EXTENSION_SNAPIN_NODEINFO_ENTRY( dataClass )&#xA;#define SNAPINMENUID( id )&#xA;#define SNAPINTOOLBARID_ENTRY( id )&#xA;#define ATLTRACE( exp )&#xA;#define ATLTRACENOTIMPL( funcname )&#xA;#define ATLTRACE2( DWORD category, UINT level, LPCSTR lpszFormat, ... )&#xA;#define BEGIN_MSG_MAP( theClass )&#xA;#define MESSAGE_HANDLER( msg, func )&#xA;#define MESSAGE_RANGE_HANDLER( msgFirst, msgLast, func )&#xA;#define COMMAND_HANDLER( id, code, func )&#xA;#define COMMAND_ID_HANDLER( id, func )&#xA;#define COMMAND_RANGE_HANDLER( idFirst, idLast, func )&#xA;#define NOTIFY_HANDLER( id, cd, func )&#xA;#define NOTIFY_ID_HANDLER( id, func )&#xA;#define NOTIFY_CODE_HANDLER( cd, func )&#xA;#define NOTIFY_RANGE_HANDLER( idFirst, idLast, func )&#xA;#define CHAIN_MSG_MAP( theChainClass )&#xA;#define CHAIN_MSG_MAP_MEMBER( theChainMember )&#xA;#define CHAIN_MSG_MAP_ALT( theChainClass, msgMapID )&#xA;#define CHAIN_MSG_MAP_ALT_MEMBER( theChainMember, msgMapID )&#xA;#define CHAIN_MSG_MAP_DYNAMIC( dynaChainID )&#xA;#define END_MSG_MAP( )&#xA;#define ALT_MSG_MAP( msgMapID )&#xA;#define DECLARE_EMPTY_MSG_MAP( )&#xA;#define COMMAND_CODE_HANDLER( code, func )&#xA;#define REFLECT_NOTIFICATIONS( )&#xA;#define DEFAULT_REFLECTION_HANDLER( )&#xA;#define BEGIN_OBJECT_MAP( x )&#xA;#define OBJECT_ENTRY( clsid, class )&#xA;#define OBJECT_ENTRY_NON_CREATEABLE( class )&#xA;#define END_OBJECT_MAP( )&#xA;#define DECLARE_OBJECT_DESCRIPTION( x )&#xA;#define BEGIN_PROP_MAP( theClass )&#xA;#define PROP_DATA_ENTRY( szDesc, member, vt )&#xA;#define PROP_ENTRY( szDesc, dispid, clsid )&#xA;#define PROP_ENTRY_EX( szDesc, dispid, clsid, iidDispatch )&#xA;#define PROP_PAGE( clsid )&#xA;#define END_PROPERTY_MAP( )&#xA;#define DECLARE_NO_REGISTRY( )&#xA;#define DECLARE_REGISTRY( class, pid, vpid, nid, flags )&#xA;#define DECLARE_REGISTRY_RESOURCE( x )&#xA;#define DECLARE_REGISTRY_RESOURCEID( x )&#xA;#define BEGIN_SERVICE_MAP( theClass )&#xA;#define END_SERVICE_MAP( )&#xA;#define SERVICE_ENTRY( SID )&#xA;#define SERVICE_ENTRY_CHAIN( punk )&#xA;#define IMPLEMENT_BOOL_STOCKPROP( fname, pname, dispid )&#xA;#define IMPLEMENT_BSTR_STOCKPROP( fname, pname, dispid )&#xA;#define IMPLEMENT_STOCKPROP( type, fname, pname, dispid )&#xA;#define A2BSTR(lpa)&#xA;#define OLE2A(lpa)&#xA;#define T2A(lpa)&#xA;#define W2A(lpa)&#xA;#define A2COLE(lpa)&#xA;#define OLE2BSTR(lpa)&#xA;#define T2BSTR(lpa)&#xA;#define W2BSTR(lpa)&#xA;#define A2CT(lpa)&#xA;#define OLE2CA(lpa)&#xA;#define T2CA(lpa)&#xA;#define W2CA(lpa)&#xA;#define A2CW(lpa)&#xA;#define OLE2CT(lpa)&#xA;#define T2COLE(lpa)&#xA;#define W2COLE(lpa)&#xA;#define A2OLE(lpa)&#xA;#define OLE2CW(lpa)&#xA;#define T2CW(lpa)&#xA;#define W2CT(lpa)&#xA;#define A2T(lpa)&#xA;#define OLE2T(lpa)&#xA;#define T2OLE(lpa)&#xA;#define W2OLE(lpa)&#xA;#define A2W(lpa)&#xA;#define OLE2W(lpa)&#xA;#define T2W(lpa)&#xA;#define W2T(lpa)&#xA;#define DEVMODEA2W(lpa)&#xA;#define TEXTMETRICA2W(lpa)&#xA;#define DEVMODEOLE2T(lpa)&#xA;#define TEXTMETRICOLE2T(lpa)&#xA;#define DEVMODET2OLE(lpa)&#xA;#define TEXTMETRICT2OLE(lpa)&#xA;#define DEVMODEW2A(lpa)&#xA;#define TEXTMETRICW2A(lpa)&#xA;#define DECLARE_WND_CLASS( WndClassName )&#xA;#define DECLARE_WND_SUPERCLASS( WndClassName, OrigWndClassName )&#xA;#define DECLARE_WND_CLASS_EX( WndClassName, style, bkgnd )&#xA;&#xA;// OLE DB&#xA;#define BEGIN_ACCESSOR( num, bAuto )&#xA;#define BEGIN_ACCESSOR_MAP( x, num )&#xA;#define END_ACCESSOR( )&#xA;#define END_ACCESSOR_MAP( )&#xA;#define BEGIN_COLUMN_MAP( x )&#xA;#define BOOKMARK_ENTRY( variable )&#xA;#define COLUMN_ENTRY( nOrdinal, data )&#xA;#define COLUMN_ENTRY_TYPE ( nOrdinal, wType, data )&#xA;#define COLUMN_ENTRY_TYPE_SIZE( nOrdinal, wType, nLength, data )&#xA;#define BLOB _ENTRY( nOrdinal, IID, flags, data )&#xA;#define COLUMN_ENTRY_EX( nOrdinal, wType, nLength, nPrecision, nScale, data, length, status )&#xA;#define COLUMN_ENTRY_LENGTH( nOrdinal, data, length )&#xA;#define COLUMN_ENTRY_LENGTH_STATUS( nOrdinal, data, length, status )&#xA;#define COLUMN_ENTRY_PS( nOrdinal, nPrecision, nScale, data ) &#xA;#define COLUMN_ENTRY_PS_LENGTH( nOrdinal, nPrecision, nScale, data, length )&#xA;#define COLUMN_ENTRY_PS_STATUS( nOrdinal, nPrecision, nScale, data, status )&#xA;#define COLUMN_ENTRY_PS_LENGTH_STATUS( nOrdinal, nPrecision, nScale, data, length, status )&#xA;#define COLUMN_ENTRY_STATUS( nOrdinal, data, status )&#xA;#define END_COLUMN_MAP( )&#xA;#define DEFINE_COMMAND( x, szCommand )&#xA;#define BEGIN_PARAM_MAP( x )&#xA;#define END_PARAM_MAP( )&#xA;#define SET_PARAM_TYPE( type )&#xA;#define BEGIN_PROPERTY_SET( pguid )&#xA;#define BEGIN_PROPERTY_SET(pguid, flags)&#xA;#define BEGIN_PROPSET_MAP( Class )&#xA;#define CHAIN_PROPERTY_SET( ChainClass )&#xA;#define END_PROPERTY_SET( guid )&#xA;#define END_PROPSET_MAP( )&#xA;#define PROPERTY_INFO_ENTRY( dwPropID )&#xA;#define PROPERTY_INFO_ENTRY( dwPropID, vt, dwFlags, value, options)&#xA;#define PROPERTY_INFO_ENTRY( dwPropID, value )&#xA;#define BEGIN_PROVIDER_COLUMN_MAP( theClass ) &#xA;#define END_PROVIDER_COLUMN_MAP( )&#xA;#define PROVIDER_COLUMN_ENTRY_GN ( name, ordinal, flags, colSize, dbtype, precision, scale, guid )&#xA;#define PROVIDER_COLUMN_ENTRY_FIXED( name, ordinal, dbtype, member )&#xA;#define PROVIDER_COLUMN_ENTRY_LENGTH( name, ordinal, size, member )&#xA;#define PROVIDER_COLUMN_ENTRY_STR( name, ordinal, member )&#xA;#define PROVIDER_COLUMN_ENTRY_WSTR( name, ordinal, member )&#xA;&#xA;// PARSE&#xA;#define BEGIN_PARSE_MAP( theClass, baseClass )&#xA;#define ON_PARSE_COMMAND( FnName, mapClass, Args )&#xA;#define ON_PARSE_COMMAND_PARAMS( Params )&#xA;#define DEFAULT_PARSE_COMMAND( FnName, mapClass )&#xA;#define END_PARSE_MAP( theClass )&#xA;#define END_PROPERTY_SET( guid )&#xA;#define BEGIN_PROPSET_MAP( Class )&#xA;#define PROPERTY_INFO_ENTRY( dwPropID )&#xA;#define END_PROPSET_MAP( )&#xA;&#xA;#define MAKELPARAM(low, high)&#xA;#define MAKELRESULT(low, high)&#xA;#define MAKELP(sel, off) &#xA;#define SELECTOROF(lp) &#xA;#define OFFSETOF(lp) &#xA;#define FIELDOFFSET(type, field)&#xA;#define afx_msg&#xA;#define ACE_ALLOC_HOOK_DECLARE&#xA;&#xA;// xerces&#xA;#define XERCES_CPP_NAMESPACE_BEGIN namespace xerces {&#xA;#define XERCES_CPP_NAMESPACE_END }&#xA;#define XERCES_CPP_NAMESPACE_USE using namespace XERCES_CPP_NAMESPACE;&#xA;#define XERCES_CPP_NAMESPACE_QUALIFIER XERCES_CPP_NAMESPACE::&#xA;#define CDOM_EXPORT&#xA;#define ATL_NO_VTABLE&#xA;#define PLATFORM_IMPORT&#xA;#define PARSERS_EXPORT&#xA;&#xA;// QT&#xA;#define Q_AUTOTEST_EXPORT&#xA;#define Q_CLASSINFO(name, value)&#xA;#define Q_COMPAT_EXPORT&#xA;#define Q_CORE_EXPORT&#xA;#define Q_CORE_EXPORT_INLINE inline&#xA;#define Q_D(Class)&#xA;#define Q_DECL_IMPORT&#xA;#define Q_DECLARE_ASSOCIATIVE_ITERATOR(map)&#xA;#define Q_DECLARE_BUILTIN_METATYPE(TYPE, NAME)&#xA;#define Q_DECLARE_EXTENSION_INTERFACE(IFace, IId)&#xA;#define Q_DECLARE_FLAGS(Flags, enum)&#xA;#define Q_DECLARE_INTERFACE(IFace, IId)&#xA;#define Q_DECLARE_METATYPE(txt)&#xA;#define Q_DECLARE_MUTABLE_SEQUENTIAL_ITERATOR(c)&#xA;#define Q_DECLARE_MUTABLE_ASSOCIATIVE_ITERATOR(c)&#xA;#define Q_DECLARE_OPERATORS_FOR_FLAGS(Flags)&#xA;#define Q_DECLARE_PRIVATE(Class)&#xA;#define Q_DECLARE_PUBLIC(Class)&#xA;#define Q_DECLARE_SEQUENTIAL_ITERATOR(name)&#xA;#define Q_DECLARE_SHARED(name)&#xA;#define Q_DECLARE_TYPEINFO(TYPE, FLAGS)&#xA;#define Q_DECL_DEPRECATED&#xA;#define Q_DISABLE_COPY(Class)&#xA;#define Q_DUMMY_COMPARISON_OPERATOR(c)&#xA;#define Q_ENUMS(x)&#xA;#define Q_FLAGS(x)&#xA;#define Q_GADGET&#xA;#define Q_GUI_EXPORT&#xA;#define Q_GUI_EXPORT_INLINE inline&#xA;#define Q_INLINE_TEMPLATE&#xA;#define Q_INTERFACES(x)&#xA;#define Q_NETWORK_EXPORT&#xA;#define Q_NOREPLY&#xA;#define Q_OBJECT&#xA;#define Q_OPENGL_EXPORT&#xA;#define Q_OUTOFLINE_TEMPLATE inline&#xA;#define Q_OVERRIDE(text)&#xA;#define Q_PRIVATE_SLOT(d, signature)&#xA;#define Q_PROPERTY(text)&#xA;#define Q_Q(Class)&#xA;#define Q_REQUIRED_RESULT&#xA;#define Q_SCRIPTABLE&#xA;#define Q_SIGNALS protected&#xA;#define Q_SLOTS&#xA;#define Q_SQL_EXPORT&#xA;#define Q_SVG_EXPORT&#xA;#define Q_TESTLIB_EXPORT&#xA;#define Q_TYPENAME typename&#xA;#define Q_XML_EXPORT&#xA;&#xA;#define QDBUS_EXPORT&#xA;#define QDESIGNER_COMPONENTS_EXPORT&#xA;#define QDESIGNER_EXTENSION_EXPORT&#xA;#define QDESIGNER_SDK_EXPORT&#xA;#define QDESIGNER_SHARED_EXPORT&#xA;#define QDESIGNER_UILIB_EXPORT&#xA;#define QDESIGNER_WIDGET_EXPORT&#xA;#define QDOC_PROPERTY(text)&#xA;&#xA;#define QT_ASCII_CAST_WARN&#xA;#define QT_ASCII_CAST_WARN_CONSTRUCTOR&#xA;#define QT_ASSISTANT_CLIENT_EXPORT&#xA;#define QT_BEGIN_HEADER&#xA;#define QT_DEPRECATED&#xA;#define QT_DEPRECATED_VARIABLE&#xA;#define QT_DEPRECATED_CONSTRUCTOR&#xA;#define QT_END_HEADER&#xA;#define QT_FASTCALL&#xA;#define QT_FT_BEGIN_HEADER&#xA;#define QT_FT_END_HEADER&#xA;#define QT_MOC_COMPAT&#xA;#define QT_MODULE(name)&#xA;#define QT_STATIC_CONST static const&#xA;#define QT_STATIC_CONST_IMPL const&#xA;#define QT_TR_NOOP(x)&#xA;#define QT_TRANSLATE_NOOP(scope, x)&#xA;&#xA;#define slots&#xA;#define signals protected&#xA;&#xA;&#xA;// Microsoft extension&#xA;#define CALLBACK&#xA;#define LRESULT void&#xA;#define _ENTRY(p1, p2, p3, p4) p1&#xA;&#xA;#define CFX_EXPORT&#xA;&#xA;// GCC&#xA;#define __extension__&#xA;&#xA;// Symbian macro&#xA;#define _L(string) TPtrC((const TText*) string)&#xA;#define _LIT(name,s) const static TListC&lt;sizeof(s)> name = {sizeof(s) -1,s}&#xA;#define _LIT8(name,s) const static TListC&lt;sizeof(s)> name = {sizeof(s) -1,s}&#xA;&#xA;#define IMPORT_C /*__declspec(dllimport)*/&#xA;#define EXPORT_C /*__declspec(dllexport)*/&#xA;&#xA;#define NONSHARABLE_CLASS(x) class x&#xA;#define NONSHARABLE_STRUCT(x) struct x&#xA;&#xA;#define GLREF_D extern&#xA;#define GLDEF_D&#xA;#define LOCAL_D static&#xA;#define GLREF_C extern&#xA;#define GLDEF_C&#xA;#define LOCAL_C static&#xA;">
+    <userDefinedAttributeCreationRule xmi:id="_6-y6UelYEeKM1O5DqVzPvA">
+      <rules xmi:id="_6-y6UulYEeKM1O5DqVzPvA" pattern="*" classType="DataType"/>
+    </userDefinedAttributeCreationRule>
+  </md.ce.cppAnsi.rt.options:CppLanguageOptions>
+  <md.ce.csh.rt.options:CshLanguageOptions xmi:id="_6-y6U-lYEeKM1O5DqVzPvA" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR">
+    <documentationTagProcessors xsi:type="md.ce.csh.code.documentation:CshDocumentationProcessor" xmi:id="_6-y6VOlYEeKM1O5DqVzPvA" ID="CSH_XML_PROCESSOR">
+      <documentationTagManagers xmi:id="_6-y6VelYEeKM1O5DqVzPvA" ID="CLASSIFIER">
+        <documentationTags xmi:id="_6-y6VulYEeKM1O5DqVzPvA" name="summary" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6V-lYEeKM1O5DqVzPvA" name="remarks" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6WOlYEeKM1O5DqVzPvA" name="permission" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6WelYEeKM1O5DqVzPvA" name="example" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6WulYEeKM1O5DqVzPvA" name="seealso" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6W-lYEeKM1O5DqVzPvA" name="include" valueEditable="false"/>
+      </documentationTagManagers>
+      <documentationTagManagers xmi:id="_6-y6XOlYEeKM1O5DqVzPvA" ID="OPERATION">
+        <documentationTags xmi:id="_6-y6XelYEeKM1O5DqVzPvA" name="summary" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6XulYEeKM1O5DqVzPvA" name="value" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6X-lYEeKM1O5DqVzPvA" name="param" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6YOlYEeKM1O5DqVzPvA" name="returns" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6YelYEeKM1O5DqVzPvA" name="exception" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6YulYEeKM1O5DqVzPvA" name="permission" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6Y-lYEeKM1O5DqVzPvA" name="example" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6ZOlYEeKM1O5DqVzPvA" name="seealso" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6ZelYEeKM1O5DqVzPvA" name="include" valueEditable="false"/>
+      </documentationTagManagers>
+      <documentationTagManagers xmi:id="_6-y6ZulYEeKM1O5DqVzPvA" ID="ATTRIBUTE">
+        <documentationTags xmi:id="_6-y6Z-lYEeKM1O5DqVzPvA" name="summary" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6aOlYEeKM1O5DqVzPvA" name="permission" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6aelYEeKM1O5DqVzPvA" name="example" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6aulYEeKM1O5DqVzPvA" name="seealso" valueEditable="false"/>
+        <documentationTags xmi:id="_6-y6a-lYEeKM1O5DqVzPvA" name="include" valueEditable="false"/>
+      </documentationTagManagers>
+    </documentationTagProcessors>
+    <userDefinedAttributeCreationRule xmi:id="_6-y6bOlYEeKM1O5DqVzPvA">
+      <rules xmi:id="_6-y6belYEeKM1O5DqVzPvA" pattern="*" classType="DataType"/>
+    </userDefinedAttributeCreationRule>
+  </md.ce.csh.rt.options:CshLanguageOptions>
+  <md.ce.msil.rt.options:MsilLanguageOptions xmi:id="_6-y6bulYEeKM1O5DqVzPvA" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR">
+    <userDefinedAttributeCreationRule xmi:id="_6-y6b-lYEeKM1O5DqVzPvA">
+      <rules xmi:id="_6-y6cOlYEeKM1O5DqVzPvA" pattern="*" classType="DataType"/>
+    </userDefinedAttributeCreationRule>
+  </md.ce.msil.rt.options:MsilLanguageOptions>
+  <md.ce.corbaidl.rt.options:CORBAIDLLanguageOptions xmi:id="_6-y6celYEeKM1O5DqVzPvA" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR">
+    <userDefinedAttributeCreationRule xmi:id="_6-y6culYEeKM1O5DqVzPvA">
+      <rules xmi:id="_6-y6c-lYEeKM1O5DqVzPvA" pattern="*" classType="DataType"/>
+    </userDefinedAttributeCreationRule>
+  </md.ce.corbaidl.rt.options:CORBAIDLLanguageOptions>
+</xmi:XMI>
+</filePart>
+	</xmi:Extension>
+	<xmi:Extension extender='MagicDraw UML 19.0'>
+		<filePart name='proxy.local__PROJECT$h877558e9224f114d50dea1f39a1c119_resource_com$dnomagic$dmagicdraw$duml_umodel$dshared_umodel$dsnapshot' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.nomagic.com/magicdraw/UML/2.5.1" xmi:id="magicdraw_uml_standard_profile_v_0001" ID="magicdraw_uml_standard_profile_v_0001" name="UML Standard Profile">
+  <appliedStereotypeInstance xmi:id="_12_1_8f90291_1174411598625_504587_98" ID="_12_1_8f90291_1174411598625_504587_98" classifier="_12_1_8f90291_1173963323875_662612_98"/>
+  <packagedElement xsi:type="uml:Profile" xmi:id="_be00301_1073394351331_445580_2" ID="_be00301_1073394351331_445580_2" name="MagicDraw Profile">
+    <packagedElement xsi:type="uml:Stereotype" xmi:id="_12_1_8f90291_1173963323875_662612_98" ID="_12_1_8f90291_1173963323875_662612_98" name="auxiliaryResource" _extensionEndOfType="_12_1_8f90291_1173963939937_399630_100">
+      <generalization xmi:id="_15_0_8f90291_1196866634537_680603_98" ID="_15_0_8f90291_1196866634537_680603_98" general="_9_0_be00301_1108044721245_236588_411"/>
+      <ownedAttribute xmi:id="_12_1_8f90291_1173963939937_52316_99" ID="_12_1_8f90291_1173963939937_52316_99" name="base_Element" visibility="private" type="_9_0_62a020a_1105704884807_371561_7741" association="_12_1_8f90291_1173963939937_323574_98"/>
+      <ownedAttribute xmi:id="_19_0_8760276_1515156810551_352594_4505" ID="_19_0_8760276_1515156810551_352594_4505" name="treatAsAuxiliaryInOwningProject" visibility="private" type="_12_0EAPbeta_be00301_1157529792739_987548_11"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081772098_323897_274" ID="_10_0EAPbeta_be00301_1123081772098_323897_274" memberEnd="_10_0EAPbeta_be00301_1123081772108_624594_276 _10_0EAPbeta_be00301_1123081772098_411862_275">
+      <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081772108_624594_276" ID="_10_0EAPbeta_be00301_1123081772108_624594_276" name="extension_InvisibleStereotype" visibility="private" type="_9_0_be00301_1108044721245_236588_411" aggregation="composite" association="_10_0EAPbeta_be00301_1123081772098_323897_274"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Extension" xmi:id="_12_1_8f90291_1173963939937_323574_98" ID="_12_1_8f90291_1173963939937_323574_98" memberEnd="_12_1_8f90291_1173963939937_399630_100 _12_1_8f90291_1173963939937_52316_99">
+      <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_12_1_8f90291_1173963939937_399630_100" ID="_12_1_8f90291_1173963939937_399630_100" name="extension_auxiliaryResource" visibility="private" type="_12_1_8f90291_1173963323875_662612_98" aggregation="composite" association="_12_1_8f90291_1173963939937_323574_98"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Stereotype" xmi:id="_9_0_be00301_1108044721245_236588_411" ID="_9_0_be00301_1108044721245_236588_411" name="InvisibleStereotype" _extensionEndOfType="_10_0EAPbeta_be00301_1123081772108_624594_276">
+      <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081772098_411862_275" ID="_10_0EAPbeta_be00301_1123081772098_411862_275" name="base_Element" visibility="private" type="_9_0_62a020a_1105704884807_371561_7741" association="_10_0EAPbeta_be00301_1123081772098_323897_274"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Stereotype" xmi:id="_9_0_be00301_1108044380615_150487_0" ID="_9_0_be00301_1108044380615_150487_0" name="DiagramInfo" _extensionEndOfType="_10_0EAPbeta_be00301_1123081772498_435993_357">
+      <generalization xmi:id="_9_0_be00301_1108044989070_469307_436" ID="_9_0_be00301_1108044989070_469307_436" general="_9_0_be00301_1108044721245_236588_411"/>
+      <ownedAttribute xmi:id="_be00301_1073306188629_537791_2" ID="_be00301_1073306188629_537791_2" name="Creation date" visibility="private" type="_be00301_1073305590699_364818_1"/>
+      <ownedAttribute xmi:id="_be00301_1077726770128_871366_1" ID="_be00301_1077726770128_871366_1" name="Author" visibility="private" type="_9_0_2_91a0295_1110274713995_297054_0"/>
+      <ownedAttribute xmi:id="_be00301_1073394345322_922552_1" ID="_be00301_1073394345322_922552_1" name="Modification date" visibility="private" type="_be00301_1073305590699_364818_1"/>
+      <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081772498_901864_356" ID="_10_0EAPbeta_be00301_1123081772498_901864_356" name="base_Diagram" visibility="private" type="_9_0_62a020a_1106296071977_61607_0" association="_10_0EAPbeta_be00301_1123081772498_531863_355"/>
+      <ownedAttribute xmi:id="_16_8beta_8ca0285_1257244649124_794756_344" ID="_16_8beta_8ca0285_1257244649124_794756_344" name="Last modified by" visibility="private" type="_9_0_2_91a0295_1110274713995_297054_0"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Package" xmi:id="_9_0_2_be00301_1111670217596_336168_627" ID="_9_0_2_be00301_1111670217596_336168_627" name="datatypes">
+      <packagedElement xsi:type="uml:DataType" xmi:id="_be00301_1073305590699_364818_1" ID="_be00301_1073305590699_364818_1" name="date"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081772498_531863_355" ID="_10_0EAPbeta_be00301_1123081772498_531863_355" memberEnd="_10_0EAPbeta_be00301_1123081772498_435993_357 _10_0EAPbeta_be00301_1123081772498_901864_356">
+      <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081772498_435993_357" ID="_10_0EAPbeta_be00301_1123081772498_435993_357" name="extension_DiagramInfo" visibility="private" type="_9_0_be00301_1108044380615_150487_0" aggregation="composite" association="_10_0EAPbeta_be00301_1123081772498_531863_355"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Model" xmi:id="_9_0_be00301_1108053761194_467635_11463" ID="_9_0_be00301_1108053761194_467635_11463" name="UML2 Metamodel">
+    <appliedStereotypeInstance xmi:id="_10_0EAPbeta_be00301_1123081771126_233373_95" ID="_10_0EAPbeta_be00301_1123081771126_233373_95" classifier="magicdraw_1046861421236_601240_36"/>
+    <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704884807_371561_7741" ID="_9_0_62a020a_1105704884807_371561_7741" name="Element"/>
+    <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704920340_825592_9329" ID="_9_0_62a020a_1105704920340_825592_9329" name="Model"/>
+    <packagedElement xsi:type="uml:Package" xmi:id="_12_0EAPbeta_be00301_1157529392394_202602_1" ID="_12_0EAPbeta_be00301_1157529392394_202602_1" name="PrimitiveTypes">
+      <packagedElement xsi:type="uml:PrimitiveType" xmi:id="_9_0_2_91a0295_1110274713995_297054_0" ID="_9_0_2_91a0295_1110274713995_297054_0" name="String"/>
+      <packagedElement xsi:type="uml:PrimitiveType" xmi:id="_12_0EAPbeta_be00301_1157529792739_987548_11" ID="_12_0EAPbeta_be00301_1157529792739_987548_11" name="Boolean"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1106296071977_61607_0" ID="_9_0_62a020a_1106296071977_61607_0" name="Diagram"/>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Profile" xmi:id="_9_0_be00301_1108050582343_527400_10847" ID="_9_0_be00301_1108050582343_527400_10847" name="StandardProfile">
+    <packagedElement xsi:type="uml:Stereotype" xmi:id="magicdraw_1046861421236_601240_36" ID="magicdraw_1046861421236_601240_36" name="Metamodel" _extensionEndOfType="_10_0EAPbeta_be00301_1123081771136_580423_99">
+      <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081771136_271406_98" ID="_10_0EAPbeta_be00301_1123081771136_271406_98" name="base_Model" visibility="private" type="_9_0_62a020a_1105704920340_825592_9329" association="_10_0EAPbeta_be00301_1123081771136_824883_97"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081771136_824883_97" ID="_10_0EAPbeta_be00301_1123081771136_824883_97" memberEnd="_10_0EAPbeta_be00301_1123081771136_580423_99 _10_0EAPbeta_be00301_1123081771136_271406_98">
+      <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081771136_580423_99" ID="_10_0EAPbeta_be00301_1123081771136_580423_99" name="extension_metamodel" visibility="private" type="magicdraw_1046861421236_601240_36" aggregation="composite" association="_10_0EAPbeta_be00301_1123081771136_824883_97"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Package>
+</filePart>
+	</xmi:Extension>
+	<xmi:Extension extender='MagicDraw UML 19.0'>
+		<filePart name='Binaries.properties' type='BINARY'>H4sIAAAAAAAAAFPm5VIOTixRcElNVjAyUzAysDI1szIwU3B2DQFyjAx4uZLzc/Xy8nMT0zOT9cBkSlFiuV5pbk58bn5Kao4emLR18vRzDIrUTTYxtzCxNEnWNUq2TNI1MU1K0U1KS0zUTUk1NjczsjS1NDBK4eUCAMqc3zd1AAAA</filePart>
 	</xmi:Extension>
 	<xmi:Extension extender='MagicDraw UML 19.0'>
 		<filePart name='proxy.local__PROJECT$ha241c5f9$h1a93$h4fc6$h90b5$h7455cd1b6867_resource_com$dnomagic$dmagicdraw$duml_umodel$dmodel$dsnapshot' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
@@ -2330,7 +2346,7 @@
 </filePart>
 	</xmi:Extension>
 	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='personal-Binaries.properties' type='BINARY'>H4sIAAAAAAAAAFPm5VIOyShVcElNVjAyUTAytjI0sTIxV3B2DVEwMjAy4OUCAAI5DwkiAAAA</filePart>
+		<filePart name='personal-Binaries.properties' type='BINARY'>H4sIAAAAAAAAAFPm5VIOTixRcElNVjAyUzAysDI1szIwU3B2DQFyjAx4uQBRdqpZIgAAAA==</filePart>
 	</xmi:Extension>
 	<xmi:Extension extender='MagicDraw UML 19.0'>
 		<filePart name='com.nomagic.magicdraw.core.project.options.commonprojectoptions' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
@@ -2339,10 +2355,10 @@
 	</xmi:Extension>
 	<xmi:Extension extender='MagicDraw UML 19.0'>
 		<filePart name='personal-com.nomagic.magicdraw.core.project.options.personalprojectoptions' type='XML' header='&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?&gt;'>
-<project.options:UserProjectOptions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:project.options="http://www.nomagic.com/ns/magicdraw/core/project/options/1.0" xmi:id="_HB5nAFYDEeCyhsLctII43A" optionsString="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" diagramViewStyleString="UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAAAAkAVVQFAAEAAAAAzZZdb6owGMev9VN4x5VCS4Vygi5O2YnJ2TTiefFG0gOdNimUADrdpz8VnIwtOo3Lcq5aeJ7/8/J7SoN9swl5Y02TlImoo4CWpjRo5IuARYuO8nN618TKTbdet8eJiGmSbX+xlGUi6fk+jeXardfsMHA4DWmUNWix9jlJ047isjDm1M22nCrSr2ZHJKRddzr74XiDYe/7pHfvjSejsTOZDh3XVnPzzi+gj2TFs8YmZN/WhK9oR3kkPKWKmpuP5Xsp8Z5EZEGTPOc+qQcsT/OQZ0CoQbkHhoaRYWKoWwb2kCY3yEMYmGUVNTuuxhsOjoTBWIO61AOINWB6bR0gW30vzmMeq/1hFf6lyUsHRellBVL9LER4R3yJvIy9D1r6DWjqJyzO5CwrEm/guP3JcDwdjh5KedW7iJTjfg1ea2GzXYCX5mwbV6zwYOHiaUKiRcUKWkgD0JKIkA53dJ0mKmMt2WL5TqJLCdxNwzB03IYYG46O9xJbPdA7DfNWCE5JdIJmwMgiIeEophENzgZaUV3BNEtW9PN7kpNma3p2M4X7F3fx4THfI3b9RHA+FvKukTX8uXRCb+RXHX/t5BFvwhZAJsK6gbBjfQ2O2XU4Zv8tjv5SMJ9+jOM3iwLxdCtWUZBeyuK19kIQXVst1uKdn1dbubzm0JoDBPQ5Nq0DJ5mQbiqQwOd//CHZsJA9X3CZHRTnUnhTbfWx8mSrx/4W/gFQSwcIOZSe/R4CAABvCAAAUEsBAhQAFAAICAgAAAAhADmUnv0eAgAAbwgAAAAACQAAAAAAAAAAAAAAAAAAAFVUBQABAAAAAFBLBQYAAAAAAQABADcAAABVAgAAAAA="/>
+<project.options:UserProjectOptions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:project.options="http://www.nomagic.com/ns/magicdraw/core/project/options/1.0" xmi:id="_HB5nAFYDEeCyhsLctII43A" optionsString="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" diagramViewStyleString="UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAAAAkAVVQFAAEAAAAAvZZdb6owGMev56fwjiuFlgrlBF2cshOTs2nE8+KNpAc6bVIoAXS6T38qOBkuOo07u2rL8/yfl1+bJ9i365DXVzRJmYjaCmhqSp1GvghYNG8rPyf3Dazcdmo1e5SImCbZ5hdLWSaSru/TWK6d2o0dBg6nIY2yOi3WHidp2lZcFsacutmGU0X63dgRCWnHnUx/OF5/0P0+7j54o/Fw5IwnA8e11dy89QvoE1nyrL4O2bcV4UvaVp4IT6mi5uZj+V5LfCARmdMkz7lL6gHL0zzkGRBqUO6BoWFkmBjqloE9pMkN8hAGZlnFjR1X4w36R8JgrEFd6gHEGjC9lg6Qrb4X5zGP1f64DP/S5LWDovSyAql+ESK8J75EXsbeBS39+jT1ExZn8i4rEq/vuL3xYDQZDB9LedW7iJTjfgseNHWzVYCX5mwTV6xwb+HieUyi+YEWaQBaEhHS4Zau00BlrAWbL95JdCmB29swDB23IMaGo+OdxFb39E7DvBOCUxKdoBkwMk9IOIxpRIOzgVZUVzDNkiX9/J7kTbMVPbuZwv2Lu/jwme8Qu34iOB8JOWtkDX8uvaED+RVNImzIkXjqkTdgEyATYd1A2LG+Bsj0OiDTa4AA878C6S0E8+nHQH6zKBDPd2IZBemlNN5qL0TRsdViLb75ebWVATaD1gwgoM+wae05yYR0XYEEPn8AhGTNQvZywUDbK86lcFBt9Vg52eqxP4Z/UEsHCAOGhekiAgAAcwgAAFBLAQIUABQACAgIAAAAIQADhoXpIgIAAHMIAAAAAAkAAAAAAAAAAAAAAAAAAABVVAUAAQAAAABQSwUGAAAAAAEAAQA3AAAAWQIAAAAA"/>
 </filePart>
 	</xmi:Extension>
 	<xmi:Extension extender='MagicDraw UML 19.0'>
-		<filePart name='Records.properties' type='BINARY'>H4sIAAAAAAAAAL1UTW+cMBC9I/EfkOKrEeabSByabQ7toa2ivfSEjD27OAIbGW/b/fc1Gzal+9EGNc3FMuM3857nDb5Zqa6nRtSiFWbvgTR67zo362bnvQfmhbEXRrckvo1zb3W/9sIgDFynBz0oSVvMVOdL1dGtYP5h5Zp+95nS4PdaPQIzvuqNUHLwjzlTfAqXr1fKdeYlmPA7MLRTHNpjgfJvgLMSNv5j7w+S9kOjjM9hYFr0RunZdjgt+6Ik28QDrFWMtlX15eHzx/vVGjV5liVJDkUYxhtCYp4EHCjZRAUljJCi0jConWZQWVLEJ1bEmUD8+TqIT/dB/KiifFO22YTcCUm1gGHsig0auy3/dPi7BbNBADsLXacks5wgt0ICaCG35TL4ucNWixgMSJtx6M5kX6/FN2qAQw+S29N9a1FnTi9JfmXHn++K+K5rq93kxdBQDfzX53/xfxn3VUsv/dtPrp08Ev+Y7zqXpvDi8F1uEw1jwpJNgRpCiwg18YalqCmCOkFNFicJ46RO8zRb2K+XefQ25NdMGlOe3sjDesWKE5TrTOrxUTweteNROh6V47nwcgnYevnh07uHr7jO0sSCExxFKcN2dCNM6yjAlIZhmpE8AJaVC7Cu8xM1rOrVCwcAAA==</filePart>
+		<filePart name='Records.properties' type='BINARY'>H4sIAAAAAAAAAL1UTW+cMBC9I/EfkOKrEbAY1pE4NNsc2kNbpbn0hIw9LK7ARsbbdv99zYZNt/vRBCXNxbLH8/Fm3rOvVrrrmZWVbKXdBqCs2fre1Vdmg/fAgyQLkuiaZNdRFqxu790hiXyvBzNoxVrMdRcq3bG15OFuFYb9DLk2EPZGfwduQ91bqdUQ7mMm+2QuXi+V7x2m4DLswLJOC2j3CYqnHE5SOPuvbTgo1g+NtqGAgRvZW20OtsNx2mcF+d7Nh0/v7r5hnubLlKYcJ5xWOCWVwFXNGBawyLOEEholopjh69jZ1W81Z21Zfrn7/PF2dY+aZZ4TsgSaJGkdx6kgkQAW1wvKYh7HtDQw6I3hULpukJjaQYJLJB7nhMQ0KCT27RVvWu1AejdSMSNhGMftjNZti39d/s3tgcLAiazrtOKuJqi1VABGqnUxz/1UOg6LHCwoF7GbzqSL3sgfzIKAHpRwt9vWeZ1IaE7wKzP+2CsSm64tNxMXQ8MMiD/H/8L/vNoXKT33aTywdvT7vDDePeIzKjwrvvNjYkkac1JT1MSMLlCT1jxDDY0qgpo8JYSLuMqWWT5zXs/j6G2KXyJpDHn4fHfrBSqOvHxvQo/34PGIHY/Q8YgcHwIv5jj73m+5irn1CwcAAA==</filePart>
 	</xmi:Extension>
 </xmi:XMI>
