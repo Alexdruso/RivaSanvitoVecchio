@@ -2,7 +2,33 @@
 
 \begin{document}
 
+\subsection{Overview}
 
+Following the implementation of each component, unit testing must be carried out, eventually using a driver for the components that are not yet fully implemented. 
+As a consequence of choosing a bottom-up approach in the implementation process, we should choose a bottom-up strategy also for integration and testing. 
+After the unit testing process, every interface between fully implemented and verified components has to be implemented. 
+Finally, after the integration of each component, integration tests must be carried out, with a bottom-up approach. 
+
+\subsection{Plan}
+
+\begin{enumerate}
+
+	\item At first, the DBMS API has to be tested, in order to check for misconfiguration and correctness of the interface.
+
+	\item Then, the implementation goes on for StoreManager, ReceiptManager, AccessManager, StatisticComputationManager, LineUpRequestManager and LineUpSuggestionsManager. 
+	After the verification of each component, ReceiptManagement and SuggestionManagement interfaces can be implemented and tested.
+
+	\item Successively, the implementation of NotificationManager and Notification Service can begin. 
+	After the unit testing phase, the Notification Service API has to be implemented and tested. 
+	Following, the Phone Call Service API and Phone Call Service can be integrated into the system.
+
+	\item Then, after the implementation and unit testing of AuthenticationManager and Identity Provider service, we shall proceed with the implementation and testing of Verification API. 
+	Following this step, Authentication API has to be implemented. The testing process of this interface also involves the verification of the correct integration of OAuth API.
+
+	\item After the implementation and unit testing of the Web Server component, the Web Server API and whole Application Server API should be implemented and tested. 
+	Finally, the TripTimeEstimationService and its relative Estimation API can be implemented, integrated and tested.
+
+\end{enumerate}
 
 \end{document}
 %Testing plan
