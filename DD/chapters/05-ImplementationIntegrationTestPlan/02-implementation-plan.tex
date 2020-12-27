@@ -8,16 +8,16 @@ This approach allows for better robustness since the components are implemented,
 
 
 The order of implementation follows an hierarchical order, from the bottom-most components, with a closer interaction with the database, to the upper-most components, which are farther from the back end components and may depend on other ones. 
-This way it is guaranteed that the system can be built in an incremental way, and the testing and integration process can begin in parallel with the implementation, therefore optimizing the time to market. 
+This way it is guaranteed that the system can be built in an incremental way, and the testing and integration process can begin in parallel with the implementation, therefore allowing for a better bug tracking, which leads to better quality. 
 Consequently, the components should be implemented following this order:
 
 \begin{enumerate}
 
 	\item StoreManager
 	\item ReceiptManager
-	\item AccessManager
 	\item StatisticsComputationManager
 	\item LineUpSuggestionsManager
+	\item AccessManager
 	\item LineUpRequestManager
 	\item LineUpCancellationManager
 	\item NotificationManager
