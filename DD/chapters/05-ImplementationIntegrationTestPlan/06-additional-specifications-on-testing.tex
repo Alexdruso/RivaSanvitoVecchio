@@ -2,14 +2,11 @@
 
 \begin{document}
 
-During the whole implementation process we can rely on continuous integration (CI). 
-This means merging all developers' working copies to a shared mainline several times a day. 
-CI is intended to be used in combination with automated unit tests written through the practices of test-driven development. 
-This is done by running and passing all unit tests in the developer's local environment before committing to the main repository. 
+During the whole implementation process we can rely on version control systems such as Git and on continuous integration (CI) pipelines. 
+In this way, all developers' working copies can be merged to a shared mainline several times a day. 
+The CI runs the tests defined by the developers and checks that they all pass before allowing the version control system to accept changes to the code base.
+The developers have the possibility to run the unit tests also in their local environment before committing to the main repository. 
 This helps avoid one developer's work-in-progress breaking another developer's copy. 
-
-When a developer wants to merge their work on a different code base, their local environment is tested by CI. 
-The repositories are merged only if tests pass. 
 
 This continuous application of quality control aims to improve the quality of software, and to reduce the time taken to deliver it, by replacing the traditional practice of applying quality control after completing all development.
 
