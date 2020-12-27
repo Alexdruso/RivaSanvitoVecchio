@@ -13,7 +13,7 @@
 | Document | Completed | Version|
 | ------- | ----------- |------------|
 | RASD | :heavy_check_mark: | 1.2 |
-| DD | :x: | NA |
+| DD | :heavy_check_mark: | 1.0 |
 
 ## Tools
 
