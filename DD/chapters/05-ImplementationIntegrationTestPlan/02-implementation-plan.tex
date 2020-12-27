@@ -7,7 +7,7 @@ With this strategy, the system can be assembled in an incremental way so that th
 This approach allows for better robustness since the components are implemented, tested and validated in a hierarchical order, from bottom to top level.
 
 
-The order of implementation follows an hierarchical order, from the bottom-most components, with a closer interaction with the database, to the upper-most components, which are farther from the back end components. 
+The order of implementation follows an hierarchical order, from the bottom-most components, with a closer interaction with the database, to the upper-most components, which are farther from the back end components and may depend on other ones. 
 This way it is guaranteed that the system can be built in an incremental way, and the testing and integration process can begin in parallel with the implementation, therefore optimizing the time to market. 
 Consequently, the components should be implemented following this order:
 
