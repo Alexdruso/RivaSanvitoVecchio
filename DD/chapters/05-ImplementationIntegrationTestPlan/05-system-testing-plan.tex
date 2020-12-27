@@ -1,0 +1,38 @@
+\documentclass[../../main.tex]{subfiles}
+
+\begin{document}
+
+Once the system is completed, it must be tested as a whole to verify that functional and non-functional requirements, as well as software system attributes and performance requirements, are satisfied.
+
+This phase of CLup's system testing can be divided in:
+
+
+%Stress tests help you understand the upper limits of a system's capacity using a load beyond the expected maximum.
+%Load test help you understand how a system behaves under an expected load.
+\begin{itemize}
+
+	\item \textbf{Load testing}: this test allows for understanding how a system behaves under an expected load. 
+	In this context, we expect that the system works without any performance issue until the system reaches its maximum capacity. 
+	In particular, the goal of this test is to check whether CLup is able to maintain responsiveness even under the stated conditions of maximum capacity [see RASD 3.3].
+
+	\item \textbf{Stress testing}: these tests help to understand the upper limits of a system's capacity simulating a load beyond the expected maximum. 
+	The goal of this test is to check whether the upper limits of CLup's system are over the maximum capacity stated in RASD 3.3.
+
+	\item \textbf{Performance testing}: this test is performed to determine how a system performs in terms of responsiveness and stability under a particular workload. 
+	The goal of performance testing in our context is to validate and verify the quality attributes of the system, such as scalability, reliability and resource usage. 
+	This test reveals itself to be important also for estimating cloud platform costs, because they are directly related to resource usage. 
+	Therefore, we can estimate and even predict the expenses related to cloud platforms, based on the data gathered from this testing phase. 
+
+\end{itemize} 
+
+At runtime, it is useful to have monitoring implemented, to constantly check if the system is behaving as expected. 
+Monitoring should take into account both infrastructure-scoped statistics and application-scoped statistics. Infrastructure-scoped statistics may leverage the data reported by the cloud platforms in use, since CLup relies on them for hosting its services.
+
+Before releasing any feature or change to the production environment, all updates are deployed in a staging environment which is configured as similar as possible to the production environment. After the core functionalities of CLup and the ones that have been affected by the update are verified to work properly, they are propagated to the production environment.
+
+\end{document}
+
+%System test
+%* Load + stress + performance testing.
+%* on staging before releasing each version to production.
+%* Monitoring, also exploiting the cloud platform.

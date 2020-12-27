@@ -1,0 +1,46 @@
+\documentclass[../../main.tex]{subfiles}
+
+\begin{document}
+
+The entire system, along with its relative sub-systems, has to be implemented, tested and integrated using a bottom-up approach. 
+With this strategy, the system can be assembled in an incremental way so that the testing process can begin in parallel with the implementation. 
+This approach allows for better robustness since the components are implemented, tested and validated in a hierarchical order, from bottom to top level.
+
+
+The order of implementation follows an hierarchical order, from the bottom-most components, with a closer interaction with the database, to the upper-most components, which are farther from the back end components and may depend on other ones. 
+This way it is guaranteed that the system can be built in an incremental way, and the testing and integration process can begin in parallel with the implementation, therefore allowing for a better bug tracking, which leads to better quality. 
+Consequently, the components should be implemented following this order:
+
+\begin{enumerate}
+
+	\item StoreManager
+	\item ReceiptManager
+	\item StatisticsComputationManager
+	\item LineUpSuggestionsManager
+	\item AccessManager
+	\item LineUpRequestManager
+	\item LineUpCancellationManager
+	\item NotificationManager
+	\item AuthenticationManager
+	\item Web server (if it is chosen to implement it rather than using a pre-existing one)
+
+\end{enumerate}
+
+Developers might implement the client-side components of the application in parallel with the rest of the system. 
+In particular, the user interface is independent of the web server APIs, and designers and developers might produce prototypes and mocks and implement them as soon as possible, validating and verifying them. Then, when all the backend is complete, it will be possible to attach its API calls to the clients.
+
+\end{document}
+
+
+%Implementation plan
+%* bottom up...
+%- StoreManager
+%- ReceiptManager
+%- AccessManager
+%- StatisticsComputationManager
+%- LineUpSuggestionsManager
+%- LineUpRequestManager
+%- LineUpCancellationManager
+%- NotificationManager
+%- AuthenticationManager
+%- Web server

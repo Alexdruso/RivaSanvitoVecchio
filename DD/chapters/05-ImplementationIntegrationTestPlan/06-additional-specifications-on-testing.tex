@@ -1,0 +1,16 @@
+\documentclass[../../main.tex]{subfiles}
+
+\begin{document}
+
+During the whole implementation process we can rely on version control systems such as Git and on continuous integration (CI) pipelines. 
+In this way, all developers' working copies can be merged to a shared mainline several times a day. 
+The CI runs the tests defined by the developers and checks that they all pass before allowing the version control system to accept changes to the code base.
+The developers have the possibility to run the unit tests also in their local environment before committing to the main repository. 
+This helps avoid one developer's work-in-progress breaking another developer's copy. 
+
+This continuous application of quality control aims to improve the quality of software, and to reduce the time taken to deliver it, by replacing the traditional practice of applying quality control after completing all development.
+
+\end{document}
+
+%Additional specifications on testing
+%* Tests in CI that gate the deployment.
