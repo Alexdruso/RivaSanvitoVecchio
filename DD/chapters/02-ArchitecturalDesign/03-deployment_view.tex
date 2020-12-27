@@ -2,6 +2,11 @@
 
 \begin{document}
 
+The following diagram describes the deployment view of CLup. CLup's backend is deployed in a cloud platform, where elasticity is 
+achieved by using autoscalers, which scale the instances count assigned to each tier based on the load measured in the load balancer
+or in the queue. The CDN is here represented as an external service, which might be provided by the same cloud platform on which 
+CLup's backend is deployed.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{deployment_view.png}
